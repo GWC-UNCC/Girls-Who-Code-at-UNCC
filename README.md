@@ -11,4 +11,4 @@ We are hoping to also implement an interactive component resembling a terminal a
 
 ## See the recording for our Hugo Workshop:
 
-[![Video Preview Image](https://img.youtube.com/vi/hOHpcPRzh7Y/0.jpg)](https://youtu.be/hOHpcPRzh7Y)
+[![Video Preview Image](https://img.youtube.com/vi/Bf4LrJVhRTs/0.jpg)](https://youtu.be/Bf4LrJVhRTs)
