@@ -1,0 +1,32 @@
+{{ with .Site.Data.partnership }}
+{{ if .enable }}
+<section class="site-client">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <!-- Partnership title and description -->
+                    <h2>{{ .title }}</h2>
+                    <p>{{ .subtitle }}</p>
+                    <!-- We Host and You Host Sections -->
+                    {{ range .hosting_type }}
+                    <h5>{{ .subsection_title }}</h5>
+                    {{ range .points }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    {{ end }}
+                    {{ range .event_options }}
+                    <h5>{{ .subsection_title }}</h5>
+                    {{ $icon := .icon}}
+                    {{ range .points }}
+                    <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

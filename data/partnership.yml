@@ -1,0 +1,25 @@
+enable  : true
+title   : "Partner with Us"
+subtitle: "This is a great way to advertise your business and network with up-and-coming women in tech."
+hosting_type: 
+  - subsection_title : "How to Partner on an Event We Host"
+    points: 
+      - "1. Here is the first point"
+      - "2. Second point"
+
+  - subsection_title : "How to Partner on an Event You Host"
+    point_1  : "Simonns Hodge"
+    point_2  : "Simonns Hodge"
+    point_3  : "Simonns Hodge"
+    point_4  : "Simonns Hodge"
+
+event_options:
+  - subsection_title : "Event Options"
+    icon: "images/icons/sparkles.svg"
+    points:
+      - "Simonns Hodge"
+      - "Simonns Hodge"
+      - "Simonns Hodge"
+      - "Simonns Hodge"
+
+    
