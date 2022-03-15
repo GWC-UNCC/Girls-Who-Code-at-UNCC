@@ -15,3 +15,16 @@ $black: #000;
 // Font Variables
 $primary-font: 'Josefin Sans', sans-serif;
 $secondary-font: 'Montserrat', sans-serif;
+
+// CSS variables
+:root {
+  --gradient-primary : #7603d0;
+  --gradient-secondary : #00C7D3;
+  --primary: $primary-color;
+  --secondary: $secondary-color;
+  
+}
+
+
+$main-gradient: linear-gradient( var(--gradient-primary) , var(--gradient-secondary) );
+$main-inverse-gradient: linear-gradient( var(--gradient-secondary) , var(--gradient-primary) );
