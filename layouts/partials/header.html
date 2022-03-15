@@ -33,8 +33,9 @@
             </a>
           </li>
           {{ else }}
+          
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | absURL }}"
+            <a class="nav-link {{ if eq $.Page.Permalink ( .URL | absURL ) }}nav-active{{end}}" href="{{ .URL | absURL }}"
               >{{ .Name }}</a
             >
           </li>
