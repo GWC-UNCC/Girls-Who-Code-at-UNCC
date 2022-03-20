@@ -79,6 +79,12 @@ summarylength = 25
     title     = "OUR RECENT WORKS"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
+  [params.sponsorship]
+  enable    = true
+  title     = "Sponsor Us"
+  subtitle  = "This is a great way to advertise your business and network with up-and-coming women in tech."
+  comingSoon = "<Coming Soon!>"
+
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
