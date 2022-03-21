@@ -10,13 +10,13 @@
                     <p>{{ .subtitle }}</p>
                     <!-- We host and you host sections -->
                     {{ range .hosting_type }}
-                    <h5>{{ .subsection_title }}</h5>
+                    <h3>{{ .subsection_title }}</h3>
                     {{ range .points }}
                     <p>{{ . }}</p>
                     {{ end }}
                     {{ end }}
                     {{ range .event_options }}
-                    <h5>{{ .subsection_title }}</h5>
+                    <h3>{{ .subsection_title }}</h3>
                     {{ $icon := .icon}}
                     {{ range .points }}
                     <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
