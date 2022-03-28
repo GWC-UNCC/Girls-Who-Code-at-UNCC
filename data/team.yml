@@ -1,44 +1,44 @@
 enable  : true
 title   : Team that makes the difference.
 members  :
-  - image       : images/team/team-member-one.jpg
-    name        : PABLO ESCOBAR
-    designation : Creative Director
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/e-board/Elise-Frazier.png
+    name        : Elise Frazier
+    designation : President
+    medium      : 
+    linkedIn    : https://www.linkedin.com/in/elise-frazier-89b356180/
+    instagram   : 
 
-  - image       : images/team/team-member-two.jpg
-    name        : MONTINO RIAU
-    designation : Product Manager
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/e-board/Zaina-Shawar.png
+    name        : Zaina Shawar
+    designation : VP of Communications
+    medium      : 
+    linkedIn    : https://www.linkedin.com/in/zaina-shawar/
+    instagram   : 
 
-  - image       : images/team/team-member-three.jpg
-    name        : ALEX NAASRI
-    designation : Chief Design Officer
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/e-board/Chanel-Briggs.png
+    name        : Chanel Briggs
+    designation : Treasurer
+    medium      : 
+    linkedIn    : https://www.linkedin.com/in/chanel-briggs-8a0798170/
+    instagram   : 
 
-  - image       : images/team/team-member-four.jpg
-    name        : HONGMAN CHIOA
-    designation : UX Researcher
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/e-board/Ashley-Harmon.png
+    name        : Ashley Harmon
+    designation : Web & Media Chair
+    medium      : 
+    linkedIn    : https://www.linkedin.com/in/ashharmon/
+    instagram   : 
 
-  - image       : images/team/team-member-five.jpg
-    name        : SANTIO ANDRESS
-    designation : Content Researcher
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/e-board/Ayushi-Patel.png
+    name        : Ayushi Patel
+    designation : Member Involvement Chair
+    medium      : 
+    linkedIn    : https://www.linkedin.com/in/ayushikp/
+    instagram   : 
 
-  - image       : images/team/team-member-six.jpg
-    name        : RAMESH PAUL
-    designation : Creative Designer
-    medium      : https://www.medium.com/
-    linkedIn    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image       : images/team/e-board/Kaitlyn-Gosline.png
+    name        : Kaitlyn Gosline
+    designation : Community Outreach Chair
+    medium      : 
+    linkedIn    : https://www.linkedin.com/in/kaitlyn-g-434256116/
+    instagram   : 
