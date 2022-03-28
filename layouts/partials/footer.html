@@ -2,8 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><img src="{{ " images/logo-footer.png" | absURL }}"
-              alt="logo-footer"></a></div>
+        <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><img src="{{ "images/logo-footer.png" | absURL }}" alt="logo-footer"></a></div>
       </div>
       {{ with .Site.Params.footer.contactInfo }}
       <div class="col-lg-3 col-md-6">
@@ -37,7 +36,7 @@
           <h5 class="site-footer-widget-title">{{ .title }}</h5>
           <ul class="site-footer-widget-links">
             {{ range .link }}
-            <li><a href="{{ .url }}">{{ .name }}</a></li>
+              <li><a href="{{ .url }}">{{ .name }}</a></li>
             {{ end }}
           </ul>
         </div>
@@ -55,11 +54,11 @@
       {{ end }}
       <div class="col-lg-2 col-12">
         <a href="#top" class="site-footer-widget-top">
-          <img src="{{ " images/to-top.svg" | absURL }}" alt="back-to-top">
+          <img src="{{ "images/to-top.svg" | absURL }}" alt="back-to-top">
           <p>
-            Take me to
+            I want to 
             <br>
-            the top!
+            visit again
           </p>
         </a>
       </div>
