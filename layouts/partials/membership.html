@@ -1,0 +1,20 @@
+{{ with .Site.Data.membership }}
+{{ if .enable }}
+<section class="site-client">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <!-- Membership title and description -->
+                    <h2>{{ .title }}</h2>
+                    <p>{{ .subtitle }}</p>
+                    <h3>{{ .titleTwo }}</h3>
+                    <p>{{ .subtitleTwo }}</p>
+                    <h3>{{ .titleThree }}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
