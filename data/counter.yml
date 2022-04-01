@@ -1,14 +1,13 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
 counter_item: 
-  - title: "Happy Clients"
-    number: "250"
+  - title: "Members"
+    number: "170"
 
-  - title: "Projects Completed"
-    number: "100"
+  - title: "Technical Projects"
+    number: "10"
 
-  - title: "Cups of coffee"
-    number: "350"
+  - title: "Partners"
+    number: "5"
 
-  - title: "Telephone Talks"
-    number: "775"
+  - title: "Total Events"
+    number: "25"
