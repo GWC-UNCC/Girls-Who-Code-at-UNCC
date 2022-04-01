@@ -10,7 +10,14 @@
                     <p>{{ .subtitle }}</p>
                     <h3>{{ .titleTwo }}</h3>
                     <p>{{ .subtitleTwo }}</p>
-                    <h3>{{ .titleThree }}</h3>
+                    {{ range .titleThree }}
+                    <h3>{{ .name }}</h3>
+                    {{ $icon := .icon}}
+                    {{ range .points }}
+                    <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    {{ end }}
                 </div>
             </div>
         </div>
