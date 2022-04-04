@@ -79,6 +79,7 @@ summarylength = 25
     title     = "OUR RECENT WORKS"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
+
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
