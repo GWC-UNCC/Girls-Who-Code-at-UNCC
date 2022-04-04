@@ -6,11 +6,12 @@
         <div class="col-12">
           <div class="section-title">
             <h2>
-              {{ .title }}
+              {{ .titleOne }}
             </h2>
+            <p> {{ .subtitleOne }}</p>
           </div>
         </div>
-        {{ range .members }}
+        {{ range .eboard_members }}
         <div class="col-lg-4 col-md-6">
           <div class="site-team-member">
             <div class="site-team-member-image">
