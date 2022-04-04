@@ -7,41 +7,38 @@ eboard_members  :
   - image       : images/team/e-board/Elise-Frazier.png
     name        : Elise Frazier
     designation : President
-    medium      : 
-    linkedIn    : https://www.linkedin.com/in/elise-frazier-89b356180/
-    instagram   : 
+    socials:
+      linkedin: https://www.linkedin.com/in/elise-frazier-89b356180/
+      github: https://github.com/ElisefRaz17
 
   - image       : images/team/e-board/Zaina-Shawar.png
     name        : Zaina Shawar
     designation : VP of Communications
-    medium      : 
-    linkedIn    : https://www.linkedin.com/in/zaina-shawar/
-    instagram   : 
+    socials:
+      linkedin: https://www.linkedin.com/in/zaina-shawar/
 
   - image       : images/team/e-board/Chanel-Briggs.png
     name        : Chanel Briggs
     designation : Treasurer
-    medium      : 
-    linkedIn    : https://www.linkedin.com/in/chanel-briggs-8a0798170/
-    instagram   : 
+    socials:
+      linkedin: https://www.linkedin.com/in/chanel-briggs-8a0798170/
 
   - image       : images/team/e-board/Ashley-Harmon.png
     name        : Ashley Harmon
     designation : Web & Media Chair
-    medium      : 
-    linkedIn    : https://www.linkedin.com/in/ashharmon/
-    instagram   : 
+    socials:
+      linkedin: https://www.linkedin.com/in/ashharmon/
+      github: https://github.com/bluelotus03
+      globe: https://bluelotus03.tech
 
   - image       : images/team/e-board/Ayushi-Patel.png
     name        : Ayushi Patel
     designation : Member Involvement Chair
-    medium      : 
-    linkedIn    : https://www.linkedin.com/in/ayushikp/
-    instagram   : 
+    socials:
+      linkedin: https://www.linkedin.com/in/ayushikp/
 
   - image       : images/team/e-board/Kaitlyn-Gosline.png
     name        : Kaitlyn Gosline
     designation : Community Outreach Chair
-    medium      : 
-    linkedIn    : https://www.linkedin.com/in/kaitlyn-g-434256116/
-    instagram   : 
+    socials:
+      linkedin: https://www.linkedin.com/in/kaitlyn-g-434256116/
