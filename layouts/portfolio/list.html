@@ -3,25 +3,28 @@
 <section class="site-project-header">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-8">
+      <div class="col-lg-12">
         <div class="site-project-header-content">
           <h1>
             {{ .Title | safeHTML }}
           </h1>
         </div>
       </div>
-      <div class="col-lg-4">
+      {{/*  <div class="col-lg-4">
         <a href="#project" class="site-project-header-action scroll-to">
           <span>Scroll Down</span>
           <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
         </a>
-      </div>
+      </div>  */}}
     </div>
   </div>
 </section>
 
 <section class="site-project" id="project">
   <div class="container">
+    <div class="row">
+      <!-- TODO: Dropdowns go here-->
+    </div>
     <div class="row">
       {{ range (.Paginator 4).Pages }}
       <div class="col-lg-6 col-md-10 mx-auto">
