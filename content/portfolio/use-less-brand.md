@@ -1,7 +1,7 @@
 ---
 title: "USE-LESS BRAND"
 date: 2019-12-23T15:58:10+06:00
-type: portfolio
+type: event-recap
 image: "images/projects/project-thumb-one.jpg"
 event_type:
 event_topic:

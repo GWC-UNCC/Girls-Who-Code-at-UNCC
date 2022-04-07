@@ -1,7 +1,7 @@
 ---
 title: "SEAMLESS WATCH"
 date: 2019-12-23T15:55:44+06:00
-type: portfolio
+type: event-recap
 image: "images/projects/project-thumb-three.jpg"
 event_type:
 event_topic:
