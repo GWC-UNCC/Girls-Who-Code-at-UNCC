@@ -20,8 +20,8 @@ summarylength = 25
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
+    name    = "Library"
+    url     = "library"
     weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
@@ -101,8 +101,8 @@ summarylength = 25
           name = "Projects"
           url  = "portfolio"
         [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
+          name = "Library"
+          url  = "library"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
