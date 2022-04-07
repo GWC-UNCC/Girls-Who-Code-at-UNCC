@@ -43,7 +43,7 @@
             <h2>
               {{ .titleTwo }}
             </h2>
-            <p> {{ .subtitleTwo }}</p>
+            <p> {{ .subtitleTwo | markdownify }}</p>
           </div>
         </div>
         {{ range .web_team_members }}
