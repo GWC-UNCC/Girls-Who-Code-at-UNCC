@@ -1,13 +1,13 @@
 ---
-title: "GWC WEBSITE PROJECT"
+title: "Web Project '22"
 date: 2019-12-23T20:56:42+06:00
-type: portfolio
+type: upcoming-event
 image: "images/projects/project-thumb-four.jpg"
 event_type:
 event_topic:
 year: 
 semester: 
-category: ["PRODUCT LABEL"]
+category: ["Technical"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
 ---
 

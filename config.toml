@@ -68,10 +68,13 @@ summarylength = 25
     enable                = true
     background_image      = "images/backgrounds/hero-background-3.png"
 
-  [params.portfolio]
+  [params.portfolio_upcoming]
     enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title     = "Upcoming Events"
+
+  [params.portfolio_recaps]
+    enable    = true
+    title     = "Event Recaps"
 
 
   [params.call_to_action]
