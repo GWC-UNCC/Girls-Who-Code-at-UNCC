@@ -44,48 +44,41 @@ eboard_members  :
       linkedin: https://www.linkedin.com/in/kaitlyn-g-434256116/
 
 web_team_members  :
-  - image       : images/team/e-board/Ashley-Harmon.png
+  - image       : images/team/web-team/Ashley-Harmon.png
     name        : Ashley Harmon
-    designation : Web & Media Chair
+    designation : Team Lead, Developer, Designer
     socials:
       linkedin: https://www.linkedin.com/in/ashharmon/
       github: https://github.com/bluelotus03
       globe: https://bluelotus03.tech
 
-  - image       : images/team/e-board/Zaina-Shawar.png
+  - image       : images/team/web-team/Zaina-Shawar.png
     name        : Zaina Shawar
-    designation : VP of Communications
+    designation : Lead Developer, Designer
     socials:
       linkedin: https://www.linkedin.com/in/zaina-shawar/
 
-  - image       : images/team/e-board/Zaina-Shawar.png
-    name        : Zaina Shawar
-    designation : VP of Communications
+  - image       : images/team/web-team/Michelle-Camacho.png
+    name        : Michelle Camacho
+    designation : Developer, Analyst
     socials:
-      linkedin: https://www.linkedin.com/in/zaina-shawar/      
+      linkedin: https://www.linkedin.com/in/camachomichelle/    
 
-  - image       : images/team/e-board/Ashley-Harmon.png
-    name        : Ashley Harmon
-    designation : Web & Media Chair
+  - image       : images/team/web-team/Dene-Logan.png
+    name        : Dene Logan
+    designation : Developer
     socials:
-      linkedin: https://www.linkedin.com/in/ashharmon/
-      github: https://github.com/bluelotus03
-      globe: https://bluelotus03.tech
+      linkedin: https://www.linkedin.com/in/dene-logan/
 
-  - image       : images/team/e-board/Zaina-Shawar.png
-    name        : Zaina Shawar
-    designation : VP of Communications
+  - image       : images/team/web-team/Mariam-Conde.png
+    name        : Mariam Conde
+    designation : Developer
     socials:
-      linkedin: https://www.linkedin.com/in/zaina-shawar/
+      linkedin: https://www.linkedin.com/in/mariam-conde-7b0a051a8/
 
-  - image       : images/team/e-board/Zaina-Shawar.png
-    name        : Zaina Shawar
-    designation : VP of Communications
+  - image       : images/team/web-team/Liyu-Tenaw.png
+    name        : Liyu Tenaw
+    designation : Trainee
     socials:
-      linkedin: https://www.linkedin.com/in/zaina-shawar/      
-    
-  - image       : images/team/e-board/Zaina-Shawar.png
-    name        : Zaina Shawar
-    designation : VP of Communications
-    socials:
-      linkedin: https://www.linkedin.com/in/zaina-shawar/         
+      linkedin: https://www.linkedin.com/in/liyu-tenaw-1836b31b4/     
+       
