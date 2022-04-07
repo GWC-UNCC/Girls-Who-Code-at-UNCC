@@ -2,7 +2,7 @@ enable  : true
 titleOne   : Our Executive Board '22
 subtitleOne: Meet our GWC E-board! Our E-board members work hard all year to bring awesome opportunities and events to our members. Join us!
 titleTwo: Our Web Team '22
-subtitleTwo: Meet our GWC Web Dev Team that designed and developed this website! <br/> You can learn more about what each of these positions did here.
+subtitleTwo: Meet our GWC Web Dev Team that designed and developed this website! You can learn more about what each of these positions did here.
 eboard_members  :
   - image       : images/team/e-board/Elise-Frazier.png
     name        : Elise Frazier
@@ -42,3 +42,50 @@ eboard_members  :
     designation : Community Outreach Chair
     socials:
       linkedin: https://www.linkedin.com/in/kaitlyn-g-434256116/
+
+web_team_members  :
+  - image       : images/team/e-board/Ashley-Harmon.png
+    name        : Ashley Harmon
+    designation : Web & Media Chair
+    socials:
+      linkedin: https://www.linkedin.com/in/ashharmon/
+      github: https://github.com/bluelotus03
+      globe: https://bluelotus03.tech
+
+  - image       : images/team/e-board/Zaina-Shawar.png
+    name        : Zaina Shawar
+    designation : VP of Communications
+    socials:
+      linkedin: https://www.linkedin.com/in/zaina-shawar/
+
+  - image       : images/team/e-board/Zaina-Shawar.png
+    name        : Zaina Shawar
+    designation : VP of Communications
+    socials:
+      linkedin: https://www.linkedin.com/in/zaina-shawar/      
+
+  - image       : images/team/e-board/Ashley-Harmon.png
+    name        : Ashley Harmon
+    designation : Web & Media Chair
+    socials:
+      linkedin: https://www.linkedin.com/in/ashharmon/
+      github: https://github.com/bluelotus03
+      globe: https://bluelotus03.tech
+
+  - image       : images/team/e-board/Zaina-Shawar.png
+    name        : Zaina Shawar
+    designation : VP of Communications
+    socials:
+      linkedin: https://www.linkedin.com/in/zaina-shawar/
+
+  - image       : images/team/e-board/Zaina-Shawar.png
+    name        : Zaina Shawar
+    designation : VP of Communications
+    socials:
+      linkedin: https://www.linkedin.com/in/zaina-shawar/      
+    
+  - image       : images/team/e-board/Zaina-Shawar.png
+    name        : Zaina Shawar
+    designation : VP of Communications
+    socials:
+      linkedin: https://www.linkedin.com/in/zaina-shawar/         
