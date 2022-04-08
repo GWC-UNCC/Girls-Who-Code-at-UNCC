@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="site-blog-header">
+<section class="site-library-header">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
@@ -13,18 +13,18 @@
   </div>
 </section>
 
-<section class="site-blog">
+<section class="site-library">
   <div class="container">
     <div class="row">
       {{ range (.Paginator 4).Pages }}
       <div class="col-lg-6">
-        <article class="site-blog-post">
+        <article class="site-library-post">
           {{ with .Params.image }}
-          <div class="site-blog-post-thumb">
+          <div class="site-library-post-thumb">
             <img src="{{ . | absURL }}" alt="post-thumb">
           </div>
           {{ end }}
-          <div class="site-blog-post-content">
+          <div class="site-library-post-content">
             <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             <p>

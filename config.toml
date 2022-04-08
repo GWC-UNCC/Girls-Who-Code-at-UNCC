@@ -8,25 +8,29 @@ title = "Roxo | Creative Design Agency"
 [menu]
 # Navbar Menus
 [[menu.nav]]
-name = "Home"
-url = ""
-weight = 1
+  name    = "Home"
+  url     = ""
+  weight  = 1
 [[menu.nav]]
-name = "About"
-url = "about"
-weight = 2
+  name    = "About"
+  url     = "about"
+  weight  = 2
 [[menu.nav]]
-name = "Portfolio"
-url = "portfolio"
-weight = 3
+  name    = "Portfolio"
+  url     = "portfolio"
+  weight  = 3
 [[menu.nav]]
-name = "Blog"
-url = "blog"
-weight = 4
+  name    = "Library"
+  url     = "library"
+  weight  = 4
 [[menu.nav]]
-name = "Get in touch"
-url = "contact"
-weight = 5
+  name    = "Calendar"
+  url     = "calendar"
+  weight  = 5
+[[menu.nav]]
+  name    = "Get in touch"
+  url     = "contact"
+  weight  = 6
 
 # Site Params
 [params]
@@ -67,6 +71,14 @@ url = "contact"
 background_image = "images/backgrounds/hero-background-3.png"
 enable = true
 
+[params.portfolio_upcoming]
+  enable    = true
+  title     = "Upcoming Events"
+
+[params.portfolio_recaps]
+  enable    = true
+  title     = "Event Recaps"
+
 [params.portfolio]
 enable = true
 subtitle = "Crafting experiences and seeking to make the complex clear & beautiful."
@@ -82,44 +94,45 @@ secondary_button_url = "about"
 title = "Interested in GWC?"
 
 [params.footer]
-# Footer Contact Info
-# this is an easter egg #2, post in the web team channel if you found me 😁
-[params.footer.contactInfo]
-address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-email = "info@roxo.co"
-phone = "409-896-1444"
-title = "Contact Info"
-# Footer Sitemap
-[params.footer.sitemap]
-title = "Sitemap"
-[[params.footer.sitemap.link]]
-name = "About Company"
-url = "about"
-[[params.footer.sitemap.link]]
-name = "Projects"
-url = "portfolio"
-[[params.footer.sitemap.link]]
-name = "Blog"
-url = "blog"
-[[params.footer.sitemap.link]]
-name = "Contact"
-url = "contact"
-# Footer Social Media
-[params.footer.social]
-title = "Social Media"
-[[params.footer.social.link]]
-name = "Medium"
-url = "#"
-[[params.footer.social.link]]
-name = "Behance"
-url = "#"
-[[params.footer.social.link]]
-name = "Dribbble"
-url = "#"
-[[params.footer.social.link]]
-name = "Instagram"
-url = "#"
-# Footer Service
-[params.footer.service]
-description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
-title = "We help brands:"
+  # Footer Contact Info
+  # this is an easter egg #2, post in the web team channel if you found me 😁
+  [params.footer.contactInfo]
+    title   = "Contact Info"
+    address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+    phone   = "409-896-1444"
+    email   = "info@roxo.co"
+    # Footer Sitemap
+    [params.footer.sitemap]
+      title   = "Sitemap"
+      [[params.footer.sitemap.link]]
+        name = "About Company"
+        url  = "about"
+      [[params.footer.sitemap.link]]
+        name = "Projects"
+        url  = "portfolio"
+      [[params.footer.sitemap.link]]
+        name = "Library"
+        url  = "library"
+      [[params.footer.sitemap.link]]
+        name = "Contact"
+        url  = "contact"
+    # Footer Social Media
+    [params.footer.social]
+      title   = "Social Media"
+      [[params.footer.social.link]]
+        name = "Medium"
+        url  = "#"
+      [[params.footer.social.link]]
+        name = "Behance"
+        url  = "#"
+      [[params.footer.social.link]]
+        name = "Dribbble"
+        url  = "#"
+      [[params.footer.social.link]]
+        name = "Instagram"
+        url  = "#"
+    # Footer Service
+    [params.footer.service]
+      title       = "We help brands:"
+      description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+
