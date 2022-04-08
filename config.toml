@@ -56,10 +56,11 @@ send_message = "Send Message"
 [[params.contactForm.projectType]]
 title = "Graphics Design"
 value = "gd"
-[[params.contactForm.projectType]]
 
+[[params.contactForm.projectType]]
 title = "Web Design"
 value = "wd"
+
 # Navbar Action Button
 [params.navAction]
 name = "Get in touch"
