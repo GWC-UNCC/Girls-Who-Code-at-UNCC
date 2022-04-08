@@ -1,8 +1,10 @@
 <nav class="navbar navbar-expand-lg site-navigation">
-  <div class="container">
+  <div class="container-fluid col-8">
+    {{ if and (not .IsHome) (ne .Section "about") }}
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
       <img src="{{ "images/GWC-Logo.png" | absURL }}" alt="logo" />
     </a>
+    {{ end }}
     <button
       class="navbar-toggler collapsed"
       type="button"
