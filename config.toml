@@ -2,7 +2,7 @@ baseURL = "https://gwc-uncc.github.io/Girls-Who-Code-at-UNCC/"
 languageCode = "en-us"
 summarylength = 25
 theme = "roxo"
-title = "Roxo | Creative Design Agency"
+title = "Girls Who Code at UNC Charlotte"
 
 # Site Menus
 [menu]
@@ -35,10 +35,10 @@ title = "Roxo | Creative Design Agency"
 # Site Params
 [params]
 dateFormat = "26 FEB 1994"
-logo = "images/logo.png"
+logo = "images/GWC-Logo.svg"
 # Meta data
-author = "StaticMania"
-description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+author = "Girls Who Code at UNCC | Web Team '22"
+description = "GWC at UNCC | Steminists"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # We're using formspree.io for form handling, paste your formspree url below
@@ -80,10 +80,6 @@ enable = true
   enable    = true
   title     = "Event Recaps"
 
-[params.portfolio]
-enable = true
-subtitle = "Crafting experiences and seeking to make the complex clear & beautiful."
-title = "OUR RECENT WORKS"
 
 [params.call_to_action]
 background_image = "images/backgrounds/cta-background.jpg"
@@ -99,41 +95,55 @@ title = "Interested in GWC?"
   # this is an easter egg #2, post in the web team channel if you found me 😁
   [params.footer.contactInfo]
     title   = "Contact Info"
-    address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-    phone   = "409-896-1444"
-    email   = "info@roxo.co"
+    address1 = "9201 University City Blvd" 
+    address2 = "Charlotte, NC 28223"
+    email   = "girlswhocodeuncc@gmail.com"
     # Footer Sitemap
     [params.footer.sitemap]
       title   = "Sitemap"
       [[params.footer.sitemap.link]]
-        name = "About Company"
+        name = "About"
         url  = "about"
       [[params.footer.sitemap.link]]
-        name = "Projects"
+        name = "Portfolio"
         url  = "portfolio"
       [[params.footer.sitemap.link]]
         name = "Library"
         url  = "library"
       [[params.footer.sitemap.link]]
+        name = "Calendar"
+        url  = "calendar"
+      [[params.footer.sitemap.link]]
         name = "Contact"
         url  = "contact"
     # Footer Social Media
     [params.footer.social]
-      title   = "Social Media"
+      title   = "Our Accounts"
       [[params.footer.social.link]]
-        name = "Medium"
-        url  = "#"
-      [[params.footer.social.link]]
-        name = "Behance"
-        url  = "#"
-      [[params.footer.social.link]]
-        name = "Dribbble"
-        url  = "#"
+        name = "Linktree"
+        url  = "https://linktr.ee/girlswhocode_uncc"
       [[params.footer.social.link]]
         name = "Instagram"
-        url  = "#"
+        url  = "https://www.instagram.com/girlswhocode_uncc"
+      [[params.footer.social.link]]
+        name = "LinkedIn"
+        url  = "https://www.linkedin.com/company/girls-who-code-at-unc-charlotte"
+      [[params.footer.social.link]]
+        name = "Twitter"
+        url  = "https://twitter.com/gwc_uncc"
+      [[params.footer.social.link]]
+        name = "GitHub"
+        url  = "https://github.com/GWC-UNCC"
     # Footer Service
     [params.footer.service]
-      title       = "We help brands:"
-      description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+      title       = "Opportunities"
+      [[params.footer.service.link]]
+        name = "Become a Member"
+        url  = "about"
+      [[params.footer.service.link]]
+        name = "Partner with Us"
+        url  = "about"
+      [[params.footer.service.link]]
+        name = "Sponsor Us"
+        url  = "about"
 

@@ -25,7 +25,7 @@
           </div>
           {{ end }}
           <div class="site-library-post-content">
-            <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
+            <span>Updated | {{ .PublishDate.Format "January 2, 2006" }}</span>
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             <p>
               {{ .Summary }} ...
