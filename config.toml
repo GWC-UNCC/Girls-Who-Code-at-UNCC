@@ -76,9 +76,9 @@ title = "OUR RECENT WORKS"
 background_image = "images/backgrounds/cta-background.jpg"
 enable = true
 primary_button = "Learn More"
-primary_button_url = "contact"
+primary_button_url = "about"
 secondary_button = "Join Us"
-secondary_button_url = "portfolio"
+secondary_button_url = "about"
 title = "Interested in GWC?"
 
 [params.footer]
