@@ -24,9 +24,13 @@ summarylength = 25
     url     = "library"
     weight  = 4
   [[menu.nav]]
+    name    = "Calendar"
+    url     = "calendar"
+    weight  = 5
+  [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
-    weight  = 5
+    weight  = 6
 
 # Site Params
 [params]
