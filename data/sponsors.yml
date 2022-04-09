@@ -1,0 +1,6 @@
+enable  : true
+title   : Meet Our Partners
+sponsors    : 
+  - image   : images/sponsors/slalom-build-logo.png
+  - image   : images/sponsors/ally-logo.png
+  - image   : images/sponsors/centene-logo.png
