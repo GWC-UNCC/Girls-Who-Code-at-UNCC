@@ -2,6 +2,43 @@
   {{ if .enable }}
   <section class="site-testimonial">
     <div class="container">
+
+      <!-- New Carousel Testimonial Theme -->
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>{{ .title }}</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap -->
+      <!-- TODO: Find a cover photo for the first active slide or find a way to let carousel move with/without active class on one of the items  -->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+             <!-- Change cover image for this slide or find a way around using active class -->
+            <img src="images/backgrounds/cta-background.jpg"  alt="cover-image">
+          </div>
+          {{ range .testimonial_item }}
+          <div class="carousel-item">
+            <img src="images/backgrounds/cta-background.jpg"  alt="background">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>"</h1>
+              <p>{{ .quote }}</p>
+              <div class="thumb">
+                <img src="{{ .thumb | absURL }}" alt="user-thumb">
+              </div>
+              <h5>{{ .name }}</h5>
+              <h5>{{ .member }}</h5>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+
+
+      <!-- Hugo Testimonial Theme -->
       <div class="row">
         <div class="col-12">
           <div class="section-title">
