@@ -1,0 +1,39 @@
+{{ with .Site.Data.calendar }}
+{{ if .enable }}
+<section class="site-project-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="site-project-header-content">
+                    <!-- Subsection for Calendar Notes begin -->
+                        {{ range .calendar_notes }}
+                        <h4>{{ .subsection_title}}</h4>
+                            {{ range .points }}
+                            <p>{{ . }}</p>
+                            {{ end }}
+                            {{ end }}
+                    <!-- Subsection for Main Events begin -->
+                        {{ range .main_events }}
+                        <h4>{{ .title }}</h4>
+                        <strong> {{ .subsection_title }}</strong>
+                        {{ range .points }}
+                        <p>{{ . }}</p>
+                        {{ end }}
+                        {{ end }}
+                    <!-- Subsection for Important Notes begin -->
+                        {{ range .important_notes }}
+                        <h4>{{ .title }}</h4>
+                        {{ $icon := .icon }}
+                        {{ range .points }}
+                        <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
+                        <p>{{ . }}</p>
+                        {{ end }}
+                        {{ .notes_text }}
+                        {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
