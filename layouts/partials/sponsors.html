@@ -13,7 +13,7 @@
         <!-- Sponsor Images -->
         {{ range .sponsors }}
         <div class="col-lg-4 col-md-6">         
-            <img src="{{ .image | absURL }}" alt="sponsor-logo">
+            <a href="{{ .url }}"><img src="{{ .image | absURL }}" alt="sponsor-logo"></a>
         </div>
         {{ end }}
     
