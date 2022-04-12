@@ -69,7 +69,7 @@ url = "contact"
 
 # Banner Section
 [params.banner]
-background_image = "images/backgrounds/hero-background-3.png"
+background_image = "images/backgrounds/hero-background-2.png"
 enable = true
 
 [params.portfolio_upcoming]
