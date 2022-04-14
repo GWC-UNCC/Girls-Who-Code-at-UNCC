@@ -1,13 +1,14 @@
 enable : true
-calendar_notes  :
+
+virtual_events  :
   - subsection_title : "Virtual"
     points : 
-    #TO-DO: Add Links
     - "When joining events virtually, make sure you are logged into zoom with your UNCC account if it's a GWC-specific event. 
       Some events may note that they are open to the public, in which case a UNCC account is not required. However, 
-      most events are for GWC members or UNC Charlotte students. You can learn more about using your UNCC account with zoom [ here ]. 
-      For more on using zoom in general, see [ here ]."
+      most events are for GWC members or UNC Charlotte students. You can learn more about using your UNCC account with zoom [here](https://spaces.uncc.edu/pages/viewpage.action?pageId=82969679). 
+      For more on using zoom in general, see [here](https://spaces.charlotte.edu/display/FAQ/General+Zoom+Information)."
   
+inPerson_events :
   - subsection_title : "In-Person"
     points : 
     - "When joining events in-person, make sure you have registered (if required for that particular event) and are 
@@ -20,12 +21,11 @@ main_events :
   - title : "Main Events"
   - subsection_title : "Events with an asterisk will require registration"
     points : 
-    #TO-DO: Add Link
     - "To see the latest updates to our events, add our GWC Members calendar to yours! 
       You can do this with the link in our Weekly Newsletter. 
       Want to receive our newsletter? Check out the Members tab!"
     - "------------------------------------------"
-    - "For quick access to registration linkes for upcoming events and our regular zoom link, see [ here ]."
+    - "For quick access to registration links for upcoming events and our regular zoom link, see [here](https://linktr.ee/girlswhocode_uncc)."
     - "------------------------------------------"
   - subsection_title: ""
     points : 

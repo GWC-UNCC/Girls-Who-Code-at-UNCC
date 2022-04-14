@@ -5,8 +5,15 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="site-project-header-content">
-                    <!-- Subsection for Calendar Notes begin -->
-                        {{ range .calendar_notes }}
+                    <!-- Subsection for Virtual Events begin -->
+                        {{ range .virtual_events }}
+                        <h4>{{ .subsection_title}}</h4>
+                            {{ range .points }}
+                            <p>{{ . | markdownify }}</p>
+                            {{ end }}
+                            {{ end }}
+                    <!-- Subsection for in person Events begin -->
+                        {{ range .inPerson_events }}
                         <h4>{{ .subsection_title}}</h4>
                             {{ range .points }}
                             <p>{{ . }}</p>
@@ -17,7 +24,7 @@
                         <h4>{{ .title }}</h4>
                         <strong> {{ .subsection_title }}</strong>
                         {{ range .points }}
-                        <p>{{ . }}</p>
+                        <p>{{ . | markdownify }}</p>
                         {{ end }}
                         {{ end }}
                     <!-- Subsection for Important Notes begin -->
