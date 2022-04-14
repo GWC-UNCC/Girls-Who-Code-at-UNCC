@@ -1,4 +1,16 @@
 enable : true
+upcoming_events :
+  - subsection_title: "Upcoming"
+    points:
+      - See more on joining virtual and in-person events and other important notes below.
+    keys:
+      - icon: images/icons/purple-block.png
+        text: "Open to Public"
+      - icon: images/icons/green-block.png
+        text: "UNCC Students"
+      - icon: images/icons/blue-block.png
+        text: "GWC Member Only"
+
 missed_event :
   - subsection_title : "Missed an Event?"
     points :
