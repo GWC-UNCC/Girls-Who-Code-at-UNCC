@@ -1,5 +1,9 @@
 enable : true
-
+missed_event :
+  - subsection_title : "Missed an Event?"
+    points :
+    - "Check out our event recaps and find any related resources [here](../portfolio)"
+    
 virtual_events  :
   - subsection_title : "Virtual"
     points : 
