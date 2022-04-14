@@ -1,0 +1,44 @@
+enable : true
+
+virtual_events  :
+  - subsection_title : "Virtual"
+    points : 
+    - "When joining events virtually, make sure you are logged into zoom with your UNCC account if it's a GWC-specific event. 
+      Some events may note that they are open to the public, in which case a UNCC account is not required. However, 
+      most events are for GWC members or UNC Charlotte students. You can learn more about using your UNCC account with zoom [here](https://spaces.uncc.edu/pages/viewpage.action?pageId=82969679). 
+      For more on using zoom in general, see [here](https://spaces.charlotte.edu/display/FAQ/General+Zoom+Information)."
+  
+inPerson_events :
+  - subsection_title : "In-Person"
+    points : 
+    - "When joining events in-person, make sure you have registered (if required for that particular event) and are 
+      following all COVID-19 protocols. Safety is a priority at our events, and this means most in-person events will have a 
+      limited number of spaces and require registration to attend. For events where this is the case, it will be noted in the announcement 
+      for the event on here, our weekly newsletter, and on social media. If it is a hybrid event, in-person attendance will require registration, 
+      while virtual attendance will not."
+
+main_events :
+  - title : "Main Events"
+  - subsection_title : "Events with an asterisk will require registration"
+    points : 
+    - "To see the latest updates to our events, add our GWC Members calendar to yours! 
+      You can do this with the link in our Weekly Newsletter. 
+      Want to receive our newsletter? Check out the Members tab!"
+    - "------------------------------------------"
+    - "For quick access to registration links for upcoming events and our regular zoom link, see [here](https://linktr.ee/girlswhocode_uncc)."
+    - "------------------------------------------"
+  - subsection_title: ""
+    points : 
+    - "Each month we will have the general schedule above. Then our Main Events will alternate between workshops, professional events, 
+      and socials, with the first main event of each month being the Code Lounge. You can see these for the current month to the left!"
+  
+important_notes :
+  - title : "Important Notes"
+    icon : "images/icons/sparkles.svg"
+    points :
+    - "Some events require registration"
+    - "Workshops are open to all students!"
+    - "Some events have limited spots"
+  - notes_text : 
+      "Even once our events are over for the semester, 
+      we'll still have our Discord channels all year round where you can start your own study session or social event and chat with other members!"
