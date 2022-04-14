@@ -5,6 +5,13 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="site-project-header-content">
+                    <!-- Subsection for Missed Events begin -->
+                    {{ range .missed_event }}
+                    <h4>{{ .subsection_title }}</h4>
+                        {{ range .points }}
+                        <p> {{ . | markdownify }} </p>
+                        {{ end }}
+                        {{ end }}
                     <!-- Subsection for Virtual Events begin -->
                         {{ range .virtual_events }}
                         <h4>{{ .subsection_title}}</h4>
