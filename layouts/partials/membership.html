@@ -1,0 +1,27 @@
+{{ with .Site.Data.membership }}
+{{ if .enable }}
+<section class="site-client">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <!-- Membership title and description -->
+                    <h2>{{ .title }}</h2>
+                    <p>{{ .subtitle }}</p>
+                    <h3>{{ .titleTwo }}</h3>
+                    <p>{{ .subtitleTwo }}</p>
+                    {{ range .titleThree }}
+                    <h3>{{ .name }}</h3>
+                    {{ $icon := .icon}}
+                    {{ range .points }}
+                    <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
+                    <p>{{ . }}</p>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

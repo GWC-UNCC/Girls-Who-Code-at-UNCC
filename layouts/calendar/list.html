@@ -1,0 +1,88 @@
+{{ define "main" }}
+<section class="site-project-header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div class="site-project-header-content">
+          <h1>
+            {{ .Title | safeHTML }}
+          </h1>
+          <br><br>
+          <div class="section-title">
+          {{ with .Site.Data.calendar }}
+          {{ if .enable }}
+          {{ range .upcoming_events }}
+          <h2>{{ .subsection_title }}</h2>
+          {{ range .points }}
+          <p> {{ . | markdownify }} </p>
+          {{ end }}
+          {{ range .keys}}
+          {{ $icon := .icon}}
+          <img src="{{ $icon | absURL }}" alt="color-block" height="15">
+          <p>{{ .text }}</p>
+          {{ end }}
+          {{ end }}
+
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=800&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showDate=1&showNav=0&showTabs=0&showPrint=0&src=OW11b3ZmZHU0MWlpZjVvM2kybjIxNGltcjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23E67C73"
+            style="border:solid 1px #777" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-project-header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <!-- Subsection for Missed Events begin -->
+          {{ range .missed_event }}
+          <h2>{{ .subsection_title }}</h2>
+          {{ range .points }}
+          <p> {{ . | markdownify }} </p>
+          {{ end }}
+          {{ end }}
+          <!-- Subsection for Virtual Events begin -->
+          {{ range .virtual_events }}
+          <h2>{{ .subsection_title}}</h2>
+          {{ range .points }}
+          <p>{{ . | markdownify }}</p>
+          {{ end }}
+          {{ end }}
+          <!-- Subsection for in person Events begin -->
+          {{ range .inPerson_events }}
+          <h2>{{ .subsection_title}}</h2>
+          {{ range .points }}
+          <p>{{ . }}</p>
+          {{ end }}
+          {{ end }}
+          <!-- Subsection for Main Events begin -->
+          {{ range .main_events }}
+          <h2>{{ .title }}</h2>
+          <strong> {{ .subsection_title }}</strong>
+          {{ range .points }}
+          <p>{{ . | markdownify }}</p>
+          {{ end }}
+          {{ end }}
+          <!-- Subsection for Important Notes begin -->
+          {{ range .important_notes }}
+          <h2>{{ .title }}</h2>
+          {{ $icon := .icon }}
+          {{ range .points }}
+          <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
+          <p>{{ . }}</p>
+          {{ end }}
+          {{ .notes_text }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}
