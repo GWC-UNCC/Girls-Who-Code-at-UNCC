@@ -1,8 +1,8 @@
 ---
-title: "The 10 Biggest Rebrands and Logo Designs of 2019"
+title: "Interviewing & Internships"
 date: 2019-12-24T13:40:00+06:00
-image: images/library/blog-post-01.jpg
-feature_image: images/library/blog-details-image.jpg
+image: images/library/Interviewing-and-Internships/Interviewing-and-Internships.png
+feature_image: images/library/Interviewing-and-Internships/Interviewing-and-Internships.png
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith

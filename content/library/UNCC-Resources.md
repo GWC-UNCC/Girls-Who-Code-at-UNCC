@@ -1,8 +1,8 @@
 ---
-title: "The 10 Biggest Product Stories of 2019"
-date: 2019-12-24T12:58:17+06:00
-image: images/library/blog-post-04.jpg
-feature_image: images/library/blog-details-image.jpg
+title: "UNCC Resources"
+date: 2019-12-24T13:32:54+06:00
+image: images/library/UNCC-Resources/UNCC-Resources.png
+feature_image: images/library/UNCC-Resources/UNCC-Resources.png
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith

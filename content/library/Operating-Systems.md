@@ -1,10 +1,11 @@
 ---
-title: "Design Inspiration: The Best Projects From November"
-date: 2019-12-24T13:36:06+06:00
-image: images/library/blog-post-02.jpg
-feature_image: images/library/blog-details-image.jpg
+title: "Operating Systems"
+date: 2022-04-15T14:32:26-04:00
+image: images/library/Operating-Systems/OS.png
+feature_image: images/library/Operating-Systems/OS.png
 author: Alexender Schoitiz
 ---
+
 ### Black Lines brand identity, by & Smith
 
 Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
@@ -24,14 +25,3 @@ The company was previously known as Hingston + Co. but has been given a complete
 4. ILY means I love you.
 5. YOLO means You only live once.
 6. SMH means Shaking my head.
-
-![blog-details-image-02](https://user-images.githubusercontent.com/16266381/71399826-2009b380-264f-11ea-9bc3-59d7fa9a9994.jpg)
-
-Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
-
-> "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring."
-
-
-> Paul Rand, graphic designer
-
-

@@ -1,8 +1,8 @@
 ---
-title: "Design Inspiration: The Best Projects From December"
-date: 2019-12-24T13:45:06+06:00
-image: images/library/blog-post-04.jpg
-feature_image: images/library/blog-details-image.jpg
+title: "Git & GitHub"
+date: 2019-12-24T13:36:06+06:00
+image: images/library/Git-and-GitHub/Git-and-GitHub.png
+feature_image: images/library/Git-and-GitHub/Git-and-GitHub.png
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith
@@ -33,4 +33,5 @@ Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. 
 
 
 > Paul Rand, graphic designer
+
 
