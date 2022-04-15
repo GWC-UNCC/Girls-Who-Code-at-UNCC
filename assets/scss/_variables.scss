@@ -1,7 +1,7 @@
 //site color variables
 $body-color: #fff;
 $primary-color: #EAA4A4;
-$secondary-color: #ADD6D2;
+$secondary-color: #000000;
 $text-color: #9D9EA5;
 $text-color-dark: #00113E;
 $site-ease: cubic-bezier(0.36, 0.03, 0, 0.91);
@@ -15,3 +15,22 @@ $black: #000;
 // Font Variables
 $primary-font: 'Josefin Sans', sans-serif;
 $secondary-font: 'Montserrat', sans-serif;
+
+$gradient-p: #7603d0;
+$gradient-s: #00C7D3;
+// CSS variables
+:root {
+  --gradient-primary : #{$gradient-p};
+  --gradient-secondary : #{$gradient-s};
+  --primary: $primary-color;
+  --secondary: $secondary-color;
+  --shadow-dark-1: 0 1rem 2rem rgba(0,0,0,.3);
+  --shadow-light-1: 0 .5rem 1rem rgba(0,0,0,.06);
+  
+  
+}
+
+
+$main-gradient: linear-gradient( var(--gradient-primary) , var(--gradient-secondary) );
+$main-inverse-gradient: linear-gradient( var(--gradient-secondary) , var(--gradient-primary) );
+$lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparentize($gradient-p,  0.61));
