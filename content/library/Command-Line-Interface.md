@@ -1,8 +1,8 @@
 ---
 title: "Command Line Interfaces"
 date: 2019-12-24T13:45:06+06:00
-image: images/library/Command-Line-Resources/CLIs.png
-feature_image: images/library/Command-Line-Resources/CLIs.png
+image: images/library/Command-Line-Interface/CLIs.png
+feature_image: images/library/Command-Line-Interface/CLIs.png
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith
