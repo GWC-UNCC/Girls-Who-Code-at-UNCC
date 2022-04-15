@@ -6,7 +6,6 @@ title = "Girls Who Code at UNC Charlotte"
 
 # Site Menus
 [menu]
-
 # Navbar Menus
 [[menu.nav]]
   name    = "Home"

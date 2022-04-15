@@ -5,22 +5,7 @@
     position: relative;
     margin-bottom: 30px;
     transition: all 0.3s ease-in;
-    box-shadow: var(--shadow-light-1);
     &-thumb{
-      position: relative;
-      // https://www.impressivewebs.com/image-tint-blend-css/
-      &::before {
-        content: "";
-      }
-      &:hover::before {
-        transition: all 5s;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: $lighter-gradient;
-      }
       img{
         width: 100%;
       }
@@ -167,7 +152,7 @@
         }
         .page-link{
           font-size: 24px;
-          border-radius: 10px;
+          border-radius: 0;
           border: none;
           padding: 12px 20px;
           color: $text-color-dark;

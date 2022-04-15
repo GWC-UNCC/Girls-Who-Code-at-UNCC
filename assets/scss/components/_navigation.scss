@@ -28,15 +28,7 @@
     @include desktop{
       text-align: center;
     }
-
     .nav-link{
-
-      transition: color 1s;
-      &:hover,
-      &:active {
-        @extend .nav-active;
-      }
-
       font-family: $secondary-font;
       color: $text-color-dark;
       transition: all .3s ease;
@@ -93,8 +85,5 @@
     @include mobile{
       padding: 15px;
     }
-  }
-  .nav-active {
-    color: var(--gradient-secondary) !important;
   }
 }

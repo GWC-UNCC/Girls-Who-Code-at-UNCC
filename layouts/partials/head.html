@@ -16,33 +16,10 @@
   {{ "<!-- font-awesome -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" />
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
-
-  {{ $options := (dict "enableSourceMap" true ) }}
-  <!-- defining outside the if block, so it can be accessed afterwards -->
-  {{ $styles := "" }}
-  {{ $hugo_scss_vars := resources.Get "scss/hugo_vars.scss" }}
-  {{ $main_scss := resources.Get "scss/style.scss" }}
-  {{ $scss := slice $hugo_scss_vars $main_scss | resources.Concat "scss/bundle.scss" }}
-
-  <!-- https://discourse.gohugo.io/t/how-to-use-hugo-template-variables-in-css/4464/33 -->
-  {{ $scss = $scss | resources.ExecuteAsTemplate "style.main.scss" . }}
-
-  {{ if hugo.IsProduction }}
-
-    {{ $options = merge $options (dict "outputStyle" "compressed") }}
-    {{ $styles = $scss | toCSS $options }} 
-    {{ $styles = $styles | minify | fingerprint }}
-
-  {{ else }}
-
-    {{ $options = merge $options (dict "targetPath" "css/style.css" "outputStyle" "expanded") }}
-    {{ $styles = $scss | toCSS $options }} 
-
-  {{ end }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
+  <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
 </head>
-
