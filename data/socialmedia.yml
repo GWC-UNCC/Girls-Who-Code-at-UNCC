@@ -1,0 +1,11 @@
+enable  : true
+title   : Social Media
+icons   : 
+  - image   : ../images/icons/IG-logo.png
+    url     : https://www.instagram.com/girlswhocode_uncc/?hl=en
+  - image   : ../images/icons/twitter-logo.png
+    url     : https://mobile.twitter.com/gwc_uncc
+  - image   : ../images/icons/linkedin-logo.png
+    url     : https://www.linkedin.com/company/girls-who-code-at-unc-charlotte
+  - image   : ../images/icons/github-logo.png
+    url     : https://github.com/GWC-UNCC
