@@ -8,29 +8,29 @@ title = "Girls Who Code at UNC Charlotte"
 [menu]
 # Navbar Menus
 [[menu.nav]]
-  name    = "Home"
-  url     = ""
-  weight  = 1
+name = "Home"
+url = ""
+weight = 1
 [[menu.nav]]
-  name    = "About"
-  url     = "about"
-  weight  = 2
+name = "About"
+url = "about"
+weight = 2
 [[menu.nav]]
-  name    = "Portfolio"
-  url     = "portfolio"
-  weight  = 3
+name = "Portfolio"
+url = "portfolio"
+weight = 3
 [[menu.nav]]
-  name    = "Library"
-  url     = "library"
-  weight  = 4
+name = "Library"
+url = "library"
+weight = 4
 [[menu.nav]]
-  name    = "Calendar"
-  url     = "calendar"
-  weight  = 5
+name = "Calendar"
+url = "calendar"
+weight = 5
 [[menu.nav]]
-  name    = "Get in touch"
-  url     = "contact"
-  weight  = 6
+name = "Get in touch"
+url = "contact"
+weight = 6
 
 # Site Params
 [params]
@@ -46,20 +46,34 @@ formspreeFormUrl = "https://formspree.io/myykjpje"
 
 # Contact Form
 [params.contactForm]
-placeholder_about_the_project = "About the Project"
+placeholder_about_the_project = "Tell Us More"
+placeholder_affiliation_name = "Affiliation Name"
 placeholder_email = "Email"
 placeholder_first_name = "First Name"
 placeholder_last_name = "Last Name"
-placeholder_project_type = "Project Type"
+placeholder_project_type = "Affiliation"
+placeholder_topic = "Topic"
 send_message = "Send Message"
 
 [[params.contactForm.projectType]]
-title = "Graphics Design"
-value = "gd"
+title = "Membership"
+value = "M"
 
 [[params.contactForm.projectType]]
-title = "Web Design"
-value = "wd"
+title = "Partnership"
+value = "P"
+
+[[params.contactForm.projectType]]
+title = "Sponsorship"
+value = "S"
+
+[[params.contactForm.projectType]]
+title = "Other"
+value = "O"
+
+[[params.contactForm.topic]]
+title = "Other"
+value = "O"
 
 # Navbar Action Button
 [params.navAction]
@@ -73,13 +87,12 @@ background_image = "images/backgrounds/hero-background-2.png"
 enable = true
 
 [params.portfolio_upcoming]
-  enable    = true
-  title     = "Upcoming Events"
+enable = true
+title = "Upcoming Events"
 
 [params.portfolio_recaps]
-  enable    = true
-  title     = "Event Recaps"
-
+enable = true
+title = "Event Recaps"
 
 [params.call_to_action]
 background_image = "images/backgrounds/cta-background.jpg"
@@ -91,59 +104,58 @@ secondary_button_url = "about"
 title = "Interested in GWC?"
 
 [params.footer]
-  # Footer Contact Info
-  # this is an easter egg #2, post in the web team channel if you found me 😁
-  [params.footer.contactInfo]
-    title   = "Contact Info"
-    address1 = "9201 University City Blvd" 
-    address2 = "Charlotte, NC 28223"
-    email   = "girlswhocodeuncc@gmail.com"
-    # Footer Sitemap
-    [params.footer.sitemap]
-      title   = "Sitemap"
-      [[params.footer.sitemap.link]]
-        name = "About"
-        url  = "about"
-      [[params.footer.sitemap.link]]
-        name = "Portfolio"
-        url  = "portfolio"
-      [[params.footer.sitemap.link]]
-        name = "Library"
-        url  = "library"
-      [[params.footer.sitemap.link]]
-        name = "Calendar"
-        url  = "calendar"
-      [[params.footer.sitemap.link]]
-        name = "Contact"
-        url  = "contact"
-    # Footer Social Media
-    [params.footer.social]
-      title   = "Our Accounts"
-      [[params.footer.social.link]]
-        name = "Linktree"
-        url  = "https://linktr.ee/girlswhocode_uncc"
-      [[params.footer.social.link]]
-        name = "Instagram"
-        url  = "https://www.instagram.com/girlswhocode_uncc"
-      [[params.footer.social.link]]
-        name = "LinkedIn"
-        url  = "https://www.linkedin.com/company/girls-who-code-at-unc-charlotte"
-      [[params.footer.social.link]]
-        name = "Twitter"
-        url  = "https://twitter.com/gwc_uncc"
-      [[params.footer.social.link]]
-        name = "GitHub"
-        url  = "https://github.com/GWC-UNCC"
-    # Footer Service
-    [params.footer.service]
-      title       = "Opportunities"
-      [[params.footer.service.link]]
-        name = "Become a Member"
-        url  = "about"
-      [[params.footer.service.link]]
-        name = "Partner with Us"
-        url  = "about"
-      [[params.footer.service.link]]
-        name = "Sponsor Us"
-        url  = "about"
-
+# Footer Contact Info
+# this is an easter egg #2, post in the web team channel if you found me 😁
+[params.footer.contactInfo]
+address1 = "9201 University City Blvd"
+address2 = "Charlotte, NC 28223"
+email = "girlswhocodeuncc@gmail.com"
+title = "Contact Info"
+# Footer Sitemap
+[params.footer.sitemap]
+title = "Sitemap"
+[[params.footer.sitemap.link]]
+name = "About"
+url = "about"
+[[params.footer.sitemap.link]]
+name = "Portfolio"
+url = "portfolio"
+[[params.footer.sitemap.link]]
+name = "Library"
+url = "library"
+[[params.footer.sitemap.link]]
+name = "Calendar"
+url = "calendar"
+[[params.footer.sitemap.link]]
+name = "Contact"
+url = "contact"
+# Footer Social Media
+[params.footer.social]
+title = "Our Accounts"
+[[params.footer.social.link]]
+name = "Linktree"
+url = "https://linktr.ee/girlswhocode_uncc"
+[[params.footer.social.link]]
+name = "Instagram"
+url = "https://www.instagram.com/girlswhocode_uncc"
+[[params.footer.social.link]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/company/girls-who-code-at-unc-charlotte"
+[[params.footer.social.link]]
+name = "Twitter"
+url = "https://twitter.com/gwc_uncc"
+[[params.footer.social.link]]
+name = "GitHub"
+url = "https://github.com/GWC-UNCC"
+# Footer Service
+[params.footer.service]
+title = "Opportunities"
+[[params.footer.service.link]]
+name = "Become a Member"
+url = "about"
+[[params.footer.service.link]]
+name = "Partner with Us"
+url = "about"
+[[params.footer.service.link]]
+name = "Sponsor Us"
+url = "about"
