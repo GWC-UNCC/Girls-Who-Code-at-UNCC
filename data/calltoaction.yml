@@ -1,7 +1,14 @@
 enable  : true
 title   : FAQs
+
 points :
    - "What are the requirements for membership?"
-   - "How can I get on the E-Board?"
-   - "Do I have to be a computer science major to be a part of this club?"
-   - "What types of events do you have and how can I attend?"
+
+members :
+      - "How can I get on the E-Board?"
+
+major :
+      - "Do I have to be a computer science major to be a part of this club?"
+   
+events :
+      - "What types of events do you have and how can I attend?"
