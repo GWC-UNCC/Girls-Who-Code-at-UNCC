@@ -72,6 +72,18 @@ title = "Other"
 value = "O"
 
 [[params.contactForm.topic]]
+title = "Membership"
+value = "M"
+
+[[params.contactForm.topic]]
+title = "Partnership"
+value = "P"
+
+[[params.contactForm.topic]]
+title = "Sponsorship"
+value = "S"
+
+[[params.contactForm.topic]]
 title = "Other"
 value = "O"
 
