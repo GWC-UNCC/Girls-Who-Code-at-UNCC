@@ -56,16 +56,16 @@ placeholder_topic = "Topic"
 send_message = "Send Message"
 
 [[params.contactForm.projectType]]
-title = "Membership"
-value = "M"
-
-[[params.contactForm.projectType]]
-title = "Partnership"
-value = "P"
-
-[[params.contactForm.projectType]]
-title = "Sponsorship"
+title = "School"
 value = "S"
+
+[[params.contactForm.projectType]]
+title = "University"
+value = "U"
+
+[[params.contactForm.projectType]]
+title = "Company"
+value = "C"
 
 [[params.contactForm.projectType]]
 title = "Other"
