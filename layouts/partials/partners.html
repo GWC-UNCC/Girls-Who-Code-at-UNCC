@@ -1,5 +1,5 @@
 <!-- Meet Our Partners -->
-{{ with .Site.Data.sponsors}}
+{{ with .Site.Data.partners}}
   {{ if .enable }}
   <section class="site-project" id="project">
     <div class="container">
@@ -11,9 +11,9 @@
         </div>
         
         <!-- Sponsor Images -->
-        {{ range .sponsors }}
+        {{ range .partners }}
         <div class="col-lg-4 col-md-6">         
-            <a href="{{ .url }}"><img src="{{ .image | absURL }}" alt="sponsor-logo"></a>
+            <a href="{{ .url }}"><img src="{{ .image | absURL }}" alt="partner-logo"></a>
         </div>
         {{ end }}
     
