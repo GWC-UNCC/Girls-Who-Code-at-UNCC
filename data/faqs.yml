@@ -1,0 +1,15 @@
+enable  : true
+title   : FAQs
+
+# TODO: needs answer to questions
+question1: "What are the requirements for membership?"
+answer1: This is an accordion body
+
+question2: "How can I get on the E-Board?"
+answer2: This is an accordion body
+
+question3: "Do I have to be a computer science major to be a part of this club?"
+answer3: This is an accordion body
+
+question4: "What types of events do you have and how can I attend?"
+answer4: This is an accordion body
