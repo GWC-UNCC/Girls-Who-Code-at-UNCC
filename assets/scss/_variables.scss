@@ -26,6 +26,11 @@ $gradient-s: #00C7D3;
   --secondary: $secondary-color;
   --shadow-dark-1: 0 1rem 2rem rgba(0,0,0,.3);
   --shadow-light-1: 0 .5rem 1rem rgba(0,0,0,.06);
+  --header-purple: #A5A6F6;
+  --lighter-purple: #9747FF;
+  --lighter-blue: #76ECFC;
+  --darker-purple: #6A08B8;
+  --darker-blue: #00C7D3;
   
   
 }
@@ -34,3 +39,107 @@ $gradient-s: #00C7D3;
 $main-gradient: linear-gradient( var(--gradient-primary) , var(--gradient-secondary) );
 $main-inverse-gradient: linear-gradient( var(--gradient-secondary) , var(--gradient-primary) );
 $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparentize($gradient-p,  0.61));
+
+.main-gradient {
+  background: $main-gradient
+}
+.main-inverse-gradient {
+  background: $main-inverse-gradient
+}
+
+.title-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.white {
+  $w_opposite: #000;
+  $w_blue: #00C7D3;
+  $w_purple: #7603D0;
+  __color {
+    &--opposite {
+      color: $w_opposite;
+    }
+    &--blue {
+      color: $w_blue;
+    }
+    &--purple {
+      color: $w_purple;
+    }
+  }
+  __bg {
+    &--opposite {
+      background:  $w_opposite;
+    }
+    &--blue {
+      background: $w_blue;
+    }
+    &--purple {
+      background: $w_purple;
+    }
+  }
+}
+
+.black {
+  $b_opposite: #fff;
+  $b_blue: #00C7D3;
+  $b_purple: #6A08B8;
+  __color {
+    &--opposite {
+      color: $b_opposite;
+    }
+    &--blue {
+      color: $b_blue;
+    }
+    &--purple {
+      color: $b_purple;
+    }
+  }
+  __bg {
+    &--opposite {
+      background:  $b_opposite;
+    }
+    &--blue {
+      background: $b_blue;
+    }
+    &--purple {
+      background: $b_purple;
+    }
+  }
+}
+
+.linked-text {
+  &__white {
+    &--blue {
+      &:visited, &:link {
+       color: #fff;
+      }
+      &:active, &:hover {
+       color: var(--lighter-blue);
+      }
+    }
+    &--purple {
+      &:visited, &:link {
+       color: #fff;
+      }
+      &:active, &:hover {
+       color: var(--lighter-purple);
+      }
+    }
+  }
+  &__blue {
+    &:visited, &:link {
+      color: var(--darker-blue);
+    }
+    &:active, &:hover {
+      color: var(--lighter-blue);
+    }
+  }
+  &__purple {
+    &:visited, &:link {
+      color: var(--darker-purple);
+    }
+    &:active, &:hover {
+      color: var(--lighter-purple);
+    }
+  }
+}
