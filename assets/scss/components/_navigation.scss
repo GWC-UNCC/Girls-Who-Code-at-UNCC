@@ -1,6 +1,6 @@
 .site-navigation{
   padding: 30px 0;
-  background: $white;
+  background: black;
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,7 +38,7 @@
       }
 
       font-family: $secondary-font;
-      color: $text-color-dark;
+      color: $white;
       transition: all .3s ease;
       padding: 15px 18px;
       position: relative;
