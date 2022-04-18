@@ -46,28 +46,28 @@ formspreeFormUrl = "https://formspree.io/myykjpje"
 
 # Contact Form
 [params.contactForm]
-placeholder_about_the_project = "Tell Us More"
+placeholder_message = "Tell Us More"
 placeholder_affiliation_name = "Affiliation Name"
 placeholder_email = "Email"
 placeholder_first_name = "First Name"
 placeholder_last_name = "Last Name"
-placeholder_project_type = "Affiliation"
+placeholder_affiliation_type = "Affiliation"
 placeholder_topic = "Topic"
 send_message = "Send Message"
 
-[[params.contactForm.projectType]]
+[[params.contactForm.affiliationType]]
 title = "School"
 value = "S"
 
-[[params.contactForm.projectType]]
+[[params.contactForm.affiliationType]]
 title = "University"
 value = "U"
 
-[[params.contactForm.projectType]]
+[[params.contactForm.affiliationType]]
 title = "Company"
 value = "C"
 
-[[params.contactForm.projectType]]
+[[params.contactForm.affiliationType]]
 title = "Other"
 value = "O"
 
@@ -89,7 +89,7 @@ value = "O"
 
 # Navbar Action Button
 [params.navAction]
-name = "Get in touch"
+name = "Get in Touch"
 status = true
 url = "contact"
 

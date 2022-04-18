@@ -26,10 +26,10 @@
               </div>
               <div class="col-lg-6">
                 <div class="select-wrapper">
-                  <select class="form-control" id="projectType" name="project-type">
-                    <option value="" selected disabled hidden>{{ .Site.Params.contactForm.placeholder_project_type }}
+                  <select class="form-control" id="affiliationType" name="affiliation-type">
+                    <option value="" selected disabled hidden>{{ .Site.Params.contactForm.placeholder_affiliation_type }}
                     </option>
-                    {{ range .Site.Params.contactForm.projectType }}
+                    {{ range .Site.Params.contactForm.affiliationType }}
                     <option value="{{ .value }}">{{ .title }}</option>
                     {{ end }}
                   </select>
@@ -51,8 +51,8 @@
                 </div>
               </div>
               <div class="col-12">
-                <textarea class="form-control" id="aboutProject" name="about-project" rows="6"
-                  placeholder="{{ .Site.Params.contactForm.placeholder_about_the_project }}"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="6"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_message}}"></textarea>
               </div>
               <div class="col-12">
                 <button type="submit" class="btn btn-primary" id="contact-form-button">
