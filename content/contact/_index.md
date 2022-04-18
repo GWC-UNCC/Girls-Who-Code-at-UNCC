@@ -2,6 +2,6 @@
 title         : "Contact"
 date          : 2019-12-23T20:17:01+06:00
 heading       : "Don’t be shy. Say <span>Hello.</span>"
-form_heading  : "Tell Us about yourself!"
+form_heading  : "Tell us about yourself!"
 ---
 
