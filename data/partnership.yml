@@ -24,3 +24,7 @@ event_options:
       - "Technical: Your request to join will be approved by our Member Involvement. Request: Your request to join will be approved bu our Member Involvement."
       - "Social: Your request to join will be approved by our Member Involvement. Request: Your request to join will be approved bu our Member Involvement."
       - "Other: Your request to join will be approved by our Member Involvement. Request: Your request to join will be      approved by our Member Involvement."
+
+previous_partner_events: 
+    subsection_title: "Previous Partner Events"
+    description: "We've partnered with some awesome industry professionals and organizations on events like those listed below. Check our more on these events in our [**Portfolio**](../portfolio) section."
