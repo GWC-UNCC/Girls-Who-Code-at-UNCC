@@ -1,24 +1,41 @@
 {{ with .Site.Params.banner }}
   {{ if .enable }}
-  {{ "<!-- Site Hero Start -->" | safeHTML }}
-  <!-- TODO: Create a class for background image and style to correct height. Adjust size
-  of girls who code logo and remove styling from html -->
-  <section class="site-hero" style="background-image: url('{{ .about_banner }}');">
-    <div class="container">
-    <div class="row">
-      <img src="../images/GWC-Logo.png" alt="GWC Logo" class="about-page-logo" style="width: 800px">
+    {{ "<!-- Site Hero Start -->" | safeHTML }}
+    <!-- TODO: Create a class for background image and style to correct height. Adjust size
+    of girls who code logo and remove styling from html -->
+    <section class="site-hero" style="background-image: url('{{ .about_banner }}');">
+      <div class="container">
+      <div class="row">
+        <img src="../images/GWC-Logo.png" alt="GWC Logo" class="about-page-logo" style="width: 800px">
+      </div>
+      
+      <div class="row site-about-description">
+        <p>
+          We are a student organization at UNC Charlotte and a College Loop of the 
+          national organization Girls Who Code. Our aim is to uplift and maintain a 
+          strong community of female students in computer science, as well as develop 
+          technical and professional skills.
+        </p>
+      </div>
     </div>
-    
-    <div class="row site-about-description">
-      <p>
-        We are a student organization at UNC Charlotte and a College Loop of the 
-        national organization Girls Who Code. Our aim is to uplift and maintain a 
-        strong community of female students in computer science, as well as develop 
-        technical and professional skills.
-      </p>
-    </div>
-  </div>
-  </section>
-  {{ "<!-- Site Hero End -->" | safeHTML }}
+    </section>
+    {{ "<!-- Site Hero End -->" | safeHTML }}
+  {{ end }}
+{{ end }}
+
+{{ with .Site.Data.socialmedia }}
+  {{ if .enable }}
+  <!-- TODO: Create a class for section tag and remove temporary site-team class -->
+    <section class="site-team">
+      <div class="container">
+        <div class="row">
+            {{ range .icons }}
+              <div class="col-md-auto">         
+                  <a href="{{ .url }}"><img src="{{ .image }}" alt="socialmedia-logo"></a>
+              </div>
+            {{ end }}
+        </div>
+      </div>
+    </section>
   {{ end }}
 {{ end }}
