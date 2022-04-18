@@ -41,40 +41,41 @@ $main-inverse-gradient: linear-gradient( var(--gradient-secondary) , var(--gradi
 $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparentize($gradient-p,  0.61));
 
 .main-gradient {
-  background: $main-gradient
+  background: $main-gradient !important;
 }
 .main-inverse-gradient {
-  background: $main-inverse-gradient
+  background: $main-inverse-gradient !important;
 }
 
 .title-shadow {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 400 !important;
 }
 
 .white {
   $w_opposite: #000;
   $w_blue: #00C7D3;
   $w_purple: #7603D0;
-  __color {
+  &__color {
     &--opposite {
-      color: $w_opposite;
+      color: $w_opposite !important;
     }
     &--blue {
-      color: $w_blue;
+      color: $w_blue !important;
     }
     &--purple {
-      color: $w_purple;
+      color: $w_purple !important;
     }
   }
-  __bg {
+  &__bg {
     &--opposite {
-      background:  $w_opposite;
+      background:  $w_opposite !important;
     }
     &--blue {
-      background: $w_blue;
+      background: $w_blue !important;
     }
     &--purple {
-      background: $w_purple;
+      background: $w_purple !important;
     }
   }
 }
@@ -83,33 +84,33 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
   $b_opposite: #fff;
   $b_blue: #00C7D3;
   $b_purple: #6A08B8;
-  __color {
+  &__color {
     &--opposite {
-      color: $b_opposite;
+      color: $b_opposite !important;
     }
     &--blue {
-      color: $b_blue;
+      color: $b_blue !important;
     }
     &--purple {
-      color: $b_purple;
+      color: $b_purple !important;
     }
   }
-  __bg {
+  &__bg {
     &--opposite {
-      background:  $b_opposite;
+      background:  $b_opposite !important;
     }
     &--blue {
-      background: $b_blue;
+      background: $b_blue !important;
     }
     &--purple {
-      background: $b_purple;
+      background: $b_purple !important;
     }
   }
 }
 
 .linked-text {
   &__white {
-    &--blue {
+    &--blue > a {
       &:visited, &:link {
        color: #fff;
       }
@@ -117,7 +118,7 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
        color: var(--lighter-blue);
       }
     }
-    &--purple {
+    &--purple > a {
       &:visited, &:link {
        color: #fff;
       }
@@ -126,7 +127,7 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
       }
     }
   }
-  &__blue {
+  &__blue > a {
     &:visited, &:link {
       color: var(--darker-blue);
     }
@@ -134,7 +135,7 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
       color: var(--lighter-blue);
     }
   }
-  &__purple {
+  &__purple > a {
     &:visited, &:link {
       color: var(--darker-purple);
     }
@@ -142,4 +143,8 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
       color: var(--lighter-purple);
     }
   }
+}
+
+.span_color > span {
+  color: var(--darker-purple) !important;
 }
