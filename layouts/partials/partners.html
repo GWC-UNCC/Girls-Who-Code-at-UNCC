@@ -1,0 +1,24 @@
+<!-- Meet Our Partners -->
+{{ with .Site.Data.partners}}
+  {{ if .enable }}
+  <section class="site-project" id="project">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>{{ .title }}</h2>
+          </div>
+        </div>
+        
+        <!-- Sponsor Images -->
+        {{ range .partners }}
+        <div class="col-lg-4 col-md-6">         
+            <a href="{{ .url }}"><img src="{{ .image | absURL }}" alt="partner-logo"></a>
+        </div>
+        {{ end }}
+    
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
