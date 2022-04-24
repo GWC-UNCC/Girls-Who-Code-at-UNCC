@@ -5,6 +5,10 @@
   .section-title{
     margin-bottom: 40px;
   }
+  .container{
+    padding-bottom: 50px;
+    padding-left: 100px;
+  }
   @include mobile{
     padding: 50px 0;
   }
