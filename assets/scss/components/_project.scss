@@ -1,4 +1,7 @@
 .site-project{
+  $b_opposite: #fff;
+  $b_blue: #00C7D3;
+  $b_purple: #6A08B8;
   padding: 120px 0;
   overflow: hidden;
   &-item{
@@ -27,7 +30,7 @@
     }
     &-content{
       position: absolute;
-      background: $gray;
+      background-color: $b_purple;
       width: 100%;
       padding: 45px 50px;
       bottom: 0;
@@ -38,18 +41,19 @@
       }
       span{
         font-family: $secondary-font;
-        color: $primary-color;
+        color: $b_opposite;
         display: block;
         margin-bottom: 10px;
       }
-      h3{
+      h4{
         margin-bottom: 0;
+        color: $b_opposite;
         a{
           color: $text-color-dark;
           transition: 0.3s ease;
           &:hover{
             text-decoration: none;
-            color: $primary-color;
+            color: $b_opposite;
           }
         }
       }
@@ -58,7 +62,7 @@
         bottom: 40px;
         display: block;
         width: 100%;
-        color: $text-color;
+        color: $b_opposite;
         opacity: 0;
         transform: translateY(20px);
         transition: all 0.3s $site-ease;
