@@ -103,12 +103,7 @@
       transform: scaleX(0);
     }
     &:hover{
-      color: $primary-color;
       text-decoration: none;
-      &::before{
-        transform: scaleX(1);
-        transform-origin: left;
-      }
     }
   }
   &-header{
