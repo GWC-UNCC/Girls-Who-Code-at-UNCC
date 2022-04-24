@@ -1,13 +1,13 @@
 {{ with .Site.Data.testimonial }}
   {{ if .enable }}
-  <section class="site-testimonial">
+  <section class="site-testimonial black__bg--purple">
     <div class="container">
 
       <!-- New Carousel Testimonial Theme Credit: https://bootstrapious.com/-->
       <div class="row">
         <div class="col-12 text-center">
           <div class="section-title">
-            <h2>{{ .title }}</h2>
+            <h2 class="black__color--opposite">{{ .title }}</h2>
           </div>
         </div>
       </div>
@@ -19,28 +19,20 @@
                     <div class="p-5 ">
                         <!-- Bootstrap carousel-->
                         <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
-                            <!-- Bootstrap carousel indicators [nav] -->
-                            <ol class="carousel-indicators mb-0">
-                                <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                            </ol>
-      
       
                             <!-- Bootstrap inner [slides]-->
                             <div class="carousel-inner px-5 pb-4">
                                 <!-- Carousel slide-->
-                                <div class="carousel-item active">
+                                <div class="carousel-item active text-center">
                                     <div class="media">
                                         <div class="media-body ml-3">
                                             <blockquote class="blockquote border-0 p-0">
-                                              <i class="fa fa-quote-left mr-3 text-success"></i>
-                                                <p class="font-italic lead"> Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies.
+                                              <i class="fa fa-quote-left mr-3 black__color--opposite"></i>
+                                                <p class="font-italic lead black__color--opposite"> Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies.
                                                 </p>
-                                                <img class="rounded-circle img-thumbnail" src="images/testimonial/user-thumb-one.jpg" alt="" width="75">
-                                                <h5>Simonns Hodge </h5>
-                                                <h5>Member Fall '21</h5>
+                                                <img class="rounded-circle img-thumbnail" src="images/team/web-team/Ashley-Harmon.png" alt="" width="75">
+                                                <h5 class="black__color--opposite ">Ashley Harmon</h5>
+                                                <h5 class="black__color--opposite ">Member Fall '21</h5>
                                             </blockquote>
                                         </div>
                                     </div>
@@ -48,16 +40,16 @@
                               
                                 {{ range .testimonial_item }}
                                 <!-- Carousel slide-->
-                                <div class="carousel-item">
+                                <div class="carousel-item text-center">
                                   <div class="media">
                                       <div class="media-body ml-3">
                                           <blockquote class="blockquote border-0 p-0">
-                                            <i class="fa fa-quote-left mr-3 text-success"></i>
-                                              <p class="font-italic lead"> {{ .quote }}
+                                            <i class="fa fa-quote-left mr-3 black__color--opposite"></i>
+                                              <p class="font-italic lead black__color--opposite "> {{ .quote }}
                                               </p>
                                               <img class="rounded-circle img-thumbnail" src="{{ .thumb | absURL }}" alt="user-thumb" width="75">
-                                              <h5>{{ .name }}</h5>
-                                              <h5>{{ .member }}</h5>
+                                              <h5 class="black__color--opposite ">{{ .name }}</h5>
+                                              <h5 class="black__color--opposite ">{{ .member }}</h5>
                                           </blockquote>
                                       </div>
                                   </div>
@@ -67,11 +59,11 @@
      
                             <!-- Bootstrap controls [dots]-->
                             <a class="carousel-control-prev width-auto" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <i class="fa fa-angle-left text-dark text-lg"></i>
+                                <i class="fa fa-angle-left black__color--opposite text-lg"></i>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next  width-auto" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <i class="fa fa-angle-right text-dark text-lg"></i>
+                            <a class="carousel-control-next width-auto" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <i class="fa fa-angle-right black__color--opposite text-lg"></i>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -80,7 +72,7 @@
             </div>
         </div>
       </section>
-
+    </section>
   {{ end }}
 {{ end }}
 
