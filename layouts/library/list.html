@@ -24,13 +24,13 @@
             <img src="{{ . | absURL }}" alt="post-thumb">
           </div>
           {{ end }}
-          <div class="site-library-post-content white__bg--purple">
-            <span class="black__color--opposite">Updated | {{ .PublishDate.Format "January 2, 2006" }}</span>
-            <h4><a href="{{ .Permalink }}" class="black__color--opposite">{{ .Title }}</a></h4>
-            <p class="black__color--opposite">
+          <div class="site-library-post-content">
+            <span>Updated | {{ .PublishDate.Format "January 2, 2006" }}</span>
+            <h4><a href="{{ .Permalink }}" class="card-title">{{ .Title }}</a></h4>
+            <p>
               {{ .Summary }} ...
             </p>
-            <a href="{{ .Permalink }}" class="read-more black__color--opposite">read more</a>
+            <a href="{{ .Permalink }}" class="read-more">read more</a>
           </div>
         </article>
       </div>
