@@ -45,7 +45,21 @@
         display: block;
         margin-bottom: 10px;
       }
+      /* Portfolio page title size */
       h4{
+        margin-bottom: 0;
+        color: $b_opposite;
+        a{
+          color: $text-color-dark;
+          transition: 0.3s ease;
+          &:hover{
+            text-decoration: none;
+            color: $b_opposite;
+          }
+        }
+      }
+      /* About page - partnership section title size */
+      h5{
         margin-bottom: 0;
         color: $b_opposite;
         a{
