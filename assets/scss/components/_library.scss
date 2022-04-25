@@ -1,5 +1,8 @@
 .site{
   &-library{
+    $b_opposite: #fff;
+    $b_blue: #00C7D3;
+    $b_purple: #6A08B8;
     @extend .site-project;
     @include mobile{
       padding: 70px 0;
@@ -10,6 +13,7 @@
         padding: 50px 0 60px;
       }
     }
+    /* Title and intro paragraph at top of page */
     &-header{
       margin-top: 100px;
       padding: 150px 0 0;
@@ -18,7 +22,6 @@
       }
       h1{
         font-weight: 700;
-        text-transform: uppercase;
         letter-spacing: 10px;
         margin-bottom: 20px;
         @include mobile{
@@ -33,27 +36,34 @@
     &-pagination{
       @extend .site-project-pagination;
     }
+    /* Card stylings */
     &-post{
       @extend .site-project-item;
       &-thumb{
         @extend .site-project-item-thumb;
       }
       &-content{
+        background-color: $b_purple;
         @extend .site-project-item-content;
         @include mobile{
           padding: 15px 25px 40px;
         }
         span{
           font-size: 14px;
+          color: $b_opposite;
         }
-        h3{
+        p{
+          color: $b_opposite;
+        }
+        a.card-title{
           margin-bottom: 15px;
+          color: $b_opposite;
           @include mobile{
             font-size: 20px;
           }
         }
         a.read-more{
-          color: $primary-color;
+          color: $b_opposite;
           letter-spacing: 2px;
           @include mobile{
             transform: translateY(22px);
@@ -61,6 +71,7 @@
         }
       }
     }
+    /* Post single page styling */
     &-details{
       img{
         max-width: 100%;

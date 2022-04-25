@@ -1,7 +1,7 @@
 .site-team{
   padding: 100px 0;
   &-member{
-    background: $gray;
+    background: $black;
     padding: 65px 30px 30px;
     margin: 50px 0 30px;
     position: relative;
@@ -23,13 +23,14 @@
     &-content{
       h3{
         font-size: 20px;
-        color: $primary-color;
+        color: $white;
         margin-bottom: 10px;
         font-weight: 500;
+        text-transform: uppercase;
       }
       p{
-        font-size: 18px;
-        color: $text-color-dark;
+        font-size: 19px;
+        color: #76ECFC;
         margin-bottom: 20px;
         font-weight: 300;
       }
