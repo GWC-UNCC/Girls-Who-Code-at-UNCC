@@ -1,8 +1,8 @@
 ---
-title: "The 10 Biggest Rebrands and Logo Designs of 2019"
-date: 2019-12-24T13:40:00+06:00
-image: images/library/blog-post-01.jpg
-feature_image: images/library/blog-details-image.jpg
+title: "Git & GitHub"
+date: 2019-12-24T13:36:06+06:00
+image: images/library/Git-and-GitHub/Git-and-GitHub.png
+feature_image: images/library/Git-and-GitHub/Git-and-GitHub.png
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith
@@ -32,6 +32,6 @@ Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. 
 > "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring."
 
 
-
 > Paul Rand, graphic designer
+
 

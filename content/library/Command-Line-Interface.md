@@ -1,8 +1,8 @@
 ---
-title: "Design Inspiration: The Best Projects From November"
-date: 2019-12-24T13:36:06+06:00
-image: images/library/blog-post-02.jpg
-feature_image: images/library/blog-details-image.jpg
+title: "Command Line Interfaces"
+date: 2019-12-24T13:45:06+06:00
+image: images/library/Command-Line-Interface/CLIs.png
+feature_image: images/library/Command-Line-Interface/CLIs.png
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith
@@ -33,5 +33,4 @@ Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. 
 
 
 > Paul Rand, graphic designer
-
 
