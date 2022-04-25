@@ -1,9 +1,16 @@
+# Here's what to put in additional testimonial items:
+  # - thumb : images/team/web-team/<insert member headshot>
+  #   name  : "<insert member name>"
+  #   member: "Member <insert last semester member was in GWC (ex: Spring, Fall, Summer)> <insert 2 digit year with ' in front (ex: '21 or '22)"
+  #   quote : > 
+            # "<insert quote - try to keep to a couple sentences>"
+
 enable  : true
 title   : "What People Say"
 testimonial_item :
   - thumb : images/team/web-team/Zaina-Shawar.png
     name  : "Zaina Shawar"
-    member: "Member Fall '22"
+    member: "Member Spring '22"
     quote : > 
             "Girls Who Code has allowed me to grow as a leader and work with like minded individuals. My favorite events were the technical workshops." 
 #TODO: Insert more quotes
