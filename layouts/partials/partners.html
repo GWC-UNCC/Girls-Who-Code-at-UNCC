@@ -12,13 +12,14 @@
         
         <!-- Sponsor Images -->
         {{ range .partners }}
-        <div class="col-lg-4 col-md-6">         
-            <a href="{{ .url }}"><img src="{{ .image | absURL }}" alt="partner-logo"></a>
+        <div class="col-lg-3 col-md-6">         
+            <a href="{{ .url }}"><img src="{{ .image | absURL }}" alt="partner-logo" class="img-fluid partner-logos"></a>
         </div>
         {{ end }}
-    
+
       </div>
     </div>
+
   </section>
   {{ end }}
 {{ end }}

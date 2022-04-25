@@ -72,6 +72,20 @@ textarea.form-control{
   height: auto;
 }
 
+.partner-logos {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  @include desktop {
+    width: 65%;
+  }
+  @include tablet {
+    width: 50%;
+  }
+
 .about-icons {
   margin-right: 18px;
   font-size: 40px;
@@ -79,5 +93,6 @@ textarea.form-control{
 
 .about-icon-top {
   padding-top: 20px;
+
 }
 // this is an easter egg #3, post in the web team channel if you found me 😁
