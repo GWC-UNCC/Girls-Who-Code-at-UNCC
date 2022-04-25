@@ -80,10 +80,10 @@ textarea.form-control{
   margin-bottom: 30px;
 
   @include desktop {
-    width: 65%;
+    width: 55%;
   }
   @include tablet {
-    width: 50%;
+    width: 40%;
   }
 }
 

@@ -13,5 +13,6 @@ partners    :
     url     : https://www.girlscoutsp2p.org/
   - image   : images/partners/AOE-logo.png
     url     : https://aoeuncc.wixsite.com/betakappa
-  - image   : images/partners/charlotte-hacks.png
-    url     : https://ninerengage.uncc.edu/organization/charlotte-hack
+  # CLT Hack does not have a logo that works well on black background  
+  # - image   : images/partners/charlotte-hacks.png
+  #   url     : https://ninerengage.uncc.edu/organization/charlotte-hack
