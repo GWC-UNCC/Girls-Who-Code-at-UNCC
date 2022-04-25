@@ -24,7 +24,7 @@
                 {{ $socials := .socials }}
                 {{ if gt ($socials) 0 }}
                   {{ range $social_key, $social_val := $socials}}
-                  <li><a href="{{ $social_val | safeURL }}"><i class="fa fa-{{ $social_key }}"></i></a></li>
+                  <li class="linked-text__white--purple"><a href="{{ $social_val | safeURL }}"><i class="fa fa-{{ $social_key }}"></i></a></li>
                   {{ end }}
                 {{ end }}
               </ul>
@@ -59,7 +59,7 @@
                 {{ $socials := .socials }}
                 {{ if gt ($socials) 0 }}
                   {{ range $social_key, $social_val := $socials}}
-                  <li><a href="{{ $social_val | safeURL }}"><i class="fa fa-{{ $social_key }}"></i></a></li>
+                  <li class="linked-text__white--purple"><a href="{{ $social_val | safeURL }}"><i class="fa fa-{{ $social_key }}"></i></a></li>
                   {{ end }}
                 {{ end }}
               </ul>

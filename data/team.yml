@@ -16,6 +16,7 @@ eboard_members  :
     designation : VP of Communications
     socials:
       linkedin: https://www.linkedin.com/in/zaina-shawar/
+      github: https://github.com/zshawar
 
   - image       : images/team/e-board/Chanel-Briggs.png
     name        : Chanel Briggs
@@ -57,6 +58,7 @@ web_team_members  :
     designation : Lead Developer, Designer
     socials:
       linkedin: https://www.linkedin.com/in/zaina-shawar/
+      github: https://github.com/zshawar
 
   - image       : images/team/web-team/Michelle-Camacho.png
     name        : Michelle Camacho
