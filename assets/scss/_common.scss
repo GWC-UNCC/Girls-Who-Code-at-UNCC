@@ -30,9 +30,10 @@ body {
   border-radius: 0;
   margin-bottom: 30px;
   padding: 0 0 10px 0;
-  border-width: 0 0 1px 0;
-  border-color: $primary-color;
-  font-weight: 300;
+  border-width: 0 0 3px 0;
+  border-bottom-color: #6A08B8;
+  color: black !important;
+  font-weight: 400;
   letter-spacing: 1px;
   -webkit-appearance: none;
   height: 42px;
@@ -40,6 +41,9 @@ body {
     box-shadow: none;
     background: transparent;
     border-color: $text-color;
+  }
+  &::placeholder {
+    color: black;
   }
 }
 
