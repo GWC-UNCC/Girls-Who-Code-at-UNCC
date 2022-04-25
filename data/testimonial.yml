@@ -5,12 +5,12 @@ testimonial_item :
     name  : "Zaina Shawar"
     member: "Member Fall '22"
     quote : > 
-            "GirlsWhoCode has allowed me to grow as a leader and work with like minded individuals. My favorite events were the technical workshops." 
-
-  - thumb : images/team/web-team/Michelle-Camacho.png
-    name  : Michelle Camacho
-    member: "Member Spring '22"
-    quote : > 
-            "Roxo products have allowed us to deliver better support to all our clients. The agility with which we can implement new features and workflows is a key element." 
+            "Girls Who Code has allowed me to grow as a leader and work with like minded individuals. My favorite events were the technical workshops." 
+#TODO: Insert more quotes
+  # - thumb : images/team/web-team/Michelle-Camacho.png
+  #   name  : Michelle Camacho
+  #   member: "Member Spring '22"
+  #   quote : > 
+  #           "Roxo products have allowed us to deliver better support to all our clients. The agility with which we can implement new features and workflows is a key element." 
 
   

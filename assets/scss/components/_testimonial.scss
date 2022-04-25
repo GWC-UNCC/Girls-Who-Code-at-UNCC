@@ -1,6 +1,7 @@
 .site-testimonial{
   background: $gray;
-  padding: 100px 0;
+  padding-top: 50px;
+  padding-bottom: 0px;
   overflow: hidden;
   &-item{
     background: $white;
@@ -39,4 +40,40 @@
       font-weight: 300;
     }
   }
+}
+
+.img-thumbnail{
+  border: none;
+  background-color: #6A08B8 !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.member-info {
+  padding-top: 15px;
+}
+
+.quote-section-title {
+  margin-bottom: 45px;
+  @include desktop{
+    text-align: center;
+  }
+  h2{
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    @include desktop{
+      font-size: 40px;
+    }
+  }
+  p{
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+.p-5 {
+  padding:1rem !important;
 }
