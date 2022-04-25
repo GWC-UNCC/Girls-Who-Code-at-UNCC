@@ -97,3 +97,23 @@ textarea.form-control{
 
 }
 // this is an easter egg #3, post in the web team channel if you found me 😁
+
+.member_ul {
+  list-style-type: none;
+  .li_bullet {
+    &::before {
+      content: "";
+      height: 1.5rem;
+      width: 1.5rem;
+      display: inline-block;
+      background-image: url("../images/icons/sparkles.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-right: 0.5rem;
+    }
+  }
+
+  li {
+    padding: .25rem;
+  }
+}
