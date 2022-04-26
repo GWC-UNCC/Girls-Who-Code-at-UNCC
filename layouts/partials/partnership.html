@@ -17,11 +17,14 @@
                     {{ end }}
                     {{ range .event_options }}
                     <h3>{{ .subsection_title }}</h3>
-                    {{ $icon := .icon}}
-                    {{ range .points }}
-                    <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
-                    <p>{{ . }}</p>
-                    {{ end }}
+                    <ul class="member_ul d-flex flex-column p-1">
+                        {{ range .points }}
+                        <div class="pb-2 d-flex align-items-center">
+                            <div class="li_bullet align-self-start"></div>
+                            <li>{{ . }}</li>
+                        </div>
+                        {{ end }}
+                    </ul>
                     {{ end }}
                     {{ with .previous_partner_events }}
                     <h3>{{ .subsection_title }} </h3>
