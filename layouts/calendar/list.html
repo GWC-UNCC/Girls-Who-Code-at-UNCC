@@ -71,10 +71,14 @@
           {{ range .important_notes }}
           <h2>{{ .title }}</h2>
           {{ $icon := .icon }}
-          {{ range .points }}
-          <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
-          <p>{{ . }}</p>
-          {{ end }}
+          <ul class="member_ul d-flex flex-column p-1">
+            {{ range .points }}
+            <div class="pb-2 d-flex align-items-center">
+              <div class="li_bullet align-self-start" title="sparkle-bullet"></div>
+              <li>{{ . }}</li>
+            </div>
+            {{ end }}
+          </ul>
           {{ .notes_text }}
           {{ end }}
         </div>
