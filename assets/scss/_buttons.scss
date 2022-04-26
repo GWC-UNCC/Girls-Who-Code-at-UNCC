@@ -80,7 +80,6 @@
   background: $main-gradient !important;
   &:hover, &:active {
     background: $main-inverse-gradient !important;
-    // TODO: Fix hover text color on Get in Touch Button
-    color: $white;
+    color: $white !important;
   }
 }
