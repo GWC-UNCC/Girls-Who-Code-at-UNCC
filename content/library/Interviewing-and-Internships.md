@@ -1,8 +1,8 @@
 ---
-title: "The 10 Biggest Product Stories of 2019"
-date: 2019-12-24T12:58:17+06:00
-image: images/library/blog-post-04.jpg
-feature_image: images/library/blog-details-image.jpg
+title: "Interviewing & Internships"
+date: 2019-12-24T13:40:00+06:00
+image: images/library/Interviewing-and-Internships/Interviewing-and-Internships.png
+feature_image: images/library/Interviewing-and-Internships/Interviewing-and-Internships.png
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith
@@ -30,6 +30,7 @@ The company was previously known as Hingston + Co. but has been given a complete
 Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
 
 > "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring."
+
 
 
 > Paul Rand, graphic designer

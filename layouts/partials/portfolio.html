@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <h2>{{ .title }}</h2>
+            <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
         {{ range first 3 (where $.Site.RegularPages "Type" "upcoming-event") }}
@@ -42,7 +42,7 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <h2>{{ .title }}</h2>
+            <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
         {{ range first 3 (where $.Site.RegularPages "Type" "event-recap") }}

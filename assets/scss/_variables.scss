@@ -1,9 +1,9 @@
 //site color variables
 $body-color: #fff;
-$primary-color: #6A08B8;
+$primary-color: #EAA4A4;
 $secondary-color: #000000;
-$text-color: #000;
-$text-color-dark: #000;
+$text-color: #9D9EA5;
+$text-color-dark: #00113E;
 $site-ease: cubic-bezier(0.36, 0.03, 0, 0.91);
 $gray: #F7F9FF;
 $dark-gray: #646569;
@@ -55,7 +55,7 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
 .white {
   $w_opposite: #000;
   $w_blue: #00C7D3;
-  $w_purple: #7603D0;
+  $w_purple: #6A08B8;
   &__color {
     &--opposite {
       color: $w_opposite !important;
@@ -84,6 +84,7 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
   $b_opposite: #fff;
   $b_blue: #00C7D3;
   $b_purple: #6A08B8;
+  $b_light_purple: #A5A6F6;
   &__color {
     &--opposite {
       color: $b_opposite !important;
@@ -93,6 +94,9 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
     }
     &--purple {
       color: $b_purple !important;
+    }
+    &--light-purple {
+      color: $b_light_purple !important;
     }
   }
   &__bg {

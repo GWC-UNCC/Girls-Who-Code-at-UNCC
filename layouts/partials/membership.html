@@ -13,10 +13,14 @@
                     {{ range .titleThree }}
                     <h3>{{ .name }}</h3>
                     {{ $icon := .icon}}
+                    <ul class="member_ul d-flex flex-column p-1">
                     {{ range .points }}
-                    <img src="{{ $icon | absURL }}" alt="sparkles-bullet">
-                    <p>{{ . }}</p>
+                        <div class="pb-2 d-flex align-items-center">
+                            <div class="li_bullet align-self-start"></div>
+                            <li>{{ . }}</li>
+                        </div>
                     {{ end }}
+                    </ul>
                     {{ end }}
                 </div>
             </div>
