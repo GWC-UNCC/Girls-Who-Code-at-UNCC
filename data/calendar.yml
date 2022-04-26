@@ -2,7 +2,7 @@ enable : true
 upcoming_events :
   - subsection_title: "Upcoming"
     points:
-      - See more on joining virtual and in-person events and other important notes below.
+      - See more on joining **virtual** and **in-person** events and other **important notes** below.
     keys:
       - icon: images/icons/purple-block.png
         text: "Open to Public"
@@ -14,12 +14,12 @@ upcoming_events :
 missed_event :
   - subsection_title : "Missed an Event?"
     points :
-    - "Check out our event recaps and find any related resources [here](../portfolio)"
+    - "Check out our event recaps and find any related resources [**here**](../portfolio)"
     
 virtual_events  :
   - subsection_title : "Virtual"
     points : 
-    - "When joining events virtually, make sure you are logged into zoom with your UNCC account if it's a GWC-specific event. 
+    - "When joining events virtually, make sure you are logged into **zoom** with your UNCC account if it's a GWC-specific event. 
       Some events may note that they are open to the public, in which case a UNCC account is not required. However, 
       most events are for GWC members or UNC Charlotte students. You can learn more about using your UNCC account with zoom [here](https://spaces.uncc.edu/pages/viewpage.action?pageId=82969679). 
       For more on using zoom in general, see [here](https://spaces.charlotte.edu/display/FAQ/General+Zoom+Information)."
