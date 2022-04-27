@@ -28,7 +28,7 @@
                     {{ end }}
                     {{ with .previous_partner_events }}
                     <h3>{{ .subsection_title }} </h3>
-                    <p>{{ .description | markdownify }}</p>
+                    <p class="linked-text__purple">{{ .description | markdownify }}</p>
                     {{ end }}
                     {{ end }}
                     {{ end }}
@@ -41,7 +41,7 @@
                                 <!-- TODO: Limit to events with label of partnership -->
                                 {{ range first 3 (where $.Site.RegularPages "Type" "event-recap") }}
                                 <div class="col-lg-4 col-md-10">
-                                    <div class="site-project-item">
+                                    <div class="site-project-item mb-0">
                                         <a href="{{ .Permalink }}">
                                             <div class="site-project-item-thumb">
                                                 <img src="{{ .Params.Image | absURL }}" alt="project-thumb">

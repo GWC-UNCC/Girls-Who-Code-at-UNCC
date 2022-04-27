@@ -141,6 +141,7 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
   }
   &__purple > a {
     &:visited, &:link {
+      font-weight: 400;
       color: var(--darker-purple);
     }
     &:active, &:hover {
