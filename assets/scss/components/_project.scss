@@ -7,7 +7,7 @@
   overflow: hidden;
   &-item{
     position: relative;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     transition: all 0.3s ease-in;
     box-shadow: var(--shadow-light-1);
     &-thumb{
@@ -126,9 +126,9 @@
     }
   }
   &-header{
-    padding: 170px 0 100px;
+    padding: 170px 0 50px;
     margin-top: 100px;
-    background: $gray;
+    // background: $gray;
     @include tablet{
       padding: 120px 0 80px;
     }
