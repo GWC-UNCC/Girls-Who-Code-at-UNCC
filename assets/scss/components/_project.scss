@@ -173,6 +173,7 @@
   }
   &-pagination{
     margin-top: 40px;
+    margin-bottom: 5rem;
     .pagination{
       justify-content: center;
       .page-item{
@@ -181,7 +182,6 @@
         }
         .page-link{
           font-size: 24px;
-          border-radius: 10px;
           border: none;
           padding: 12px 20px;
           color: $text-color-dark;
@@ -190,7 +190,7 @@
         }
         &.active{
           .page-link{
-            background-color: $primary-color;
+            background-color: $black;
             color: $white;
           }
         }
