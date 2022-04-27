@@ -14,13 +14,17 @@
           {{ range .upcoming_events }}
           <h2>{{ .subsection_title }}</h2>
           {{ range .points }}
-          <p> {{ . | markdownify }} </p>
+          <p class="mb-1"> {{ . | markdownify }} </p>
           {{ end }}
-          {{ range .keys}}
-          {{ $icon := .icon}}
-          <img src="{{ $icon | absURL }}" alt="color-block" height="15">
-          <p>{{ .text }}</p>
-          {{ end }}
+          <div class="d-flex flex-grow col-lg-10 pl-0">
+            {{ range .keys}}
+            {{ $icon := .icon}}
+            <div class="col-3 d-flex justify-content-start align-items-center mb-3 pl-0 pr-0">
+              <img src="{{ $icon | absURL }}" alt="color-block" height="15" class="mr-2">
+              <p class="m-0">{{ .text }}</p>
+            </div>
+            {{ end }}
+          </div>
           {{ end }}
 
           <iframe
