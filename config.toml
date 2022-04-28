@@ -57,35 +57,35 @@ send_message = "Send Message"
 
 [[params.contactForm.affiliationType]]
 title = "School"
-value = "S"
+value = "School"
 
 [[params.contactForm.affiliationType]]
 title = "University"
-value = "U"
+value = "University"
 
 [[params.contactForm.affiliationType]]
 title = "Company"
-value = "C"
+value = "Company"
 
 [[params.contactForm.affiliationType]]
 title = "Other"
-value = "O"
+value = "Other"
 
 [[params.contactForm.topic]]
 title = "Membership"
-value = "M"
+value = "Membership"
 
 [[params.contactForm.topic]]
 title = "Partnership"
-value = "P"
+value = "Partnership"
 
 [[params.contactForm.topic]]
 title = "Sponsorship"
-value = "S"
+value = "Sponsorship"
 
 [[params.contactForm.topic]]
 title = "Other"
-value = "O"
+value = "Other"
 
 # Navbar Action Button
 [params.navAction]
