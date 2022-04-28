@@ -7,19 +7,20 @@
                 <div>
                     <!-- Membership title and description -->
                     <h2 class="title-shadow" id="become-a-member">{{ .title }}</h2>
-                    <p>{{ .subtitle }}</p>
+                    <p class="mb-5">{{ .subtitle }}</p>
                     <h3>{{ .titleTwo }}</h3>
-                    <p>{{ .subtitleTwo }}</p>
+                    <p class="mb-5">{{ .subtitleTwo }}</p>
                     {{ range .titleThree }}
                     <h3>{{ .name }}</h3>
-                    <ul class="member_ul d-flex flex-column p-1">
+                    <ul class="member_ul d-flex flex-column p-1 mb-0">
                     {{ range .points }}
                         <div class="pb-2 d-flex align-items-center">
                             <div class="li_bullet align-self-start" title="sparkles-bullet"></div>
-                            <li>{{ . }}</li>
+                            <li>{{ . | markdownify }}</li>
                         </div>
                     {{ end }}
                     </ul>
+                    <p class="pl-2">{{ .final_point}}</p>
                     {{ end }}
                 </div>
             </div>

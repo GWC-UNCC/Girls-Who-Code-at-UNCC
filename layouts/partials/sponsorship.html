@@ -6,7 +6,7 @@
         <div class="col-12">
           <div>
             <h2 class="title-shadow">{{ .title }}</h2>
-            <p>{{ .subtitle }}</p>
+            <p class="linked-text__purple">{{ .subtitle | markdownify }}</p>
             <h3>{{ .sectionText }}</h3>
           </div>
         </div>

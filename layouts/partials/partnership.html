@@ -7,16 +7,16 @@
                 <div>
                     <!-- Partnership title and description -->
                     <h2 class="title-shadow">{{ .title }}</h2>
-                    <p>{{ .subtitle }}</p>
+                    <p class="mb-5">{{ .subtitle }}</p>
                     <!-- We host and you host sections -->
                     {{ range .hosting_type }}
-                    <h3>{{ .subsection_title }}</h3>
+                    <h3 class="mt-5 mb-3">{{ .subsection_title }}</h3>
                     {{ range .points }}
                     <p>{{ . }}</p>
                     {{ end }}
                     {{ end }}
                     {{ range .event_options }}
-                    <h3>{{ .subsection_title }}</h3>
+                    <h3 class="mt-5 mb-3">{{ .subsection_title }}</h3>
                     <ul class="member_ul d-flex flex-column p-1">
                         {{ range .points }}
                         <div class="pb-2 d-flex align-items-center">
@@ -27,8 +27,8 @@
                     </ul>
                     {{ end }}
                     {{ with .previous_partner_events }}
-                    <h3>{{ .subsection_title }} </h3>
-                    <p class="linked-text__purple">{{ .description | markdownify }}</p>
+                    <h3 class="mt-5">{{ .subsection_title }} </h3>
+                    <p class="linked-text__purple mb-4">{{ .description | markdownify }}</p>
                     {{ end }}
                     {{ end }}
                     {{ end }}
