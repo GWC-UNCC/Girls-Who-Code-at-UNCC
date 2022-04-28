@@ -13,11 +13,10 @@ testimonial_item :
     member: "Member Spring '22"
     quote : > 
             "Girls Who Code has allowed me to grow as a leader and work with like minded individuals. My favorite events were the technical workshops." 
-#TODO: Insert more quotes
-  # - thumb : images/team/web-team/Michelle-Camacho.png
-  #   name  : Michelle Camacho
-  #   member: "Member Spring '22"
-  #   quote : > 
-  #           "Roxo products have allowed us to deliver better support to all our clients. The agility with which we can implement new features and workflows is a key element." 
 
-  
+  - thumb : images/team/e-board/Elise-Frazier.png
+    name  : Elise Frazier
+    member: "Member Spring '22"
+    quote : > 
+            "What makes GWC the best experience is the community and opportunities to help grow and nurture yourself and others." 
+
