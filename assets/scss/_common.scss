@@ -59,7 +59,7 @@ select.form-control{
     position: absolute;
     width: 16px;
     height: 10px;
-    background: url('../images/angle-down-select.svg');
+    background: url("#{$base_url}/images/angle-down-select.svg");
     background-size: contain;
     background-repeat: no-repeat;
     right: 15px;
@@ -106,7 +106,7 @@ textarea.form-control{
       height: 1.5rem;
       width: 1.5rem;
       display: inline-block;
-      background-image: url("../images/icons/sparkles.svg");
+      background-image: url("#{$base_url}/images/icons/sparkles.svg");
       background-size: contain;
       background-repeat: no-repeat;
       margin-right: 0.5rem;
