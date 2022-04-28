@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", function() {
   function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = "Thank you for contacting GWC! Your message has been sent successfully.";
+    status.innerHTML = "Message Sent Successfully!";
   }
 
   function error() {
