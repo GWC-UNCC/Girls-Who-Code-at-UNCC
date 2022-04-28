@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" />
   {{ "<!-- Main Stylesheets -->" | safeHTML }}
 
+  <!-- allows you to see scss files in the browser inspection tool (F12 or Ctrl+Shift+i) -->
   {{ $options := (dict "enableSourceMap" true ) }}
   <!-- defining outside the if block, so it can be accessed afterwards -->
   {{ $styles := "" }}
