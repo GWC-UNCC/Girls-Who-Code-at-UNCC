@@ -21,7 +21,7 @@
                         {{ range .points }}
                         <div class="pb-2 d-flex align-items-center">
                             <div class="li_bullet align-self-start" title="sparkles-bullet"></div>
-                            <li>{{ . }}</li>
+                            <li class="linked-text__purple">{{ . | markdownify }}</li>
                         </div>
                         {{ end }}
                     </ul>
