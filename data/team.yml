@@ -1,8 +1,8 @@
 enable  : true
-titleOne   : Our Executive Board '22
-subtitleOne: Meet our GWC E-board! Our E-board members work hard all year to bring awesome opportunities and events to our members. Keep a look out for our annual elections towards the end of each spring semester to see how you can join us!
-titleTwo: Our Web Team '22
-subtitleTwo: Meet our GWC Web Dev Team that designed and developed this website! You can learn more about this project and what each of these teammates and roles did [here](../portfolio/gwc-website-project/).
+titleOne   : Our Executive Board
+subtitleOne: Meet our 2021-22 GWC E-board! Our E-board members work hard all year to bring awesome opportunities and events to our members. Keep a look out for our annual elections towards the end of each spring semester to see how you can join us!
+titleTwo: Our Web Team
+subtitleTwo: Meet our Spring 2022 GWC Web Team that designed and developed this website! You can learn more about this project and what each of these teammates and roles did [here](../portfolio/gwc-website-project/).
 eboard_members  :
   - image       : images/team/e-board/Elise-Frazier.png
     name        : Elise Frazier

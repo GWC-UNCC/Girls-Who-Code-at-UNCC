@@ -14,21 +14,12 @@
           {{ range .upcoming_events }}
           <h2 class="title-shadow">{{ .subsection_title }}</h2>
           {{ range .points }}
-          <p class="mb-1 linked-text__purple"> {{ . | markdownify }} </p>
+          <p class="mb-4 linked-text__purple"> {{ . | markdownify }} </p>
           {{ end }}
-          <div class="d-flex flex-grow col-lg-10 pl-0">
-            {{ range .keys}}
-            {{ $icon := .icon}}
-            <div class="col-3 d-flex justify-content-start align-items-center mb-3 pl-0 pr-0">
-              <img src="{{ $icon | absURL }}" alt="color-block" height="15" class="mr-2">
-              <p class="m-0">{{ .text }}</p>
-            </div>
-            {{ end }}
-          </div>
           {{ end }}
 
           <iframe
-            src="https://calendar.google.com/calendar/embed?height=800&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showDate=1&showNav=0&showTabs=0&showPrint=0&src=OW11b3ZmZHU0MWlpZjVvM2kybjIxNGltcjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23E67C73"
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&src=Z2lybHN3aG9jb2RldW5jY0BnbWFpbC5jb20&src=MDIwMnYxbm1sYnJnOHJvOGZvdWtrMnFuYzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%238E24AA&color=%23009688"
             style="border:solid 1px #777" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
         </div>
       </div>
