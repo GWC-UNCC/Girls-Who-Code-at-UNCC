@@ -4,6 +4,7 @@
     $b_blue: #00C7D3;
     $b_purple: #6A08B8;
     @extend .site-project;
+    padding-top: 140px;
     @include mobile{
       padding: 70px 0;
     }
@@ -22,6 +23,7 @@
       }
       h1{
         font-weight: 700;
+        font-size: 80px;
         letter-spacing: 10px;
         margin-bottom: 20px;
         @include mobile{
@@ -29,8 +31,10 @@
         }
       }
       p{
-        line-height: 28px;
+        line-height: 1.8rem;
         margin-bottom: 0;
+        font-size: 22px;
+        font-weight: 400;
       }
     }
     &-pagination{

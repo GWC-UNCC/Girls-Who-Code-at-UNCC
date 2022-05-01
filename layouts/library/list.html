@@ -3,10 +3,10 @@
 <section class="site-library-header">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
+      <div class="col-lg-10 text-center">
         <h1 class="white__color--purple mb-4">{{ .Title }}</h1>
-        <p>
-          {{ .Params.description }}
+        <p class="linked-text__purple">
+          {{ .Params.description | markdownify }}
         </p>
       </div>
     </div>

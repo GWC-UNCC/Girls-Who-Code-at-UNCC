@@ -24,6 +24,7 @@
       {{ range (.Paginator 9).Pages }}
       <div class="col-lg-4 col-md-10 mx-auto">
         <div class="site-project-item">
+          <a href="{{ .Permalink }}">
           <div class="site-project-item-thumb">
             <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
           </div>
@@ -32,6 +33,7 @@
             <h4>{{ .Title }}</h4>
             <a href="{{ .Permalink }}" class="read-more">view project</a>
           </div>
+        </a>
         </div>
       </div>
       {{ end }}

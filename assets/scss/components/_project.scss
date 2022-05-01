@@ -2,7 +2,7 @@
   $b_opposite: #fff;
   $b_blue: #00C7D3;
   $b_purple: #6A08B8;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 0px;
   overflow: hidden;
   &-item{
@@ -72,7 +72,7 @@
           }
         }
       }
-      a.read-more{
+      .read-more{
         position: absolute;
         bottom: 40px;
         display: block;
