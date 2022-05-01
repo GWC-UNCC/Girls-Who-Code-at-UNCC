@@ -68,7 +68,7 @@
 
 {{ $formhandler := resources.Get "js/formhandler.js" | minify }}
 <script src="{{ $formhandler.Permalink }}"></script>
-{{ $vendor := resources.Get "js/vendor.js" | minify }}
+{{ $vendor := resources.Get "js/vendor.js" }}
 <script src="{{ $vendor.Permalink }}"></script>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
