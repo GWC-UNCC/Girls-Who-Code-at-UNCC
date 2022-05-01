@@ -131,3 +131,15 @@ textarea.form-control{
 .border-primary {
   border-color: var(--darker-purple) !important;
 }
+
+.content > * {
+  & a { 
+    &:visited, &:link {
+      font-weight: 400;
+      color: var(--darker-purple);
+    }
+    &:active, &:hover {
+      color: var(--lighter-purple);
+    }
+  }
+}
