@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
-    <body>
+    <body {{ if eq $.Page.Permalink site.BaseURL }} style="background-color: black;" {{ end }}>
         {{- partial "header.html" . -}}
         <main>
             {{- block "main" . }}{{- end }}
