@@ -36,19 +36,19 @@ inPerson_events :
 
 
 important_notes :
-  - title : "Important Notes"
-    description: 
-      - "To see the latest updates to our events, add our GWC Members calendar to yours! 
-      You can do this with the link in our Weekly Newsletter. 
-      Want to receive our newsletter? Check out the [Become a Member](../about#become-a-member) section!"
-      - "------------------------------------------"
-      - "For quick access to registration links for upcoming events and our regular zoom link, see [here](https://linktr.ee/girlswhocode_uncc)."
-      - "------------------------------------------"
-    icon : "images/icons/sparkles.svg"
-    points :
-    - "Some events require registration"
-    - "Workshops are open to all students!"
-    - "Some events have limited spots"
-  - notes_text : 
-      "Even once our events are over each semester, 
-      we'll still have our Discord channels all year round where you can start your own study session or social event and chat with other members!"
+  title : "Important Notes"
+  description: 
+    - "To see the latest updates to our events, add our GWC Members calendar to yours! 
+    You can do this with the link in our Weekly Newsletter. 
+    Want to receive our newsletter? Check out the [Become a Member](../about#become-a-member) section!"
+    - "------------------------------------------"
+    - "For quick access to registration links for upcoming events and our regular zoom link, see [here](https://linktr.ee/girlswhocode_uncc)."
+    - "------------------------------------------"
+  icon : "images/icons/sparkles.svg"
+  points :
+  - "Some events require registration"
+  - "Workshops are open to all students!"
+  - "Some events have limited spots"
+  notes_text : 
+    "Even once our events are over each semester, 
+    we'll still have our Discord channels all year round where you can start your own study session or social event and chat with other members!"
