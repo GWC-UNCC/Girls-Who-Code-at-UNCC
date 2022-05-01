@@ -2,15 +2,8 @@ enable : true
 upcoming_events :
   - subsection_title: "Upcoming"
     points:
-      - Check out our current month's events in our calendar below! Some events will be open to the public, UNCC students, or specifically for GWC Members. 
+      - Check out our events calendar below! Some events will be open to the public, UNCC students, or specifically for GWC Members. Unless noted otherwise in the event description, Girls Who Code events are open to all UNCC students. Events that are specifically for GWC members or are open to the public will state this in the event description.
         See more on joining [virtual](#virtual-events) and [in-person events](#in-person-events) and other [important notes](#important-notes) below.
-    keys:
-      - icon: images/icons/purple-block.png
-        text: "Open to Public"
-      - icon: images/icons/green-block.png
-        text: "UNCC Students"
-      - icon: images/icons/blue-block.png
-        text: "GWC Member Only"
 
 missed_event :
   - subsection_title : "Missed an Event?"
