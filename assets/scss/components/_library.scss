@@ -78,6 +78,10 @@
     }
     /* Post single page styling */
     &-details{
+      padding: 120px 0 80px;
+      .library-date {
+        font-weight: 400;
+      }
       img{
         max-width: 100%;
         margin-bottom: 20px;
