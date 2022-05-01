@@ -8,13 +8,13 @@
           <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span></p>
           <h2 class="library-title">{{ .Title }}</h2>
           <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="library-feature-image">
-          {{ .Content }}
+          <div class="content">
+            {{ .Content }}
+          </div>
         </article>
       </div>
     </div>
   </div>
 </section>
-
-{{ partial "call-to-action.html" . }}
 
 {{ end }}
