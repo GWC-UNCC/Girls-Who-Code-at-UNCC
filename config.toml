@@ -113,7 +113,7 @@ enable = true
 primary_button = "Learn More"
 primary_button_url = "about"
 secondary_button = "Join Us"
-secondary_button_url = "about"
+secondary_button_url = "about#become-a-member"
 title = "Interested in GWC?"
 
 [params.footer]

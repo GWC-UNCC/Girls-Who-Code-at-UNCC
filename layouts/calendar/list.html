@@ -46,21 +46,21 @@
           {{ range .missed_event }}
           <h2 class="title-shadow">{{ .subsection_title }}</h2>
           {{ range .points }}
-          <p> {{ . | markdownify }} </p>
+          <p class="linked-text__purple mb-5"> {{ . | markdownify }} </p>
           {{ end }}
           {{ end }}
           <!-- Subsection for Virtual Events begin -->
           {{ range .virtual_events }}
           <h2 class="title-shadow" id="virtual-events">{{ .subsection_title}}</h2>
           {{ range .points }}
-          <p class="linked-text__purple">{{ . | markdownify }}</p>
+          <p class="linked-text__purple mb-5">{{ . | markdownify }}</p>
           {{ end }}
           {{ end }}
           <!-- Subsection for in person Events begin -->
           {{ range .inPerson_events }}
           <h2 class="title-shadow" id="in-person-events">{{ .subsection_title}}</h2>
           {{ range .points }}
-          <p class="linked-text__purple">{{ . }}</p>
+          <p class="linked-text__purple mb-5">{{ . }}</p>
           {{ end }}
           {{ end }}
           <!-- Subsection for Important Notes begin -->
