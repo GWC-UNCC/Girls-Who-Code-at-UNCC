@@ -1,27 +1,16 @@
 ---
 title: "Hackathons"
-date: 2022-04-15T14:11:19-04:00
+date: 2022-05-01T14:11:19-04:00
 image: images/library/Hackathons/Hackathons.png
-feature_image: images/library/Hackathons/Hackathons.png
-author: Alexender Schoitiz
+feature_image: images/library/Hackathons/Hackathons-cover.png
+author: Girls Who Code at UNCC
 ---
 
-### Black Lines brand identity, by & Smith
+A hackathon is essentially a short period of time to build a project, typically with a team. These projects, or 'hacks,' are usually created to offer a solution to some type of problem. These 'problems' often times are used as Prize Categories on [Devpost](https://devpost.com/). You can check out our very first hackathon that GWC and ACMW hosted together [here](https://bit.ly/axe-hacks)!
 
-Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
+&nbsp;
 
-1. ROFL means Rolling on floor laughing.
-2. STFU means Shut the *freak* up.
-3. LMK means Let me know.
-4. ILY means I love you.
-5. YOLO means You only live once.
-6. SMH means Shaking my head.
+---
+#### More Resources Coming Soon!
 
-The company was previously known as Hingston + Co. but has been given a complete rebrand — including a new logo, tap badges, website and branded material — by London-based design studio & Smith. The new identity is based on the Kandinsky abstract painting, Black Lines, and true to its name, is mostly black and white with a few flashes of colour. According to & Smith, the identity brings together “art and science” and has been brought to life through collaborations with nine illustrators.
-
-1. ROFL means Rolling on floor laughing.
-2. STFU means Shut the *freak* up.
-3. LMK means Let me know.
-4. ILY means I love you.
-5. YOLO means You only live once.
-6. SMH means Shaking my head.
+---
