@@ -9,8 +9,7 @@
         <div class="site-footer-widget">
           <h5 class="site-footer-widget-title">{{ .title }}</h5>
             <!-- TODO: Insert icons -->
-            <a href="mailto:{{ .email }}">{{ .email }}</a>
-            <br>
+            <p class="black__color--opposite">{{ .email }}</p>
             <p class="site-footer-widget-description">
               {{ .address1 | safeHTML }} <br>
               {{ .address2 | safeHTML }}
