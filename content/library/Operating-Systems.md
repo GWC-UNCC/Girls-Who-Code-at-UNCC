@@ -11,6 +11,6 @@ An operating system is the software on your computer that runs all other applica
 &nbsp;
 
 ---
-### More Resources Coming Soon!
+#### More Resources Coming Soon!
 
 ---
