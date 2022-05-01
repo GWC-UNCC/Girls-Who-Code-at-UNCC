@@ -13,23 +13,23 @@ url = ""
 weight = 1
 [[menu.nav]]
 name = "About"
-url = "about"
+url = "about/"
 weight = 2
 [[menu.nav]]
 name = "Portfolio"
-url = "portfolio"
+url = "portfolio/"
 weight = 3
 [[menu.nav]]
 name = "Library"
-url = "library"
+url = "library/"
 weight = 4
 [[menu.nav]]
 name = "Calendar"
-url = "calendar"
+url = "calendar/"
 weight = 5
 [[menu.nav]]
 name = "Get in touch"
-url = "contact"
+url = "contact/"
 weight = 6
 
 # Site Params
