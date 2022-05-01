@@ -7,7 +7,7 @@
           <h1 class="site-cta-title black__color--opposite">{{ .title }}</h1>
           <ul class="site-cta-buttons">
             <li>
-              <a href="{{ .primary_button_url | absURL }}" class="btn btn-gradient">
+              <a href="{{ .primary_button_url | absURL }}" class="btn btn-gradient cta-button">
                 <span class="btn-area">
                   <span data-text="{{ .primary_button }}">
                     {{ .primary_button }}
@@ -16,7 +16,7 @@
               </a>
             </li>
             <li>
-              <a href="{{ .secondary_button_url }}" class="btn btn-gradient">
+              <a href="{{ .secondary_button_url }}" class="btn btn-gradient cta-button">
                 <span class="btn-area">
                   <span data-text="{{ .secondary_button }}">
                     {{ .secondary_button }}
