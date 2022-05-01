@@ -19,7 +19,7 @@
             <div class="site-project-item-content main-gradient">
               <span>{{ delimit .Params.category ", " }}</span>
               <h4>{{ .Title }}</h4>
-              <a href="{{ .Permalink }}" class="read-more">view project</a>
+              <a href="{{ .Permalink }}" class="read-more">{{ .PublishDate.Format "January 2, 2006" }}</a>
             </a>
             </div>
           </div>
