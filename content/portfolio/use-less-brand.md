@@ -1,13 +1,13 @@
 ---
-title: "USE-LESS BRAND"
-date: 2019-12-23T15:58:10+06:00
+title: "Internship Panel"
+date: 2022-04-29T15:58:10+06:00
 type: event-recap
 image: "images/projects/project-thumb-one.jpg"
 event_type:
 event_topic:
 year: 
 semester: 
-category: ["UI UX"]
+category: ["PROFESSIONAL"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
 ---
 

@@ -1,33 +1,71 @@
 ---
 title: "Web Project '22"
-date: 2019-01-23T20:56:42+06:00
-type: upcoming-event
+date: 2022-01-01T20:56:42+06:00
+# type: upcoming-event
 image: "images/projects/project-thumb-four.jpg"
 event_type:
 event_topic:
 year: 
 semester: 
-category: ["Technical"]
+category: ["WEB DEV"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
 ---
 
-The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.
+**WE DID IT!** As of May 2nd, 2022, our GWC Web Team has officially launched this new website for our organization!
+
+This project has been a labor of love of our Team Lead, Ashley Harmon, since her initial prototype creation in 2020 and initial single-page site in 2021. And with the help of our Spring 2022 Web Team, it has finally come into fruition for it's initial launch! You can see all of the amazing people involved in this project and learn more about the process below.
+### Shout Outs
+We are __so proud__ of our Web Team that put in so much time and effort to learn to design and develop this website:
+##### Ashley Harmon
+Ashley was the Team Lead and a Designer and Developer for our website.
+We also want to give a huge shoutout to our Web Team Lead, Ashley Harmon for her work putting the team together, setting up our repo, and teaching workshops to help people get involved with Figma, GitHub, VS Code, and Hugo! She also led the weekly meetings, created and updated our Web Team Guide, and worked with Zaina and Alex to get the remaining issues completed for the initial website launch. 
+##### Zaina Shawar
+Zaina was a Designer and Lead Developer for our website.
+We also want to give a huge shoutout to our Lead Developer, Zaina Shawar! She worked with Ashley to complete the Figma Prototype and help structure the Web Team work.  
+##### Michelle Camacho
+Michelle was a Developer and Analyst for our website.
+##### Dene Logan
+Dene was a Developer and Analyst for our website.
+##### Mariam Conde
+Mariam was a Developer for our website.
+##### Liyu Tenaw
+Liyu was an Analyst and Trainee for our website.
+##### Destanee Washington
+Destanee was a Trainee for our website.
+
+In addition to our Web Team members, we want to give a **huge thank you** to our Team Advisor:
+##### Alex Rodriguez
+As our Team Advisor and an Outside Collaborator, Alex helped us with a multitude of things like learning how to use Hugo, setting up our repo to deploy the website with GitHub pages, and helping with the more complicated develop pieces. 
+
+### Team Positions
+Our Web Team had 4 different positions available: Developer, Analyst, Archivist, and Trainee. For clarity, we have broken the role descriptions down below:
+
+##### Developers 
+This role 
+
+##### Analysts
+This role
+
+##### Archivist
+This role
+
+##### Trainees
+This role
+
+### Our Story
+
+Girls Who Code at UNCC needed a website, and we had a Prototype Showcase where we would build a website based on the winning prototype in Fall 2020.
+
+##### 2020 - 21 
+In 2021, we began learning to use VS Code, GitHub, and a Hugo template (so we don’t have to build from scratch). We also learned to use Figma to document our design plan! When developing something with a team, and something that will be passed on to future members to maintain, it’s important to have documentation about your design choices. For example, specific fonts, color palettes, etc. that you used to create our branding. We worked to develop our own guide and learned one of the most used design and prototyping tools in the industry!
+
+##### Spring 2022 
+In the Spring of 2022, we officially dove into the development process!
+
+---
+#### Stay Tuned for More!
+
+---
 
 
-The watch has the following features:
-
-Time and date displayed on the screen. Current time is in large numbers, date is in small numbers above it.
-
-Light: Pressing the light button on the side of the watch activates a light while the button is pressed. Pressing and holding that button for 3 seconds turns on the light and keeps it on, until the button is held again for 3 seconds or up to 2 hours. After 2 hours, it will automatically turn off.
-
-Alarm. A daily alarm may be set for a given time. The alarm may be enabled or disabled. When the alarm is enabled and the alarm time is reached, the watch will beep fast for 5 seconds, then slowly for 30 seconds, then fast for another 5 seconds. Pressing any button stops the alarm sound (in addition to performing its normal function).
-
-Timer. Timer mode shows a count-up timer that starts at 00:00. When the timer is started, it counts up. Pressing the start/stop button will pause the timer, pressing it again continues counting up. Pressing and holding the button for 3 seconds resets the timer to 00:00 and stops counting.
-
-Mystery answer. After entering this mode, the screen initially displays “ask now”. The user may ask a yes-or-no question aloud and press the start/stop button, this will display a randomly selected answer that is one of the following: “yeah”, “yeah right”, “no”, “no doubt”, “keep trying”, “keep dreaming”. Whenever the display has more than one word, only one word is displayed for 2 seconds, then the other word is displayed for 2 seconds, alternately. The answer is displayed until the user leaves this mode, or he/she presses start/stop again for a new answer. 
-
-
-Note: these strings are for the English version of the watch, we will need to use completely different strings in other countries without reprogramming the logic of the watch.
-
-The user may cycle among all modes (date/time, timer, mystery answer) by pressing the mode button.
 

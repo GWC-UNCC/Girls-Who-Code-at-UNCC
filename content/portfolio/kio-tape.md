@@ -1,6 +1,6 @@
 ---
-title: "KIO TAPE"
-date: 2019-12-23T15:44:46+06:00
+title: "Venture Event"
+date: 2022-04-22T15:44:46+06:00
 type: event-recap
 image: "images/projects/project-thumb-four.jpg"
 event_type:
@@ -8,7 +8,7 @@ event_type:
 event_topic:
 year: 
 semester: 
-category: ["PRODUCT LABEL"]
+category: ["SOCIAL"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
 ---
 
