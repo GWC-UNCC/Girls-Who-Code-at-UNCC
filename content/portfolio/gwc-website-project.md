@@ -1,6 +1,6 @@
 ---
 title: "Web Project '22"
-date: 2019-12-23T20:56:42+06:00
+date: 2019-01-23T20:56:42+06:00
 type: upcoming-event
 image: "images/projects/project-thumb-four.jpg"
 event_type:

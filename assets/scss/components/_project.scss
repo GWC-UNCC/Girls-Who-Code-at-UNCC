@@ -67,7 +67,7 @@
           color: $text-color-dark;
           transition: 0.3s ease;
           &:hover{
-            text-decoration: none;
+            text-decoration: none !important;
             color: $b_opposite;
           }
         }
@@ -79,6 +79,7 @@
         width: 100%;
         color: $b_opposite;
         opacity: 0;
+        text-decoration: none;
         transform: translateY(20px);
         transition: all 0.3s $site-ease;
         @include tablet{
@@ -97,6 +98,7 @@
         a{
           transform: translateY(0);
           opacity: 1;
+          text-decoration: none;
         }
         padding-bottom: 75px;
       }
