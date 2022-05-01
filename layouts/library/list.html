@@ -19,19 +19,20 @@
       {{ range (.Paginator 4).Pages }}
       <div class="col-lg-6">
         <article class="site-library-post">
+          <a href="{{ .Permalink }}">
           {{ with .Params.image }}
           <div class="site-library-post-thumb">
             <img src="{{ . | absURL }}" alt="post-thumb">
           </div>
           {{ end }}
           <div class="site-library-post-content">
-            <span>Updated | {{ .PublishDate.Format "January 2, 2006" }}</span>
-            <h4><a href="{{ .Permalink }}" class="card-title">{{ .Title }}</a></h4>
+            <span class="mb-3">Updated | {{ .PublishDate.Format "January 2, 2006" }}</span>
+            <h4 class="mb-2 card-title">{{ .Title }}</h4>
             <p>
               {{ .Summary }} ...
             </p>
-            <a href="{{ .Permalink }}" class="read-more">read more</a>
           </div>
+        </a>
         </article>
       </div>
       {{ end }}
