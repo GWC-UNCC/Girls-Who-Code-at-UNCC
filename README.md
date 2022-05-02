@@ -1,7 +1,7 @@
 # Girls-Who-Code-at-UNCC
-Building the official website for Girls Who Code at UNC Charlotte
+This is the official website for Girls Who Code at UNC Charlotte!
 
-**This is how to clone this repo (because it has submodules)**
+<!-- **This is how to clone this repo (because it has submodules)**
 
 [Instructions](https://github.com/GWC-UNCC/Git-Intro/tree/main/03-hugo_specific#clone-recursively)
 
@@ -11,4 +11,4 @@ We are hoping to also implement an interactive component resembling a terminal a
 
 ## See the recording for our Hugo Workshop:
 
-[![Video Preview Image](https://img.youtube.com/vi/Bf4LrJVhRTs/0.jpg)](https://youtu.be/Bf4LrJVhRTs)
+[![Video Preview Image](https://img.youtube.com/vi/Bf4LrJVhRTs/0.jpg)](https://youtu.be/Bf4LrJVhRTs) -->
