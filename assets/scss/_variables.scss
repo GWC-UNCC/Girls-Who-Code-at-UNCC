@@ -32,6 +32,11 @@ $gradient-s: #00C7D3;
   --darker-purple: #6A08B8;
   --darker-blue: #00C7D3;
   --bigger-paragraph: 24px;
+  --section-headers: 40px;
+  @include mobile {
+    --section-headers: 30px;
+    --bigger-paragraph: 20px;
+  }
   
   
 }

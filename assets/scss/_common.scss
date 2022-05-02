@@ -8,15 +8,15 @@ body {
 
 .section-title{
   margin-bottom: 40px;
-  @include desktop{
-    text-align: center;
-  }
   h2{
     font-weight: 300;
     letter-spacing: 2px;
     margin-bottom: 15px;
     @include desktop{
       font-size: 40px;
+    }
+    @include mobile {
+      font-size: var(--section-headers);
     }
   }
   p{

@@ -28,6 +28,7 @@
         margin-bottom: 20px;
         @include mobile{
           font-size: 35px;
+          letter-spacing: 5px;
         }
       }
       p{
@@ -35,6 +36,12 @@
         margin-bottom: 0;
         font-size: 22px;
         font-weight: 400;
+      }
+      &__title,&__desc {
+        text-align: center;
+        @include mobile {
+          text-align: left;
+        }
       }
     }
     &-pagination{

@@ -13,9 +13,6 @@
     @include desktop{
       margin-bottom: 40px;
     }
-    @include mobile{
-      text-align: center;
-    }
     &-title{
       color: $white;
       margin-bottom: 30px;

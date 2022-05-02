@@ -41,7 +41,7 @@
                                 <!-- TODO: Limit to events with label of partnership -->
                                 {{ range first 3 (where (where site.RegularPages "Section" "portfolio") "Params.event_status" "event-recap") }}
                                 <div class="col-lg-4 col-md-10">
-                                    <div class="site-project-item mb-0">
+                                    <div class="site-project-item">
                                         <a href="{{ .Permalink }}">
                                             <div class="site-project-item-thumb">
                                                 <img src="{{ .Params.Image | absURL }}" alt="project-thumb">

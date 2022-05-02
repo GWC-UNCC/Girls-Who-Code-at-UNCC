@@ -3,9 +3,9 @@
 <section class="site-library-header">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-10 text-center">
-        <h1 class="white__color--purple mb-4">{{ .Title }}</h1>
-        <p class="linked-text__purple">
+      <div class="col-lg-10">
+        <h1 class="white__color--purple mb-4 site-library-header__title">{{ .Title }}</h1>
+        <p class="linked-text__purple site-library-header__desc">
           {{ .Params.description | markdownify }}
         </p>
       </div>
