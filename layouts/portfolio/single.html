@@ -3,12 +3,13 @@
 <section class="site-project-single-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <div class="site-project-single">
+      <div class="col-lg-12 mx-auto">
+        <article class="site-project-single">
           <h1>
             {{ .Title }}
           </h1>
-          <div class="site-project-single-description">
+          <p class="date-bold">{{ .PublishDate.Format "January 2, 2006" }}</p>
+          <div class="site-project-single-description content">
             {{ .Content }}
           </div>
           <div class="site-project-single-image">
@@ -28,12 +29,10 @@
             </a>
           </div>
           {{ end }}
-        </div>
+        </article>
       </div>
     </div>
   </div>
 </section>
-
-{{ partial "call-to-action.html" . }}
 
 {{ end }}

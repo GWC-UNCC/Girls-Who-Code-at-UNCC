@@ -211,9 +211,7 @@
       }
     }
     h1{
-      font-size: 40px;
-      font-weight: 500;
-      margin-bottom: 40px;
+      font-size: 60px;
     }
     &-image{
       display: flex;
@@ -233,6 +231,9 @@
       margin-bottom: 50px;
       p{
         margin-bottom: 30px;
+      }
+      &.content img {
+        max-width: 50%;
       }
     }
     &-action{
@@ -286,4 +287,8 @@
       }
     }
   }
+}
+
+.date-bold {
+  font-weight: 400;
 }
