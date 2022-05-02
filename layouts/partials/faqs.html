@@ -7,14 +7,14 @@
         <h2 class="title-shadow">{{ .title }}</h1>
 
         <!-- inspiration from: https://github.com/GWC-UNCC/axe-hacks-2022/blob/58d796e7ddea3d7b7b420b584af9f090c71c460c/layouts/shortcodes/faq.html -->
-        <div class="accordion col-10" id="accordionExample">
+        <div class="accordion col-lg-10" id="accordionExample">
           {{ range .faqs }}
           <div class="card border-0 border-bottom">
             <div class="card-header bg-white border-primary p-0 mt-2 pb-2" id="headingOne">
               <h2 class="mb-0">
                 {{ $aria_id := delimit ( replace ( .question | markdownify | lower) " " "-" | findRE `[a-zA-Z\-]`) "" }}
                 {{ $toggle_id := printf "%s" $aria_id }}
-                <button class="bigger_font btn btn-block text-left text-dark p-0 black__bg--opposite select-wrapper"  type="button" data-toggle="collapse"
+                <button class="bigger_font btn btn-block text-left text-dark p-0 black__bg--opposite select-wrapper wrap-button icon-button"  type="button" data-toggle="collapse"
                   data-target="#{{ $toggle_id }}" aria-expanded="true" aria-controls="{{ $toggle_id }}">
                   {{ .question | markdownify }}
                 </button>

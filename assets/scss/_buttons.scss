@@ -88,3 +88,14 @@
   padding-top: 0.6rem !important;
   padding-bottom: 0.6rem !important;
 }
+
+.wrap-button {
+  white-space: normal;
+}
+
+.icon-button {
+  padding-right: 30px !important;
+  @include mobile {
+    padding-right: 20px !important;
+  }
+}
