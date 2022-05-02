@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-<section class="site-library details">
+<section class="site-library-details">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-12">
         <article class="site-library-details">
-          <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span></p>
-          <h2 class="library-title">{{ .Title }}</h2>
+          <h1>{{ .Title }}</h1>
           <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="library-feature-image">
+          <p class="library-date"><span>{{ .PublishDate.Format "January 2, 2006" }}</span> by <span>{{ .Params.author }}</span></p>
           <div class="content">
             {{ .Content }}
           </div>

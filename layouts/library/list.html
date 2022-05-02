@@ -29,7 +29,7 @@
             <span class="mb-3">Updated | {{ .PublishDate.Format "January 2, 2006" }}</span>
             <h4 class="mb-2 card-title">{{ .Title }}</h4>
             <p>
-              {{ .Summary }} ...
+              {{ .Summary | truncate 120 }}
             </p>
           </div>
         </a>
