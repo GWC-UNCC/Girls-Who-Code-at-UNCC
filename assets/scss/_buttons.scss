@@ -99,3 +99,9 @@
     padding-right: 20px !important;
   }
 }
+
+.cta-nav {
+  @include tablet {
+    width: 75%;
+  }
+}
