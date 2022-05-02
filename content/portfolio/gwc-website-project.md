@@ -11,9 +11,7 @@ category: ["WEB DEV"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
 ---
 
-**WE DID IT!** As of May 2nd, 2022, our GWC Web Team has officially launched this new website for our organization!
-
-This project has been a labor of love of our Team Lead, Ashley Harmon, since her initial prototype creation in 2020 and initial single-page site in 2021. And with the help of our Spring 2022 Web Team, it has finally come into fruition for it's initial launch! You can see all of the amazing people involved in this project and learn more about the process below.
+**WE DID IT!** As of May 2nd, 2022, our GWC Web Team has officially launched this new website for our organization! You can see all of the amazing people involved in this project and learn more about the process below.
 ### Shout Outs
 We are __so proud__ of our Web Team that put in so much time and effort to learn to design and develop this website:
 ##### Ashley Harmon
@@ -53,17 +51,22 @@ This role
 This role
 
 ### Our Story
+This project has been a labor of love of our Team Lead, Ashley Harmon, since her initial prototype creation in 2020 and initial single-page site in 2021. And with the help of our Spring 2022 Web Team, it has finally come into fruition for it's initial launch!
 
+##### Fall 2020 
 Girls Who Code at UNCC needed a website, and we had a Prototype Showcase where we would build a website based on the winning prototype in Fall 2020.
 
-##### 2020 - 21 
-In 2021, we began learning to use VS Code, GitHub, and a Hugo template (so we don’t have to build from scratch). We also learned to use Figma to document our design plan! When developing something with a team, and something that will be passed on to future members to maintain, it’s important to have documentation about your design choices. For example, specific fonts, color palettes, etc. that you used to create our branding. We worked to develop our own guide and learned one of the most used design and prototyping tools in the industry!
+##### Spring 2021
+In 2021, we began learning to use VS Code, GitHub, and a Hugo template (so we didn’t have to build from scratch). We also learned to use Figma to document our design plan.
+
+##### Fall 2021
+In
 
 ##### Spring 2022 
 In the Spring of 2022, we officially dove into the development process!
 
 ---
-#### Stay Tuned for More!
+#### Stay Tuned for More on Our Story!
 
 ---
 
