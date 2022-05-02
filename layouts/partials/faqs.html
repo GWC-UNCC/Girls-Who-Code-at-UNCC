@@ -14,7 +14,7 @@
               <h2 class="mb-0">
                 {{ $aria_id := delimit ( replace ( .question | markdownify | lower) " " "-" | findRE `[a-zA-Z\-]`) "" }}
                 {{ $toggle_id := printf "%s" $aria_id }}
-                <button class="base_font btn btn-block text-left text-dark p-0 black__bg--opposite select-wrapper"  type="button" data-toggle="collapse"
+                <button class="bigger_font btn btn-block text-left text-dark p-0 black__bg--opposite select-wrapper"  type="button" data-toggle="collapse"
                   data-target="#{{ $toggle_id }}" aria-expanded="true" aria-controls="{{ $toggle_id }}">
                   {{ .question | markdownify }}
                 </button>

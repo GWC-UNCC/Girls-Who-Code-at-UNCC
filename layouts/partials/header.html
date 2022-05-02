@@ -29,7 +29,7 @@
               href="{{ .URL | absURL }}"
             >
               <span class="btn-area">
-                <span data-text="{{ .Name }}">
+                <span class="nav_text--btn" data-text="{{ .Name }}">
                   {{ .Name }}
                 </span>
               </span>
@@ -37,7 +37,7 @@
           </li>
           {{ else }}     
           <li class="nav-item">
-            <a class="nav-link {{ if eq $.Page.Permalink ( .URL | absURL ) }}nav-active{{end}}" href="{{ .URL | absURL }}"
+            <a class="nav-link nav_text {{ if eq $.Page.Permalink ( .URL | absURL ) }}nav-active{{end}}" href="{{ .URL | absURL }}"
               >{{ .Name }}</a
             >
           </li>
