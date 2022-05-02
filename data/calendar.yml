@@ -1,4 +1,5 @@
 enable : true
+page_title: "Check out our <span>Events!</span>"
 upcoming_events :
   - subsection_title: "Upcoming"
     points:
