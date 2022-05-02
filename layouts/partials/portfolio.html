@@ -9,7 +9,8 @@
             <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
-        {{ range first 3 (where $.Site.RegularPages "Type" "upcoming-event") }}
+        {{ range first 3 (where (where site.RegularPages "Section" "portfolio") "Params.event_status" "upcoming-event") }}
+        {{ if eq .Params.event_status "upcoming-event" }}
         <div class="col-lg-4 col-md-10">
           <div class="site-project-item">
             <a href="{{ .Permalink }}">
@@ -19,11 +20,12 @@
             <div class="site-project-item-content main-gradient">
               <span>{{ delimit .Params.category ", " }}</span>
               <h4>{{ .Title }}</h4>
-              <a href="{{ .Permalink }}" class="read-more">{{ .PublishDate.Format "January 2, 2006" }}</a>
+              <a href="{{ .Permalink }}" class="read-more">{{ .Date.Format "January 2, 2006" }}</a>
             </a>
             </div>
           </div>
         </div>
+        {{ end }}
         {{ end }}
         <div class="col-12 text-center text-lg-right linked-text__white--blue">
           <a href="portfolio" class="site-project-cta">FULL CALENDAR >></a>
@@ -45,7 +47,7 @@
             <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
-        {{ range first 3 (where $.Site.RegularPages "Type" "event-recap") }}
+        {{ range first 3 (where (where site.RegularPages "Section" "portfolio") "Params.event_status" "event-recap") }}
         <div class="col-lg-4 col-md-10">
           <div class="site-project-item">
             <a href="{{ .Permalink }}">
