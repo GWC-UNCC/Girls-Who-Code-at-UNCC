@@ -2,16 +2,19 @@
 title: "Web Project '22"
 date: 2022-01-01T20:56:42+06:00
 # type: upcoming-event
-image: "images/projects/project-thumb-four.jpg"
+image: "images/projects/Spring-Kickoff.png"
 event_type:
 event_topic:
 year: 
 semester: 
 category: ["WEB DEV"]
-project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
+project_images:
 ---
 
 **WE DID IT!** As of May 2nd, 2022, our GWC Web Team has officially launched this new website for our organization! You can see all of the amazing people involved in this project and learn more about the process below.
+
+![We're LIVE!](../../images/projects/Officially-LIVE.png)
+
 ### Shout Outs
 We are __so proud__ of our Web Team that put in so much time and effort to learn to design and develop this website:
 
