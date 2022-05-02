@@ -1,6 +1,7 @@
 ---
 title: "Launch Party"
 date: 2019-12-23T15:56:43+06:00
+publishdate: 2022-05-01T21:30:47-04:00
 event_status: upcoming-event
 image: "images/projects/LaunchParty.png"
 event_type:

@@ -1,6 +1,7 @@
 ---
 title: "EOY Celebration"
 date: 2019-05-02T15:55:44+06:00
+publishdate: 2022-05-01T21:30:47-04:00
 event_status: upcoming-event
 image: "images/projects/EOYCelebration.png"
 event_type:

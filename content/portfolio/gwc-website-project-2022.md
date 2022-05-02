@@ -1,6 +1,7 @@
 ---
 title: "Web Project '22"
 date: 2022-01-01T20:56:42+06:00
+publishdate: 2022-05-01T21:30:47-04:00
 event_status: upcoming-event
 image: "images/projects/Spring-Kickoff.png"
 event_type:
