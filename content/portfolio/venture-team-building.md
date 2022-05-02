@@ -1,7 +1,7 @@
 ---
 title: "Venture Event"
 date: 2022-04-22T15:44:46+06:00
-# type: event-recap
+event_status: event-recap
 image: "images/projects/Venture-Flyer.png"
 event_type:
     - 

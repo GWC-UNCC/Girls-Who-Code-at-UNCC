@@ -1,7 +1,7 @@
 ---
 title: "Launch Party"
 date: 2019-12-23T15:56:43+06:00
-# type: upcoming-event
+event_status: upcoming-event
 image: "images/projects/LaunchParty.png"
 event_type:
 event_topic:

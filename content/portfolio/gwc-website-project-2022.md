@@ -1,7 +1,7 @@
 ---
 title: "Web Project '22"
 date: 2022-01-01T20:56:42+06:00
-# type: upcoming-event
+event_status: upcoming-event
 image: "images/projects/Spring-Kickoff.png"
 event_type:
 event_topic:
@@ -119,6 +119,3 @@ In the Spring of 2022, we officially dove into the development process!
 #### Stay Tuned for More on Our Story!
 
 ---
-
-
-

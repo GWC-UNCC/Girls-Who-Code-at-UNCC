@@ -1,7 +1,7 @@
 ---
 title: "Internship Panel"
 date: 2022-04-29T15:58:10+06:00
-# type: event-recap
+event_status: event-recap
 image: "images/projects/InternshipPanel.png"
 event_type:
 event_topic:
