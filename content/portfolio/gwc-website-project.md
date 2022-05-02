@@ -15,20 +15,29 @@ project_images: ["images/projects/project-details-image-one.jpg", "images/projec
 ### Shout Outs
 We are __so proud__ of our Web Team that put in so much time and effort to learn to design and develop this website:
 ##### Ashley Harmon
-Ashley was the Team Lead and a Designer and Developer for our website.
-We also want to give a huge shoutout to our Web Team Lead, Ashley Harmon for her work putting the team together, setting up our repo, and teaching workshops to help people get involved with Figma, GitHub, VS Code, and Hugo! She also led the weekly meetings, created and updated our Web Team Guide, and worked with Zaina and Alex to get the remaining issues completed for the initial website launch. 
+###### Team Lead | Designer | Developer
+Ashley is a MSIT student set to graduate this Fall of 2022 with a concentration in Human-Computer Interaction. 
+
+We want to give a huge shoutout to Ashley for her work putting the team together, setting up our repo, and teaching workshops to help people get involved with Figma, GitHub, VS Code, and Hugo! She also led the weekly meetings, created and updated our Web Team Guide, and worked with Zaina and Alex to get the remaining issues completed for the initial website launch.
 ##### Zaina Shawar
-Zaina was a Designer and Lead Developer for our website.
-We also want to give a huge shoutout to our Lead Developer, Zaina Shawar! She worked with Ashley to complete the Figma Prototype and help structure the Web Team work.  
+###### Designer | Lead Developer
+Zaina is a senior undergaduate student set to graduate this Fall of 2022, double majoring in Computer Science: and __
+
+We want to give a huge shoutout to Zaina for her work with Ashley to complete the Figma Prototype and help structure the Web Team work.  
 ##### Michelle Camacho
+###### Developer | Analyst
 Michelle was a Developer and Analyst for our website.
 ##### Dene Logan
+###### Developer | Analyst
 Dene was a Developer and Analyst for our website.
 ##### Mariam Conde
+###### Developer
 Mariam was a Developer for our website.
 ##### Liyu Tenaw
+###### Analyst | Trainee
 Liyu was an Analyst and Trainee for our website.
 ##### Destanee Washington
+###### Trainee
 Destanee was a Trainee for our website.
 
 In addition to our Web Team members, we want to give a **huge thank you** to our Team Advisor:
