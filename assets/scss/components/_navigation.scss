@@ -7,12 +7,14 @@
   z-index: 1000;
   transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   @include desktop{
-    background: $black;
     margin: 10px;
     border-radius: 5px;
     top: 0;
     width: calc(100% - 20px);
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.09);
+  }
+  @include tablet {
+    margin-top: 0;
   }
   @include mobile{
     padding: 15px;
