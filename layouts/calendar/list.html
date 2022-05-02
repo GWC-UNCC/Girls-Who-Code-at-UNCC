@@ -14,7 +14,7 @@
           {{ range .upcoming_events }}
           <h2 class="title-shadow">{{ .subsection_title }}</h2>
           {{ range .points }}
-          <p class="mb-4 linked-text__purple"> {{ . | markdownify }} </p>
+          <p class="bigger_font mb-4 linked-text__purple"> {{ . | markdownify }} </p>
           {{ end }}
           {{ end }}
 
@@ -37,28 +37,28 @@
           {{ range .missed_event }}
           <h2 class="title-shadow">{{ .subsection_title }}</h2>
           {{ range .points }}
-          <p class="linked-text__purple mb-5"> {{ . | markdownify }} </p>
+          <p class="bigger_font linked-text__purple mb-5"> {{ . | markdownify }} </p>
           {{ end }}
           {{ end }}
           <!-- Subsection for Virtual Events begin -->
           {{ range .virtual_events }}
           <h2 class="title-shadow calendar-section" id="virtual-events">{{ .subsection_title}}</h2>
           {{ range .points }}
-          <p class="linked-text__purple mb-5">{{ . | markdownify }}</p>
+          <p class="bigger_font linked-text__purple mb-5">{{ . | markdownify }}</p>
           {{ end }}
           {{ end }}
           <!-- Subsection for in person Events begin -->
           {{ range .inPerson_events }}
           <h2 class="title-shadow calendar-section" id="in-person-events">{{ .subsection_title}}</h2>
           {{ range .points }}
-          <p class="linked-text__purple mb-5">{{ . }}</p>
+          <p class="bigger_font linked-text__purple mb-5">{{ . }}</p>
           {{ end }}
           {{ end }}
           <!-- Subsection for Important Notes begin -->
           {{ with .important_notes }}
           <h2 class="title-shadow calendar-section" id="important-notes">{{ .title }}</h2>
           {{ range .description }}
-          <p class="linked-text__purple"> {{ . | markdownify }}</p>
+          <p class="bigger_font linked-text__purple"> {{ . | markdownify }}</p>
           {{ end }}
           {{ $icon := .icon }}
           <ul class="member_ul d-flex flex-column p-1">
@@ -69,7 +69,7 @@
             </div>
             {{ end }}
           </ul>
-          <p>{{ .notes_text }}</p>
+          <p class="bigger_font" >{{ .notes_text }}</p>
           {{ end }}
         </div>
       </div>

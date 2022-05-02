@@ -119,6 +119,10 @@ textarea.form-control{
     color: $black;
     font-size: var(--bigger-paragraph);
     font-weight: 300;
+
+    p {
+      font-size: var(--bigger-paragraph);
+    }
   }
 }
 
@@ -132,14 +136,19 @@ textarea.form-control{
   border-color: var(--darker-purple) !important;
 }
 
-.content > * {
-  & a { 
-    &:visited, &:link {
-      font-weight: 400;
-      color: var(--darker-purple);
-    }
-    &:active, &:hover {
-      color: var(--lighter-purple);
+.content {
+  & > p {
+    font-size: var(--bigger-paragraph);
+  }
+  & > * {
+    & a { 
+      &:visited, &:link {
+        font-weight: 400;
+        color: var(--darker-purple);
+      }
+      &:active, &:hover {
+        color: var(--lighter-purple);
+      }
     }
   }
 }
