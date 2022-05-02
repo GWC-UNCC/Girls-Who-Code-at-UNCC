@@ -13,8 +13,6 @@ category: ["SOCIAL"]
 project_images: 
 ---
 
-![Venture Recap](../../images/projects/Venture-Recap.png)
-
 What a fun outdoor bonding experience! ☀️
 
 We want to give a huge shoutout to [Kaitlyn Gosline](https://www.linkedin.com/in/kaitlyn-g-434256116/) for organizing this event with Venture Outdoor Leadership, and a huge thank you to all those who joined us on Friday!
@@ -24,3 +22,5 @@ We had such a great time getting to know you all and hanging out in person! We w
 ---
 ##### More details on this event recap coming soon!
 ---
+
+![Venture Recap](../../images/projects/Venture-Recap.png)

@@ -1,9 +1,9 @@
 ---
 title: "Web Project '22"
-date: 2022-01-01T20:56:42+06:00
+date: 2022-05-02T20:56:42+06:00
 publishdate: 2022-05-01T21:30:47-04:00
 event_status: upcoming-event
-image: "images/projects/Spring-Kickoff.png"
+image: "images/projects/WebTeamIntros.png"
 event_type:
 event_topic:
 year: 
@@ -14,7 +14,10 @@ project_images:
 
 **WE DID IT!** As of May 2nd, 2022, our GWC Web Team has officially launched this new website for our organization! You can see all of the amazing people involved in this project and learn more about the process below.
 
-![We're LIVE!](../../images/projects/Officially-LIVE.png)
+![Meet the Web Team](../../images/projects/WebTeamIntros.png)
+
+&nbsp;
+
 
 ### Shout Outs
 We are __so proud__ of our Web Team that put in so much time and effort to learn to design and develop this website:
@@ -22,9 +25,7 @@ We are __so proud__ of our Web Team that put in so much time and effort to learn
 ![Ashley Harmon](../../images/team/web-team/Ashley-Harmon.png)
 ##### Ashley Harmon
 ###### Team Lead | Designer | Developer
-Ashley is a MSIT student set to graduate this Fall of 2022 with a concentration in Human-Computer Interaction. 
-
-We want to give a huge shoutout to Ashley for her work putting the team together, setting up our repo, and teaching workshops to help people get involved with Figma, GitHub, VS Code, and Hugo! She also led the weekly meetings, created and updated our Web Team Guide, and worked with Zaina and Alex to get the remaining issues completed for the initial website launch.
+Ashley is a MSIT student set to graduate this Fall of 2022 with a concentration in Human-Computer Interaction. We want to give a huge shoutout to Ashley for her work putting the team together, setting up our repo, and teaching workshops to help people get involved with Figma, GitHub, VS Code, and Hugo! She also led the weekly meetings, created and updated our Web Team Guide, and worked with Zaina and Alex to get the remaining issues completed for the initial website launch. Learn more about Ashley [here](https://www.linkedin.com/in/ashharmon/).
 
 &nbsp;
 
@@ -33,9 +34,7 @@ We want to give a huge shoutout to Ashley for her work putting the team together
 ![Zaina Shawar](../../images/team/web-team/Zaina-Shawar.png)
 ##### Zaina Shawar
 ###### Designer | Lead Developer
-Zaina is a senior undergaduate student set to graduate this Fall of 2022, double majoring in Computer Science: and __
-
-We want to give a huge shoutout to Zaina for her work with Ashley to complete the Figma Prototype and help structure the Web Team work.  
+Zaina is a senior undergaduate student set to graduate this Fall of 2022, double majoring in Computer Science: Cyber Security and Management Information Systems. We want to give a huge shoutout to Zaina for her dedication in attending our weekly meetings, her work with Ashley to complete the Figma Prototype, helping structure the Web Team's work, and all of her hard work learning to work with our Hugo theme! Learn more about Zaina [here](https://www.linkedin.com/in/zaina-shawar/).
 
 &nbsp;
 
@@ -44,7 +43,7 @@ We want to give a huge shoutout to Zaina for her work with Ashley to complete th
 ![Michelle Camacho](../../images/team/web-team/Michelle-Camacho.png)
 ##### Michelle Camacho
 ###### Developer | Analyst
-Michelle was a Developer and Analyst for our website.
+Michelle is a senior undergraduate student set to graduate this Fall of 2022, majoring in Business Administration and Marketing. She is also minoring in Human-Centered Design. We want to thank Michelle for her dedication in attending our weekly meetings, all of her hard work learning to work with our Hugo theme, asking great questions at our weekly meetings, and helping to review the website to report any bugs before the final launch! Learn more about Michelle [here](https://www.linkedin.com/in/camachomichelle/).
 
 &nbsp;
 
@@ -53,7 +52,8 @@ Michelle was a Developer and Analyst for our website.
 ![Dene Logan](../../images/team/web-team/Dene-Logan.png)
 ##### Dene Logan
 ###### Developer | Analyst
-Dene was a Developer and Analyst for our website.
+Dene is a junior undergaduate student majoring in Web and Mobile App Development. We want to thank Dene for her dedication in attending our weekly meetings, all of her hard work learning to work with our Hugo theme, asking great questions at our weekly meetings, and helping to review the website to report any bugs before the final launch! Learn more about Dene [here](https://www.linkedin.com/in/dene-logan/).
+
 
 &nbsp;
 
@@ -61,7 +61,7 @@ Dene was a Developer and Analyst for our website.
 ![Mariam Conde](../../images/team/web-team/Mariam-Conde.png)
 ##### Mariam Conde
 ###### Developer
-Mariam was a Developer for our website.
+Mariam is a sophomore undergraduate student majoring in Computer Science. We want to thank Mariam for her dedication in attending our weekly meetings and all of her hard work learning to work with our Hugo theme! Learn more about Mariam [here](https://www.linkedin.com/in/mariam-conde-7b0a051a8/).
 
 &nbsp;
 
@@ -69,14 +69,17 @@ Mariam was a Developer for our website.
 ![Liyu Tenaw](../../images/team/web-team/Liyu-Tenaw.png)
 ##### Liyu Tenaw
 ###### Analyst | Trainee
-Liyu was an Analyst and Trainee for our website.
+Liyu is a sophomore undergraduate student majoring in Computer Science: Data Science. We want to thank Liyu for her dedication in attending our weekly meetings, exploring new concepts, and helping to review the website to report any bugs before the final launch! Learn more about Liyu [here](https://www.linkedin.com/in/liyu-tenaw-1836b31b4/).
 
 &nbsp;
 
 
 In addition to our Web Team members, we want to give a **huge thank you** to our Team Advisor:
+
+![Liyu Tenaw](../../images/team/web-team/Liyu-Tenaw.png)
 ##### Alex Rodriguez
-As our Team Advisor and an Outside Collaborator, Alex helped us with a multitude of things like learning how to use Hugo, setting up our repo to deploy the website with GitHub pages, and helping with the more complicated develop pieces. 
+###### Team Advisor | Outside Collaborator
+Alex wears many hats in his work as a developer, pentester, and creating and maintaining infrastructures. We want to thank Alex for helping us with a multitude of things like learning how to use Hugo shortcodes, setting up our repo to deploy the website with GitHub pages, and helping with the more complicated development pieces. Check out Alex's blog [here](https://elrey.casa/me).
 
 &nbsp;
 
@@ -85,17 +88,18 @@ As our Team Advisor and an Outside Collaborator, Alex helped us with a multitude
 ### Team Positions
 Our Web Team had 4 different positions available: Developer, Analyst, Archivist, and Trainee. For clarity, we have broken the role descriptions down below:
 
-##### Developers 
-This role 
+##### **Developers** | Responsible for editing and contributing to the website’s code
+aka “Coders” who edited the current template code to match our Figma design and should have good documentation of their code.
 
-##### Analysts
-This role
 
-##### Archivist
-This role
+##### **Analysts** | Responsible for raising, organizing, and tracking issues
+aka “Reviewers” who could submit bug reports, feature requests, etc. Reviewers used our Figma design to determine if anything is missing or needs improvement.
 
-##### Trainees
-This role
+##### **Archivists** | Responsible for keeping the repo and code easy to understand and maintain
+aka “Documenters” who should add comments to code, work with Markdown files, document our team’s workflow and organization, and add ideas to help keep the repo maintainable and scalable.
+
+##### **Trainees** | Just want to be included to watch and learn
+aka “Observers” who wanted to come watch and work on the learning materials without officially being on the team.
 
 
 &nbsp;
@@ -104,7 +108,7 @@ This role
 ### Our Story
 This project has been a labor of love of our Team Lead, Ashley Harmon, since her initial prototype creation in 2020 and initial single-page site in 2021. And with the help of our Spring 2022 Web Team, it has finally come into fruition for it's initial launch!
 
-##### Fall 2020 
+<!-- ##### Fall 2020 
 Girls Who Code at UNCC needed a website, and we had a Prototype Showcase where we would build a website based on the winning prototype in Fall 2020.
 
 ##### Spring 2021
@@ -114,7 +118,7 @@ In 2021, we began learning to use VS Code, GitHub, and a Hugo template (so we di
 In
 
 ##### Spring 2022 
-In the Spring of 2022, we officially dove into the development process!
+In the Spring of 2022, we officially dove into the development process! -->
 
 ---
 #### Stay Tuned for More on Our Story!

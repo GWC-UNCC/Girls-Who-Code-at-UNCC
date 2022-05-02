@@ -12,8 +12,6 @@ category: ["PROFESSIONAL"]
 project_images: 
 ---
 
-![Internship Panel](../../images/projects/InternshipPanel.png)
-
 Meet our panelists! 💜
 
 Join us virtually this Friday, April 29th from 3:30pm - 4:30pm to get advice from alumni and GWC members who have had internships! (Zoom link in bio)
@@ -26,3 +24,5 @@ Hope to see you there!
 ---
 ##### Event recap coming soon!
 ---
+
+![Internship Panel](../../images/projects/InternshipPanel.png)

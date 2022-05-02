@@ -8,7 +8,8 @@
           <h1>
             {{ .Title }}
           </h1>
-          <p class="date-bold">{{ .PublishDate.Format "January 2, 2006" }}</p>
+          <br /><br />
+          <p class="date-bold">{{ .Date.Format "January 2, 2006" }}</p>
           <div class="site-project-single-description content">
             {{ .Content }}
           </div>
@@ -17,18 +18,18 @@
             <img src="{{ . | absURL }}" alt="project image">
             {{ end }}
           </div>
-          {{ if .NextInSection }}
+          {{/*  {{ if .NextInSection }}
           <div class="site-project-single-action">
             <a href="{{.NextInSection.Permalink}}">
               <span class="link-area">
                 <span data-text="Next Project">
-                  Next Project
+                  Next Event
                 </span>
               </span>
               <img src="{{ "images/to-top.svg" | absURL }}" alt="next project">
             </a>
           </div>
-          {{ end }}
+          {{ end }}  */}}
         </article>
       </div>
     </div>

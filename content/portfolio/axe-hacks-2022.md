@@ -9,10 +9,8 @@ event_topic:
 year: 
 semester: 
 category: ["HACKATHON"]
-project_images: ["images/projects/Axe-Hacks-2.png", "images/projects/Axe-Hacks-3.png"]
+# project_images: ["images/projects/Axe-Hacks-2.png", "images/projects/Axe-Hacks-3.png"]
 ---
-
-![Axe Hacks](../../images/projects/Axe-Hacks-1.png)
 
 What a week! 🎉
 
@@ -29,3 +27,5 @@ You can view the full list of Sponsors, Mentors, and Judges in the images below!
 ---
 ##### More details on this event recap coming soon!
 ---
+
+![Axe Hacks](../../images/projects/Axe-Hacks-1.png)
