@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html style="overflow-x: hidden;" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
-    <body {{ if eq $.Page.Permalink site.BaseURL }} style="background-color: black;" {{ end }}>
+    <body  style="overflow-x: hidden;{{ if eq $.Page.Permalink site.BaseURL }}background-color: black;{{ end }}" >
         {{- partial "header.html" . -}}
         <main>
             {{- block "main" . }}{{- end }}
