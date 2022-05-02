@@ -7,7 +7,7 @@
   z-index: 1000;
   transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   @include desktop{
-    background: $white;
+    background: $black;
     margin: 10px;
     border-radius: 5px;
     top: 0;
