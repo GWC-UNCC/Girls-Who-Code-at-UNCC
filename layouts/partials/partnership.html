@@ -7,12 +7,12 @@
                 <div>
                     <!-- Partnership title and description -->
                     <h2 class="title-shadow">{{ .title }}</h2>
-                    <p class="mb-5">{{ .subtitle }}</p>
+                    <p class="bigger_font mb-5">{{ .subtitle }}</p>
                     <!-- We host and you host sections -->
                     {{ range .hosting_type }}
                     <h3 class="mt-5 mb-3">{{ .subsection_title }}</h3>
                     {{ range .points }}
-                    <p>{{ . }}</p>
+                    <p class="bigger_font">{{ . }}</p>
                     {{ end }}
                     {{ end }}
                     {{ range .event_options }}
@@ -28,7 +28,7 @@
                     {{ end }}
                     {{ with .previous_partner_events }}
                     <h3 class="mt-5">{{ .subsection_title }} </h3>
-                    <p class="linked-text__purple mb-4">{{ .description | markdownify }}</p>
+                    <p class="bigger_font linked-text__purple mb-4">{{ .description | markdownify }}</p>
                     {{ end }}
                     {{ end }}
                     {{ end }}

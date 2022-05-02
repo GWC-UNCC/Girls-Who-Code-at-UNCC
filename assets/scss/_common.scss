@@ -103,22 +103,26 @@ textarea.form-control{
   .li_bullet {
     &::before {
       content: "";
-      height: 1.5rem;
-      width: 1.5rem;
+      height: 24px;
+      width: 24px;
       display: inline-block;
       background-image: url("#{$base_url}/images/icons/sparkles.svg");
       background-size: contain;
       background-repeat: no-repeat;
-      margin-right: 0.5rem;
-      margin-top: 0.25rem;
+      margin-right: 8px;
+      margin-top: 4px;
     }
   }
 
   li {
-    padding: .25rem;
-    font-size: 20px;
+    padding: 4px;
     color: $black;
+    font-size: var(--bigger-paragraph);
     font-weight: 300;
+
+    p {
+      font-size: var(--bigger-paragraph);
+    }
   }
 }
 
@@ -132,14 +136,19 @@ textarea.form-control{
   border-color: var(--darker-purple) !important;
 }
 
-.content > * {
-  & a { 
-    &:visited, &:link {
-      font-weight: 400;
-      color: var(--darker-purple);
-    }
-    &:active, &:hover {
-      color: var(--lighter-purple);
+.content {
+  & > p {
+    font-size: var(--bigger-paragraph);
+  }
+  & > * {
+    & a { 
+      &:visited, &:link {
+        font-weight: 400;
+        color: var(--darker-purple);
+      }
+      &:active, &:hover {
+        color: var(--lighter-purple);
+      }
     }
   }
 }

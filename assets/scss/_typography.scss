@@ -42,3 +42,15 @@ h6{
   font-size: 15px;
   font-weight: 300;
 }
+
+.bigger_font {
+  font-size: var(--bigger-paragraph) !important;
+}
+
+
+.nav_text {
+  font-size: 18px;
+  &--btn {
+    font-size: 16px;
+  }
+}
