@@ -68,7 +68,7 @@ web_team_members  :
 
   - image       : images/team/web-team/Dene-Logan.png
     name        : Dene Logan
-    designation : Developer
+    designation : Developer, Analyst
     socials:
       linkedin: https://www.linkedin.com/in/dene-logan/
 
@@ -80,7 +80,7 @@ web_team_members  :
 
   - image       : images/team/web-team/Liyu-Tenaw.png
     name        : Liyu Tenaw
-    designation : Trainee
+    designation : Trainee, Analyst
     socials:
       linkedin: https://www.linkedin.com/in/liyu-tenaw-1836b31b4/     
        
