@@ -13,10 +13,16 @@
 
     &__container {
       padding-top: 160px;
+      @include mobile {
+        padding-top: 80px;
+      }
     }
 
     &__text {
       font-size: 28px;
+      @include mobile {
+        font-size: 16px;
+      }
     }
   }
   &-wrapper{
@@ -55,3 +61,9 @@
     }
   }
 }
+
+// .about-hero--img {
+//   @include mobile {
+//     width: 80%;
+//   }
+// }
