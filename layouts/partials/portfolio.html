@@ -9,8 +9,9 @@
             <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
-        {{ range first 3 (where (where site.RegularPages "Section" "portfolio") "Params.event_status" "upcoming-event") }}
-        {{ if eq .Params.event_status "upcoming-event" }}
+        {{ $upcoming_posts := where (where site.RegularPages "Section" "portfolio" ) "Date" ">" now | first 3 }}
+        {{ if gt ($upcoming_posts | len) 0 }}
+        {{ range $upcoming_posts }}
         <div class="col-lg-4 col-md-10">
           <div class="site-project-item">
             <a href="{{ .Permalink }}">
@@ -26,6 +27,10 @@
           </div>
         </div>
         {{ end }}
+        {{ else }}
+        <div class="col-12 text-center">
+          <h4 class="black__color--opposite">Stay tuned for more events!</h4>
+        </div>
         {{ end }}
         <div class="col-12 text-center text-lg-right linked-text__white--blue">
           <a href="calendar" class="site-project-cta">FULL CALENDAR >></a>
@@ -47,7 +52,9 @@
             <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
-        {{ range first 3 (where (where site.RegularPages "Section" "portfolio") "Params.event_status" "event-recap") }}
+        {{ $recap_posts := where (where site.RegularPages "Section" "portfolio" ) "Date" "<" now | first 3 }}
+        {{ if gt ($recap_posts | len) 0 }}
+        {{ range $recap_posts }}
         <div class="col-lg-4 col-md-10">
           <div class="site-project-item">
             <a href="{{ .Permalink }}">
@@ -61,6 +68,11 @@
               </a>
             </div>
           </div>
+        </div>
+        {{ end }}
+        {{ else }}
+        <div class="col-12 text-center">
+          <h4 class="black__color--opposite">Stay tuned for more events!</h4>
         </div>
         {{ end }}
         <div class="col-12 text-center text-lg-right linked-text__white--blue">

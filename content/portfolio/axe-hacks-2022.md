@@ -2,7 +2,6 @@
 title: "Axe Hacks '22"
 date: 2022-03-25T15:55:44+06:00
 publishdate: 2022-05-01T21:30:47-04:00
-event_status: event-recap
 image: "images/projects/Axe-Hacks-1.png"
 event_type:
 event_topic:

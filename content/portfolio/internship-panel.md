@@ -2,7 +2,6 @@
 title: "Internship Panel"
 date: 2022-04-29T15:58:10+06:00
 publishdate: 2022-05-01T21:30:47-04:00
-event_status: event-recap
 image: "images/projects/InternshipPanel.png"
 event_type:
 event_topic:
