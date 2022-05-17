@@ -2,7 +2,6 @@
 title: "Venture Event"
 date: 2022-04-22T15:44:46+06:00
 publishdate: 2022-05-01T21:30:47-04:00
-event_status: event-recap
 image: "images/projects/Venture-Flyer.png"
 event_type:
     - 
