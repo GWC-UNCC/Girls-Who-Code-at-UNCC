@@ -24,4 +24,9 @@ This will take place at Optimist Hall in Charlotte where you can grab food, drin
 &nbsp;
 Hope to see you there!
 
+---
+#### Event recap coming soon!
+---
+
+
 ![EOY Celebration](../../images/projects/EOYCelebration.png)

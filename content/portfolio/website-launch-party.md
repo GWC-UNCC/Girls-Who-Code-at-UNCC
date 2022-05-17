@@ -19,4 +19,8 @@ We will officially swap our current website for the new one our Web Team has bee
 
 Come checkout the website, congratulate our team members, and hangout with some music, drinks, and snacks! Afterwards, we will be heading to Optimist Hall in Charlotte for our EOY Celebration together.
 
+---
+#### Event recap coming soon!
+---
+
 ![Launch Party](../../images/projects/LaunchParty.png)

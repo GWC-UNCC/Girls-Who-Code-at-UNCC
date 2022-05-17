@@ -21,7 +21,7 @@ All of these wonderful women will be joining us to talk about their experiences 
 Hope to see you there!
 
 ---
-##### Event recap coming soon!
+#### Event recap coming soon!
 ---
 
 ![Internship Panel](../../images/projects/InternshipPanel.png)
