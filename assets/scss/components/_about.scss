@@ -18,7 +18,7 @@
       }
     }
 
-    &__text {
+    &__text p{
       font-size: 28px;
       @include mobile {
         font-size: 18px;

@@ -1,5 +1,6 @@
+{{ $portfolio_pages := where site.RegularPages "Section" "portfolio" }}
 <!-- Upcoming Events -->
-{{ with .Site.Params.portfolio_upcoming }}
+{{ with .Params.portfolio.upcoming }}
   {{ if .enable }}
   <section class="site-project white__bg--opposite" id="project">
     <div class="container">
@@ -9,7 +10,7 @@
             <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
-        {{ $upcoming_posts := where (where site.RegularPages "Section" "portfolio" ) "Date" ">" now | first 3 }}
+        {{ $upcoming_posts := where $portfolio_pages "Date" ">" now | first 3 }}
         {{ if gt ($upcoming_posts | len) 0 }}
         {{ range $upcoming_posts }}
         <div class="col-lg-4 col-md-10">
@@ -29,11 +30,11 @@
         {{ end }}
         {{ else }}
         <div class="col-12 text-center">
-          <h4 class="black__color--opposite">Stay tuned for more events!</h4>
+          <h4 class="black__color--opposite">{{ .no_events_text }}</h4>
         </div>
         {{ end }}
         <div class="col-12 text-center text-lg-right linked-text__white--blue">
-          <a href="calendar" class="site-project-cta">FULL CALENDAR >></a>
+          <a href="calendar" class="site-project-cta">{{ .calendar_text }}</a>
         </div>
       </div>
     </div>
@@ -42,7 +43,7 @@
 {{ end }}
 
 <!-- Event Recaps -->
-{{ with .Site.Params.portfolio_recaps }}
+{{ with .Params.portfolio.recaps }}
   {{ if .enable }}
   <section class="site-project white__bg--opposite" id="project">
     <div class="container">
@@ -52,7 +53,7 @@
             <h2 class="black__color--light-purple">{{ .title }}</h2>
           </div>
         </div>
-        {{ $recap_posts := where (where site.RegularPages "Section" "portfolio" ) "Date" "<" now | first 3 }}
+        {{ $recap_posts := where $portfolio_pages "Date" "<" now | first 3 }}
         {{ if gt ($recap_posts | len) 0 }}
         {{ range $recap_posts }}
         <div class="col-lg-4 col-md-10">
@@ -72,11 +73,11 @@
         {{ end }}
         {{ else }}
         <div class="col-12 text-center">
-          <h4 class="black__color--opposite">Stay tuned for more events!</h4>
+          <h4 class="black__color--opposite">{{ .no_events_text }}</h4>
         </div>
         {{ end }}
         <div class="col-12 text-center text-lg-right linked-text__white--blue">
-          <a href="portfolio" class="site-project-cta">SEE MORE >></a>
+          <a href="portfolio" class="site-project-cta">{{ .see_more_text }}</a>
         </div>
       </div>
     </div>

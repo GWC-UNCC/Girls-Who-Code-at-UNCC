@@ -1,43 +1,44 @@
-{{ with .Site.Params.banner }}
-  {{ if .enable }}
-    {{ "<!-- Site Hero Start -->" | safeHTML }}
-    <!-- TODO: Create a class for background image and style to correct height. Adjust size
+{{ $current_page := . }}
+{{ with .Params.banner }}
+{{ if .enable }}
+{{ "<!-- Site Hero Start -->" | safeHTML }}
+<!-- TODO: Create a class for background image and style to correct height. Adjust size
     of girls who code logo and remove styling from html -->
-    <!-- <section class="site-hero" style="background-image: url('{{ .about_banner }}');"> -->
-    <section class="site-about-header" style="background-image: url('{{ .about_banner }}');">
-      <div class="container site-about-header__container">
-        <div class="row justify-content-center mb-3 mt-5">
-          <img src="../images/GWC-Logo.png" alt="GWC Logo" class="img-fluid col-lg-5 col-md-7 col-9 about-hero--img">
-        </div>
-      
-        <div class="row justify-content-center text-center">
-          <p class="black__color--opposite col-lg-10 site-about-header__text">
-            We are a student organization at UNC Charlotte and a College Loop of the 
-            national organization Girls Who Code. Our aim is to uplift and maintain a 
-            strong community of female students in computer science, as well as develop 
-            technical and professional skills.
-          </p>
-        </div>
+<!-- <section class="site-hero" style="background-image: url('{{ .about_banner }}');"> -->
+<section class="site-about-header" style="background-image: url('{{ .img }}');">
+  <div class="container site-about-header__container">
+    <div class="row justify-content-center mb-3 mt-5">
+      <img src="{{ site.Params.logo_png }}" alt="GWC Logo" class="img-fluid col-lg-5 col-md-7 col-9 about-hero--img">
     </div>
-    </section>
-    {{ "<!-- Site Hero End -->" | safeHTML }}
-  {{ end }}
+    <div class="row justify-content-center text-center">
+      <div class="black__color--opposite col-lg-10 site-about-header__text">
+        {{ $current_page.Content }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- Site Hero End -->" | safeHTML }}
+{{ end }}
 {{ end }}
 
-{{ with .Site.Data.socialmedia }}
-  {{ if .enable }}
-  <!-- TODO: Create a class for section tag and remove temporary site-team class -->
-    <section class="about-icon-top">
-      <div class="container">
-        <div class="row">
-            {{ $socials := .socials }}
-                {{ if gt ($socials) 0 }}
-                  {{ range $social_key, $social_val := $socials}}
-                  <div class="about-icons linked-text__purple"><a href="{{ $social_val | safeURL }}"><i class="fa fa-{{ $social_key }} "></i></a></div>
-                  {{ end }}
-                {{ end }}
-        </div>
+{{ with .Params.socialmedia }}
+{{ if .enable }}
+<!-- TODO: Create a class for section tag and remove temporary site-team class -->
+<section class="about-icon-top">
+  <div class="container">
+    <div class="row">
+      {{ $socials := .socials }}
+      {{ if gt ($socials) 0 }}
+      {{ range $social_key, $social_val := $socials}}
+      <div class="about-icons linked-text__purple">
+        <a href="{{ $social_val | safeURL }}">
+          <i class="fa fa-{{ $social_key }} "></i>
+        </a>
       </div>
-    </section>
-  {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 {{ end }}

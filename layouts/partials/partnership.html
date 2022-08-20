@@ -1,4 +1,4 @@
-{{ with .Site.Data.partnership }}
+{{ with .Params.partnership }}
 {{ if .enable }}
 <section class="site-team">
     <div class="container">
@@ -34,7 +34,7 @@
                     {{ end }}
 
                     <!-- Event Recaps -->
-                    {{ with .Site.Params.portfolio_recaps }}
+                    {{ with (site.GetPage "/").Params.portfolio.recaps }}
                     {{ if .enable }}
                         <div class="container">
                             <div class="row">

@@ -1,4 +1,4 @@
-{{ with .Site.Data.testimonial }}
+{{ with .Params.testimonials }}
 {{ if .enable }}
 
 <section class="site-testimonial black__bg--purple">
@@ -18,35 +18,18 @@
 
             <!-- Bootstrap inner [slides]-->
             <div class="carousel-inner px-5 pb-4">
+              {{ range $index, $item := .testimonial_item }}
               <!-- Carousel slide-->
-              <div class="carousel-item active text-center">
+              <div class="carousel-item text-center {{ if eq $index 0 }}active{{ end }}">
                 <div class="media">
                   <div class="media-body ml-3">
                     <blockquote class="blockquote border-0 p-0">
                       <i class="fa fa-quote-left mr-3 black__color--opposite"></i>
-                      <p class="lead black__color--opposite quote-text">GWC gave me an opportunity to connect with other women in stem not just socially but also technically, as we got to build things together. I am so proud of all we were able to accomplish! 
+                      <p class="lead black__color--opposite "> {{ $item.quote }}
                       </p>
-                      <img class="rounded-circle img-thumbnail" src="images/team/web-team/Ashley-Harmon.png" alt=""
-                        width="75">
-                      <h5 class="black__color--opposite uppercase member-info">Ashley Harmon</h5>
-                      <h5 class="black__color--opposite">Member Spring '22</h5>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-
-              {{ range .testimonial_item }}
-              <!-- Carousel slide-->
-              <div class="carousel-item text-center">
-                <div class="media">
-                  <div class="media-body ml-3">
-                    <blockquote class="blockquote border-0 p-0">
-                      <i class="fa fa-quote-left mr-3 black__color--opposite"></i>
-                      <p class="lead black__color--opposite "> {{ .quote }}
-                      </p>
-                      <img class="rounded-circle img-thumbnail" src="{{ .thumb | absURL }}" alt="user-thumb" width="75">
-                      <h5 class="black__color--opposite uppercase member-info">{{ .name }}</h5>
-                      <h5 class="black__color--opposite">{{ .member }}</h5>
+                      <img class="rounded-circle img-thumbnail" src="{{ $item.thumb | absURL }}" alt="user-thumb" width="75">
+                      <h5 class="black__color--opposite uppercase member-info">{{ $item.name }}</h5>
+                      <h5 class="black__color--opposite">{{ $item.member }}</h5>
                     </blockquote>
                   </div>
                 </div>

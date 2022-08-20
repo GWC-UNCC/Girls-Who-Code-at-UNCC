@@ -1,26 +1,22 @@
 {{ define "main" }}
+{{ with .Params.info }}
 <section class="site-project-header">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12">
         <div class="site-project-header-content">
           <h1 class="span_color">
-            {{ with .Site.Data.calendar }}
             {{ .page_title | safeHTML }}
           </h1>
           <br><br>
           <div class="section-title">
           
           {{ if .enable }}
-          {{ range .upcoming_events }}
-          <h2 class="title-shadow">{{ .subsection_title }}</h2>
-          {{ range .points }}
-          <p class="bigger_font mb-4 linked-text__purple"> {{ . | markdownify }} </p>
-          {{ end }}
-          {{ end }}
+          <h2 class="title-shadow">{{ .upcoming_events.title }}</h2>
+          <p class="bigger_font mb-4 linked-text__purple"> {{ .upcoming_events.text | markdownify }} </p>
 
           <iframe
-            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&src=Z2lybHN3aG9jb2RldW5jY0BnbWFpbC5jb20&src=MDIwMnYxbm1sYnJnOHJvOGZvdWtrMnFuYzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%238E24AA&color=%23009688"
+            src="{{ .link }}"
             style="border:solid 1px #777" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
         </div>
       </div>
@@ -35,26 +31,14 @@
       <div class="col-lg-12">
         <div class="section-title">
           <!-- Subsection for Missed Events begin -->
-          {{ range .missed_event }}
-          <h2 class="title-shadow">{{ .subsection_title }}</h2>
-          {{ range .points }}
-          <p class="bigger_font linked-text__purple mb-5"> {{ . | markdownify }} </p>
-          {{ end }}
-          {{ end }}
+          <h2 class="title-shadow">{{ .missed_event.title }}</h2>
+          <p class="bigger_font linked-text__purple mb-5"> {{ .missed_event.text | markdownify }} </p>
           <!-- Subsection for Virtual Events begin -->
-          {{ range .virtual_events }}
-          <h2 class="title-shadow calendar-section" id="virtual-events">{{ .subsection_title}}</h2>
-          {{ range .points }}
-          <p class="bigger_font linked-text__purple mb-5">{{ . | markdownify }}</p>
-          {{ end }}
-          {{ end }}
+          <h2 class="title-shadow calendar-section" id="virtual-events">{{ .virtual_events.title}}</h2>
+          <p class="bigger_font linked-text__purple mb-5">{{ .virtual_events.text | markdownify }}</p>
           <!-- Subsection for in person Events begin -->
-          {{ range .inPerson_events }}
-          <h2 class="title-shadow calendar-section" id="in-person-events">{{ .subsection_title}}</h2>
-          {{ range .points }}
-          <p class="bigger_font linked-text__purple mb-5">{{ . }}</p>
-          {{ end }}
-          {{ end }}
+          <h2 class="title-shadow calendar-section" id="in-person-events">{{ .inPerson_events.title}}</h2>
+          <p class="bigger_font linked-text__purple mb-5">{{ .inPerson_events.text | markdownify }}</p>
           <!-- Subsection for Important Notes begin -->
           {{ with .important_notes }}
           <h2 class="title-shadow calendar-section" id="important-notes">{{ .title }}</h2>
