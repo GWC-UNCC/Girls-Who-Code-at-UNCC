@@ -10,10 +10,80 @@ collections:
   - name: 'list_files'
     label: 'Main Pages'
     files: 
-      # - name: home
-      #   label: Home
-      #   file: content/_index.md
-      #   fields:
+      - name: home
+        label: Home
+        file: content/_index.md
+        fields:
+          - name: counter
+            label: Stats Section
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: counter_item
+                label: Stats List
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                allow_add: false
+                fields:   
+                  - name: title
+                    label: Stat Name
+                    widget: string                        
+                  - name: number
+                    label: Stat Number
+                    widget: string  
+          - name: partners
+            label: Partners
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: partners
+                label: Partners List
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                fields:   
+                  - name: image
+                    label: Logo
+                    widget: image
+                  - name: url
+                    label: Link to Website
+                    widget: string      
+          - name: testimonials
+            label: Testimonials
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: testimonial_item
+                label: Testimonials List
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                fields:   
+                  - name: thumb
+                    label: Thumbnail
+                    widget: image
+                  - name: name
+                    label: Member Name
+                    widget: string
+                  - name: member
+                    label: Member Info
+                    widget: string
+                  - name: quote
+                    label: Quote
+                    widget: markdown
 
       # - name: about
       #   label: About
