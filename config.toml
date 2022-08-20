@@ -42,51 +42,6 @@ author = "Girls Who Code at UNCC | Web Team '22"
 description = "GWC at UNCC | Steminists"
 # Google Analitycs
 # googleAnalitycsID = "Your ID"
-# We're using formspree.io for form handling, paste your formspree url below
-formspreeFormUrl = "https://formspree.io/f/mayvldoo"
-
-# Contact Form
-[params.contactForm]
-placeholder_message = "Tell Us More"
-placeholder_affiliation_name = "Affiliation Name"
-placeholder_email = "Email"
-placeholder_first_name = "First Name"
-placeholder_last_name = "Last Name"
-placeholder_affiliation_type = "Affiliation"
-placeholder_topic = "Topic"
-send_message = "Send Message"
-
-[[params.contactForm.affiliationType]]
-title = "School"
-value = "School"
-
-[[params.contactForm.affiliationType]]
-title = "University"
-value = "University"
-
-[[params.contactForm.affiliationType]]
-title = "Company"
-value = "Company"
-
-[[params.contactForm.affiliationType]]
-title = "Other"
-value = "Other"
-
-[[params.contactForm.topic]]
-title = "Membership"
-value = "Membership"
-
-[[params.contactForm.topic]]
-title = "Partnership"
-value = "Partnership"
-
-[[params.contactForm.topic]]
-title = "Sponsorship"
-value = "Sponsorship"
-
-[[params.contactForm.topic]]
-title = "Other"
-value = "Other"
 
 # Navbar Action Button
 [params.navAction]
