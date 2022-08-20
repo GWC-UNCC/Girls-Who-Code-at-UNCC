@@ -21,10 +21,9 @@
               <h3>{{ .name }}</h3>
               <p>{{ .designation }}</p>
               <ul class="site-team-member-social">
-                {{ $socials := .socials }}
-                {{ if gt ($socials) 0 }}
-                  {{ range $social_key, $social_val := $socials}}
-                  <li class="linked-text__white--purple"><a href="{{ $social_val | safeURL }}"><i class="fa fa-{{ $social_key }}"></i></a></li>
+                {{ with .socials }}
+                  {{ range . }}
+                  <li class="linked-text__white--purple"><a href="{{ .link | safeURL }}"><i class="fa fa-{{ .icon_name | safeHTML }}"></i></a></li>
                   {{ end }}
                 {{ end }}
               </ul>
@@ -56,10 +55,9 @@
               <h3>{{ .name }}</h3>
               <p>{{ .designation }}</p>
               <ul class="site-team-member-social">
-                {{ $socials := .socials }}
-                {{ if gt ($socials) 0 }}
-                  {{ range $social_key, $social_val := $socials}}
-                  <li class="linked-text__white--purple"><a href="{{ $social_val | safeURL }}"><i class="fa fa-{{ $social_key }}"></i></a></li>
+                {{ with .socials }}
+                  {{ range . }}
+                  <li class="linked-text__white--purple"><a href="{{ .link | safeURL }}"><i class="fa fa-{{ .icon_name | safeHTML }}"></i></a></li>
                   {{ end }}
                 {{ end }}
               </ul>
