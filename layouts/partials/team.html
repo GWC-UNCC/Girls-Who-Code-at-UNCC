@@ -6,9 +6,9 @@
         <div class="col-12">
           <div class="section-title">
             <h2 class="title-shadow">
-              {{ .titleOne }}
+              {{ .eboard.title }}
             </h2>
-            <p class="bigger_font"> {{ .subtitleOne }}</p>
+            <p class="bigger_font"> {{ .eboard.text | markdownify }}</p>
           </div>
         </div>
         {{ range .eboard_members }}
@@ -41,9 +41,9 @@
         <div class="col-12">
           <div class="section-title" id="web-team-members">
             <h2 class="title-shadow">
-              {{ .titleTwo }}
+              {{ .webteam.title }}
             </h2>
-            <p class="bigger_font linked-text__purple"> {{ .subtitleTwo | markdownify }}</p>
+            <p class="bigger_font linked-text__purple"> {{ .webteam.text | markdownify }}</p>
           </div>
         </div>
         {{ range .web_team_members }}
