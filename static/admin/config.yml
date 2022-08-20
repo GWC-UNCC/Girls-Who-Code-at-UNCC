@@ -85,10 +85,209 @@ collections:
                     label: Quote
                     widget: markdown
 
-      # - name: about
-      #   label: About
-      #   file: content/about/_index.md
-      #   fields:
+      - name: about
+        label: About
+        file: content/about/_index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: team
+            label: GWC Team
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled
+                widget: boolean
+              - name: eboard
+                label: Eboard Text
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Eboard Title
+                    widget: string
+                  - name: text
+                    label: Eboard Description
+                    widget: markdown
+              - name: eboard_members
+                label: Eboard Members
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                allow_add: true
+                summary: '{{fields.name}}'
+                fields:
+                  - name: image
+                    label: Member Image
+                    widget: string
+                  - name: name
+                    label: Member Name
+                    widget: string
+                  - name: designation
+                    label: Member Position
+                    widget: string
+                  - name: socials
+                    label: Social Media
+                    widget: list
+                    collapsed: true
+                    minimize_collapsed: true
+                    allow_add: true
+                    fields:
+                      - name: icon_name
+                        label: Icon name
+                        widget: string
+                      - name: link
+                        label: Social Link
+                        widget: string
+          - name: membership
+            label: Membership
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: subtitle
+                label: Description
+                widget: markdown
+              - name: titleTwo
+                label: Section Sub-Title
+                widget: string
+              - name: subtitleTwo
+                label: Sub-Title Description
+                widget: string
+              - name: titleThree
+                label: What's next?
+                collapsed: true
+                minimize_collapsed: true
+                allow_add: false
+                widget: list
+                fields:
+                  - name: name
+                    label: Section Intro
+                    widget: string
+                  - name: points
+                    collapsed: true
+                    minimize_collapsed: true
+                    label: What to do
+                    widget: list
+                    field:
+                      name: points_list
+                      widget: markdown
+                      minimal: true
+          - name: partnership
+            label: Partnerships
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: subtitle
+                label: Description
+                widget: markdown
+              - name: hosting_type
+                label: Hosting Types
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: subsection_title
+                    label: Sub-Section Title
+                    widget: string
+                  - name: points
+                    collapsed: true
+                    minimize_collapsed: true
+                    label: Steps to Sponsor
+                    widget: list
+                    field:
+                      name: content
+                      widget: markdown
+                      minimal: true
+              - name: event_options
+                label: Event Options
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: subsection_title
+                    label: Sub-Section Title
+                    widget: string
+                  - name: points
+                    label: Points
+                    collapsed: true
+                    minimize_collapsed: true
+                    widget: list
+                    field:
+                      name: event_content
+                      widget: markdown
+                      minimal: false
+              - name: previous_partner_events
+                label: Previous Partner Events
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: subsection_title
+                    label: Sub-Section Title
+                    widget: string
+                  - name: description
+                    label: Sub-Section Description
+                    widget: markdown
+          - name: sponsorship
+            label: Sponsorship
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: subtitle
+                label: Description
+                widget: markdown
+              - name: sectionText
+                label: Section Content
+                widget: markdown
+          - name: faqs
+            label: FAQs
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: faqs
+                label: FAQs list
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: question
+                    label: Question to ask
+                    widget: string
+                  - name: answer
+                    label: Answers for question
+                    widget: markdown
 
       - name: portfolio
         label: Portfolio
