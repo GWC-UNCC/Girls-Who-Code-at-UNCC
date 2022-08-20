@@ -18,6 +18,17 @@ collections:
       - { label: 'Event Flyer', name: 'image', widget: 'image', allow_multiple: false }
       - { label: 'Event Type', name: 'event_type', widget: 'select', options: ["Social", "Professional", "Web Dev", "Hackathon", "Workshop", "Game Night", "Technical"], multiple: false }
       - { label: 'Event Topic', name: 'event_topic', widget: 'list', allow_add: true, min: 1, max: 4 }
-      - { label: 'Event Year', name: 'year', widegt: 'string' }
+      - { label: 'Event Year', name: 'year', widget: 'string' }
       - { label: 'Event Semester', name: 'semester', widget: 'select', options: ["Spring", "Summer", "Fall"], multiple: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'library'
+    label: 'Library'
+    folder: 'content/library'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Thumbnail', name: 'image', widget: 'image', allow_multiple: false }
+      - { label: 'Cover Photo', name: 'feature_image', widget: 'image', allow_multiple: false }
+      - { label: 'Author', name: 'author', widget: 'string', default: 'Girls Who Code at UNCC' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
