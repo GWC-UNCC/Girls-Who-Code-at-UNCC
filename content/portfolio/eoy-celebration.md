@@ -7,6 +7,7 @@ event_type: "Social"
 event_topic: ["Celebrations"]
 year: "2022"
 semester: ["Spring" ]
+visibleInCMS: true
 ---
 
 Join us Monday, May 2nd! 🎉

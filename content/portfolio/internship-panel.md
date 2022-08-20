@@ -7,6 +7,7 @@ event_type: "Professional"
 event_topic: ["Internships", "Panels"]
 year: "2022"
 semester: ["Spring"]
+visibleInCMS: true
 ---
 
 Meet our panelists! 💜

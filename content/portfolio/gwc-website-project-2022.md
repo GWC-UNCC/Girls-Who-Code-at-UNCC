@@ -7,6 +7,7 @@ event_type: "Web Dev"
 event_topic: ["Web Team"]
 year: "2022"
 semester: ["Spring"]
+visibleInCMS: true
 ---
 
 **WE DID IT!** As of May 2nd, 2022, our GWC Web Team has officially launched this new website for our organization! You can see all of the amazing people involved in this project and learn more about the process below.

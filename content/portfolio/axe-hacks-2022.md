@@ -7,6 +7,7 @@ event_type: "Hackathon"
 event_topic: ["Hackathons"]
 year: "2022"
 semester: ["Spring"]
+visibleInCMS: true
 ---
 
 What a week! 🎉
