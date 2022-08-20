@@ -3,12 +3,10 @@ title: "EOY Celebration"
 date: 2022-05-02T15:55:44+06:00
 publishdate: 2022-05-01T21:30:47-04:00
 image: "images/projects/EOYCelebration.png"
-event_type:
-event_topic:
-year: 
-semester: 
-category: ["SOCIAL"]
-project_images: 
+event_type: "Social"
+event_topic: ["Celebrations"]
+year: "2022"
+semester: "Spring" 
 ---
 
 Join us Monday, May 2nd! 🎉

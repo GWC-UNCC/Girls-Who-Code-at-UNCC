@@ -3,13 +3,10 @@ title: "Venture Event"
 date: 2022-04-22T15:44:46+06:00
 publishdate: 2022-05-01T21:30:47-04:00
 image: "images/projects/Venture-Flyer.png"
-event_type:
-    - 
-event_topic:
-year: 
-semester: 
-category: ["SOCIAL"]
-project_images: 
+event_type: "Social"
+event_topic: ["Team Building", "Outdoor"]
+year: "2022"
+semester: "Spring"
 ---
 
 What a fun outdoor bonding experience! ☀️

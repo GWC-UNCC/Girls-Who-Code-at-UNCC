@@ -19,7 +19,7 @@
               <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
             </div>
             <div class="site-project-item-content main-gradient">
-              <span>{{ delimit .Params.category ", " }}</span>
+              <span>{{ delimit .Params.event_type ", " }}</span>
               <h4>{{ .Title }}</h4>
               <a href="{{ .Permalink }}" class="read-more">{{ .Date.Format "January 2, 2006" }}</a>
             </a>
@@ -62,7 +62,7 @@
                 <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
               </div>
               <div class="site-project-item-content main-gradient">
-                <span>{{ delimit .Params.category ", " }}</span>
+                <span>{{ .Params.event_type | upper }}</span>
                 <h4>{{ .Title }}</h4>
                 <a href="{{ .Permalink }}" class="read-more">{{ .Date.Format "January 2, 2006" }}</a>
               </a>
