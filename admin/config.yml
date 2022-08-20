@@ -1,0 +1,452 @@
+backend:
+  name: github
+  repo: GWC-UNCC/Girls-Who-Code-at-UNCC
+  branch: main # Branch to update (optional; defaults to master)
+  # branch: feat/content-management-system # used for development
+media_folder: static/images
+public_folder: /images
+publish_mode: editorial_workflow
+collections:
+  - name: list_files
+    label: Main Pages
+    files: 
+      - name: home
+        label: Home
+        file: content/_index.md
+        fields:
+          - name: counter
+            label: Stats Section
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: counter_item
+                label: Stats List
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                allow_add: false
+                fields:   
+                  - name: title
+                    label: Stat Name
+                    widget: string                        
+                  - name: number
+                    label: Stat Number
+                    widget: string  
+          - name: partners
+            label: Partners
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: partners
+                label: Partners List
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                fields:   
+                  - name: image
+                    label: Logo
+                    widget: image
+                  - name: url
+                    label: Link to Website
+                    widget: string      
+          - name: testimonials
+            label: Testimonials
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: testimonial_item
+                label: Testimonials List
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                fields:   
+                  - name: thumb
+                    label: Thumbnail
+                    widget: image
+                  - name: name
+                    label: Member Name
+                    widget: string
+                  - name: member
+                    label: Member Info
+                    widget: string
+                  - name: quote
+                    label: Quote
+                    widget: markdown
+
+      - name: about
+        label: About
+        file: content/about/_index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: team
+            label: GWC Team
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled
+                widget: boolean
+              - name: eboard
+                label: Eboard Text
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Eboard Title
+                    widget: string
+                  - name: text
+                    label: Eboard Description
+                    widget: markdown
+              - name: eboard_members
+                label: Eboard Members
+                widget: list
+                collapsed: true
+                minimize_collapsed: true
+                allow_add: true
+                summary: '{{fields.name}}'
+                fields:
+                  - name: image
+                    label: Member Image
+                    widget: string
+                  - name: name
+                    label: Member Name
+                    widget: string
+                  - name: designation
+                    label: Member Position
+                    widget: string
+                  - name: socials
+                    label: Social Media
+                    widget: list
+                    collapsed: true
+                    minimize_collapsed: true
+                    allow_add: true
+                    fields:
+                      - name: icon_name
+                        label: Icon name
+                        widget: string
+                      - name: link
+                        label: Social Link
+                        widget: string
+          - name: membership
+            label: Membership
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: subtitle
+                label: Description
+                widget: markdown
+              - name: titleTwo
+                label: Section Sub-Title
+                widget: string
+              - name: subtitleTwo
+                label: Sub-Title Description
+                widget: string
+              - name: titleThree
+                label: What's next?
+                collapsed: true
+                minimize_collapsed: true
+                allow_add: false
+                widget: list
+                fields:
+                  - name: name
+                    label: Section Intro
+                    widget: string
+                  - name: points
+                    collapsed: true
+                    minimize_collapsed: true
+                    label: What to do
+                    widget: list
+                    field:
+                      name: points_list
+                      widget: markdown
+                      minimal: true
+          - name: partnership
+            label: Partnerships
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: subtitle
+                label: Description
+                widget: markdown
+              - name: hosting_type
+                label: Hosting Types
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: subsection_title
+                    label: Sub-Section Title
+                    widget: string
+                  - name: points
+                    collapsed: true
+                    minimize_collapsed: true
+                    label: Steps to Sponsor
+                    widget: list
+                    field:
+                      name: content
+                      widget: markdown
+                      minimal: true
+              - name: event_options
+                label: Event Options
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: subsection_title
+                    label: Sub-Section Title
+                    widget: string
+                  - name: points
+                    label: Points
+                    collapsed: true
+                    minimize_collapsed: true
+                    widget: list
+                    field:
+                      name: event_content
+                      widget: markdown
+                      minimal: false
+              - name: previous_partner_events
+                label: Previous Partner Events
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: subsection_title
+                    label: Sub-Section Title
+                    widget: string
+                  - name: description
+                    label: Sub-Section Description
+                    widget: markdown
+          - name: sponsorship
+            label: Sponsorship
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: subtitle
+                label: Description
+                widget: markdown
+              - name: sectionText
+                label: Section Content
+                widget: markdown
+          - name: faqs
+            label: FAQs
+            collapsed: true
+            minimize_collapsed: true
+            widget: object
+            fields:
+              - name: enable
+                label: Enabled?
+                widget: boolean
+              - name: title
+                label: Section Title
+                widget: string
+              - name: faqs
+                label: FAQs list
+                collapsed: true
+                minimize_collapsed: true
+                widget: list
+                fields:
+                  - name: question
+                    label: Question to ask
+                    widget: string
+                  - name: answer
+                    label: Answers for question
+                    widget: markdown
+
+      - name: portfolio
+        label: Portfolio
+        file: content/portfolio/_index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: page_title
+            label: Intro
+            widget: markdown
+      
+      - name: library
+        label: Library
+        file: content/library/_index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: description
+            label: Intro
+            widget: markdown
+
+      - name: calendar
+        label: Calendar
+        file: content/calendar/_index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: info
+            label: Events Info
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: page_title
+                label: Intro
+                widget: markdown
+              - name: link
+                label: Calendar Link
+                widget: string
+              - name: upcoming_events
+                label: Upcoming Events
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: missed_event
+                label: Missed an Event?
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: virtual_events
+                label: Virtual Events
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: inPerson_events
+                label: In-Person Events
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: important_notes
+                label: Important Notes
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  # - name: text
+                  #   label: Description
+                  #   widget: markdown
+                  - name: points
+                    label: Points
+                    widget: list
+                  - name: notes_text
+                    label: Note 
+                    widget: markdown
+
+      - name: contact
+        label: Contact
+        file: content/contact/_index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: heading
+            label: Intro
+            widget: markdown
+          - name: form_heading
+            label: Sub Heading
+          - name: formspreeFormUrl
+            label: FormSpree Link
+            widget: string
+
+  - name: portfolio_posts
+    label: Portfolio Posts
+    folder: content/portfolio
+    filter:
+      field: visibleInCMS
+      value: true
+    create: true
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Event Date, widget: datetime }
+      - { name: publishdate, label: Publish Date, widget: datetime }
+      - { name: image, label: Event Flyer, widget: image, allow_multiple: false }
+      - { name: event_type, label: Event Type, widget: select, options: ["Social", "Professional", "Web Dev", "Hackathon", "Workshop", "Game Night", "Technical"], multiple: false }
+      - { name: event_topic, label: Event Topic, widget: list, allow_add: true, min: 1, max: 4 }
+      - { name: year, label: Event Year, widget: string }
+      - { name: semester, label: Event Semester, widget: select, options: ["Spring", "Summer", "Fall"], multiple: true }
+      - { name: body, label: Body, widget: markdown }
+      - { name: visibleInCMS, label: visibleInCMS,  widget: hidden, default: true}
+ 
+  - name: library_posts
+    label: Library Posts
+    folder: content/library
+    filter:
+      field: visibleInCMS
+      value: true
+    create: true
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Publish Date, widget: datetime }
+      - { name: image, label: Thumbnail, widget: image, allow_multiple: false }
+      - { name: feature_image, label: Cover Photo, widget: image, allow_multiple: false }
+      - { name: author, label: Author, widget: string, default: Girls Who Code at UNCC }
+      - { name: body, label: Body, widget: markdown }
+      - { name: visibleInCMS, label: visibleInCMS,  widget: hidden, default: true}
