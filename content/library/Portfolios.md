@@ -4,6 +4,7 @@ date: 2022-05-01T15:09:31-04:00
 image: images/library/Portfolios/Portfolios.png
 feature_image: images/library/Portfolios/Portfolios-cover.png
 author: Girls Who Code at UNCC
+visibleInCMS: true
 ---
 
 A portfolio is a compilation of things that show your previous work, projects, skills, etc. It helps you go beyond just listing your work history by showing things like specific pieces of work you have created. Nowadays, most portfolios are online websites. But you don't even need to know how to code to build one, as there are many sites that have a drag and drop interface for you to create and host your own website!

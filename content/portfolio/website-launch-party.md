@@ -6,7 +6,8 @@ image: "images/projects/LaunchParty.png"
 event_type: "Social"
 event_topic: ["Web Team", "Celebrations"]
 year: "2022"
-semester: "Spring"
+semester: ["Spring"]
+visibleInCMS: true
 ---
 
 We're launching Monday, May 2nd! 🎉🎉

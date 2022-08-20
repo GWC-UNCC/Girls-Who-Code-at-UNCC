@@ -6,7 +6,8 @@ image: "images/projects/InternshipPanel.png"
 event_type: "Professional"
 event_topic: ["Internships", "Panels"]
 year: "2022"
-semester: "Spring"
+semester: ["Spring"]
+visibleInCMS: true
 ---
 
 Meet our panelists! 💜

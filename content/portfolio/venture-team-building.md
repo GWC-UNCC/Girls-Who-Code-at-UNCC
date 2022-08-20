@@ -6,7 +6,8 @@ image: "images/projects/Venture-Flyer.png"
 event_type: "Social"
 event_topic: ["Team Building", "Outdoor"]
 year: "2022"
-semester: "Spring"
+semester: ["Spring"]
+visibleInCMS: true
 ---
 
 What a fun outdoor bonding experience! ☀️

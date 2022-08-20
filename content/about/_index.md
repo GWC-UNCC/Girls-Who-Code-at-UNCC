@@ -30,81 +30,100 @@ team:
         name        : Elise Frazier
         designation : President
         socials:
-          linkedin: https://www.linkedin.com/in/elise-frazier-89b356180/
-          github: https://github.com/ElisefRaz17
+          - icon_name: linkedin
+            link : https://www.linkedin.com/in/elise-frazier-89b356180/
+          - icon_name: github
+            link: https://github.com/ElisefRaz17
     
       - image       : images/team/e-board/Zaina-Shawar.png
         name        : Zaina Shawar
         designation : VP of Communications
         socials:
-          linkedin: https://www.linkedin.com/in/zaina-shawar/
-          github: https://github.com/zshawar
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/zaina-shawar/
+          - icon_name: github
+            link: https://github.com/zshawar
     
       - image       : images/team/e-board/Chanel-Briggs.png
         name        : Chanel Briggs
         designation : Treasurer
         socials:
-          linkedin: https://www.linkedin.com/in/chanel-briggs-8a0798170/
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/chanel-briggs-8a0798170/
     
       - image       : images/team/e-board/Ashley-Harmon.png
         name        : Ashley Harmon
         designation : Web & Media Chair
         socials:
-          linkedin: https://www.linkedin.com/in/ashharmon/
-          github: https://github.com/bluelotus03
-          globe: https://bluelotus03.tech
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/ashharmon/
+          - icon_name: github
+            link: https://github.com/bluelotus03
+          - icon_name: globe
+            link: https://bluelotus03.tech
     
       - image       : images/team/e-board/Ayushi-Patel.png
         name        : Ayushi Patel
         designation : Member Involvement Chair
         socials:
-          linkedin: https://www.linkedin.com/in/ayushikp/
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/ayushikp/
     
       - image       : images/team/e-board/Kaitlyn-Gosline.png
         name        : Kaitlyn Gosline
         designation : Community Outreach Chair
         socials:
-          linkedin: https://www.linkedin.com/in/kaitlyn-g-434256116/
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/kaitlyn-g-434256116/
     
     web_team_members  :
       - image       : images/team/web-team/Ashley-Harmon.png
         name        : Ashley Harmon
         designation : Team Lead, Developer, Designer
         socials:
-          linkedin: https://www.linkedin.com/in/ashharmon/
-          github: https://github.com/bluelotus03
-          globe: https://bluelotus03.tech
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/ashharmon/
+          - icon_name: github
+            link: https://github.com/bluelotus03
+          - icon_name: globe
+            link: https://bluelotus03.tech
     
       - image       : images/team/web-team/Zaina-Shawar.png
         name        : Zaina Shawar
         designation : Lead Developer, Designer
         socials:
-          linkedin: https://www.linkedin.com/in/zaina-shawar/
-          github: https://github.com/zshawar
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/zaina-shawar/
+          - icon_name: github
+            link: https://github.com/zshawar
     
       - image       : images/team/web-team/Michelle-Camacho.png
         name        : Michelle Camacho
         designation : Developer, Analyst
         socials:
-          linkedin: https://www.linkedin.com/in/camachomichelle/    
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/camachomichelle/    
     
       - image       : images/team/web-team/Dene-Logan.png
         name        : Dene Logan
         designation : Developer, Analyst
         socials:
-          linkedin: https://www.linkedin.com/in/dene-logan/
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/dene-logan/
     
       - image       : images/team/web-team/Mariam-Conde.png
         name        : Mariam Conde
         designation : Developer
         socials:
-          linkedin: https://www.linkedin.com/in/mariam-conde-7b0a051a8/
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/mariam-conde-7b0a051a8/
     
       - image       : images/team/web-team/Liyu-Tenaw.png
         name        : Liyu Tenaw
         designation : Trainee, Analyst
         socials:
-          linkedin: https://www.linkedin.com/in/liyu-tenaw-1836b31b4/     
+          - icon_name: linkedin
+            link: https://www.linkedin.com/in/liyu-tenaw-1836b31b4/     
 membership:
     enable : true
     title : "Become a Member"
