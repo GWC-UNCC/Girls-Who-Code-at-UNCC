@@ -29,7 +29,7 @@ collections:
             widget: string
           - name: page_title
             label: Intro
-            widget: string
+            widget: markdown
       
       - name: library
         label: Library
@@ -40,17 +40,97 @@ collections:
             widget: string
           - name: description
             label: Intro
-            widget: string
+            widget: markdown
 
-      # - name: calendar
-      #   label: Calendar
-      #   file: content/calendar/_index.md
-      #   fields:
-      #     - name: title
-      #       label: Title
-      #       widget: string
-      #     - name: info
-              
+      - name: calendar
+        label: Calendar
+        file: content/calendar/_index.md
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: info
+            label: Events Info
+            widget: object
+            collapsed: true
+            minimize_collapsed: true
+            fields:
+              - name: enable
+                label: Enable
+                widget: boolean
+              - name: page_title
+                label: Intro
+                widget: markdown
+              - name: link
+                label: Calendar Link
+                widget: string
+              - name: upcoming_events
+                label: Upcoming Events
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: missed_event
+                label: Missed an Event?
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: virtual_events
+                label: Virtual Events
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: inPerson_events
+                label: In-Person Events
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  - name: text
+                    label: Description
+                    widget: markdown
+              - name: important_notes
+                label: Important Notes
+                widget: object
+                collapsed: true
+                minimize_collapsed: true
+                fields:
+                  - name: title
+                    label: Section Title
+                    widget: string
+                  # - name: text
+                  #   label: Description
+                  #   widget: markdown
+                  - name: points
+                    label: Points
+                    widget: list
+                  - name: notes_text
+                    label: Note 
+                    widget: markdown
+
       - name: contact
         label: Contact
         file: content/contact/_index.md
@@ -60,7 +140,7 @@ collections:
             widget: string
           - name: heading
             label: Intro
-            widget: string
+            widget: markdown
           - name: form_heading
             label: Sub Heading
           - name: formspreeFormUrl

@@ -26,11 +26,11 @@ info:
     inPerson_events :
       title : "In-Person"
       text : >
-        "When joining events in-person, make sure you have registered (if required for that particular event) and are 
+        When joining events in-person, make sure you have registered (if required for that particular event) and are 
         following all COVID-19 protocols. Safety is a priority at our events, and this means most in-person events will have a 
         limited number of spaces and require registration to attend. For events where this is the case, it will be noted in the announcement 
         for the event on here, our weekly newsletter, and on social media. If it is a hybrid event, in-person attendance will require registration, 
-        while virtual attendance will not."
+        while virtual attendance will not.
 
 
     important_notes :
