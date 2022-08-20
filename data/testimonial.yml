@@ -8,6 +8,12 @@
 enable  : true
 title   : "What People Say"
 testimonial_item :
+  - thumb: images/team/web-team/Ashley-Harmon.png
+    name: Ashley Harmon
+    member: Member Spring '22
+    quote: >
+      GWC gave me an opportunity to connect with other women in stem not just socially but also technically, as we got to build things together. I am so proud of all we were able to accomplish!
+
   - thumb : images/team/web-team/Zaina-Shawar.png
     name  : "Zaina Shawar"
     member: "Member Spring '22"
