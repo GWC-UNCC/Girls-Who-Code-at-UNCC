@@ -6,7 +6,7 @@ image: "images/projects/EOYCelebration.png"
 event_type: "Social"
 event_topic: ["Celebrations"]
 year: "2022"
-semester: "Spring" 
+semester: ["Spring" ]
 ---
 
 Join us Monday, May 2nd! 🎉

@@ -6,7 +6,7 @@ image: "images/projects/Axe-Hacks-1.png"
 event_type: "Hackathon"
 event_topic: ["Hackathons"]
 year: "2022"
-semester: "Spring"
+semester: ["Spring"]
 ---
 
 What a week! 🎉
