@@ -1,16 +1,12 @@
-{{ with .Site.Params.banner }}
-  {{ if .enable }}
-  {{ "<!-- Site Hero Start -->" | safeHTML }}
-  <section class="site-hero" style="background-image: url('{{ .background_image }}');">
-    <div class="col-md-10">
-      <div class="col-lg-6">
-        <img src="images/GWC-Logo.png" alt="GWC Logo" class="home-page-logo img-fluid">
-        <a href="#counter" class="site-hero-scroll scroll-to">
-          <img src="images/arrow-down.svg" alt="arrow-down">
-        </a>
-      </div>
+{{ "<!-- Site Hero Start -->" | safeHTML }}
+<section class="site-hero" style="background-image: url('{{ .Params.hero_logo.background_image }}');">
+  <div class="col-md-10">
+    <div class="col-lg-6">
+      <img src="{{ .Params.hero_logo.img }}" alt="{{ .Params.hero_logo.alt }}" class="home-page-logo img-fluid">
+      <a href="#counter" class="site-hero-scroll scroll-to">
+        <img src="images/arrow-down.svg" alt="arrow-down">
+      </a>
     </div>
-  </section>
-  {{ "<!-- Site Hero End -->" | safeHTML }}
-  {{ end }}
-{{ end }}
+  </div>
+</section>
+{{ "<!-- Site Hero End -->" | safeHTML }}

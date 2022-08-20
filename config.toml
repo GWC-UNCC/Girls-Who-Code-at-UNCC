@@ -93,20 +93,6 @@ name = "Get in Touch"
 status = true
 url = "contact"
 
-# Banner Section
-[params.banner]
-background_image = "images/backgrounds/hero-background-2.png"
-about_banner = "../images/backgrounds/about-banner.png"
-enable = true
-
-[params.portfolio_upcoming]
-enable = true
-title = "Upcoming Events"
-
-[params.portfolio_recaps]
-enable = true
-title = "Event Recaps"
-
 [params.call_to_action]
 background_image = "images/backgrounds/cta-background.jpg"
 enable = true
