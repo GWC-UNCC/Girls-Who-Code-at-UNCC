@@ -42,16 +42,11 @@ partners:
         url     : https://www.girlscoutsp2p.org/
       - image   : images/partners/AOE-logo.png
         url     : https://aoeuncc.wixsite.com/betakappa
+      # TODO: add logo
       # CLT Hack does not have a logo that works well on black background  
       # - image   : images/partners/charlotte-hacks.png
       #   url     : https://ninerengage.uncc.edu/organization/charlotte-hack
 ##################################################
-  # Here's what to put in additional testimonial items:
-  # - thumb : images/team/web-team/<insert member headshot>
-  #   name  : "<insert member name>"
-  #   member: "Member <insert last semester member was in GWC (ex: Spring, Fall, Summer)> <insert 2 digit year with ' in front (ex: '21 or '22)"
-  #   quote : > 
-            # "<insert quote - try to keep to a couple sentences>"
 testimonials:
     enable  : true
     title   : "What People Say"
