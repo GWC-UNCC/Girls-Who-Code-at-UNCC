@@ -7,8 +7,8 @@ media_folder: static/images
 public_folder: /images
 publish_mode: editorial_workflow
 collections:
-  - name: 'list_files'
-    label: 'Main Pages'
+  - name: list_files
+    label: Main Pages
     files: 
       - name: home
         label: Home
@@ -217,29 +217,29 @@ collections:
             label: FormSpree Link
             widget: string
 
-  - name: 'portfolio_posts'
-    label: 'Portfolio Posts'
-    folder: 'content/portfolio'
+  - name: portfolio_posts
+    label: Portfolio Posts
+    folder: content/portfolio
     create: true
     fields:
-      - { name: 'title', label: 'Title', widget: 'string' }
-      - { name: 'date', label: 'Event Date', widget: 'datetime' }
-      - { name: 'publishdate', label: 'Publish Date', widget: 'datetime' }
-      - { name: 'image', label: 'Event Flyer', widget: 'image', allow_multiple: false }
-      - { name: 'event_type', label: 'Event Type', widget: 'select', options: ["Social", "Professional", "Web Dev", "Hackathon", "Workshop", "Game Night", "Technical"], multiple: false }
-      - { name: 'event_topic', label: 'Event Topic', widget: 'list', allow_add: true, min: 1, max: 4 }
-      - { name: 'year', label: 'Event Year', widget: 'string' }
-      - { name: 'semester', label: 'Event Semester', widget: 'select', options: ["Spring", "Summer", "Fall"], multiple: true }
-      - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Event Date, widget: datetime }
+      - { name: publishdate, label: Publish Date, widget: datetime }
+      - { name: image, label: Event Flyer, widget: image, allow_multiple: false }
+      - { name: event_type, label: Event Type, widget: select, options: ["Social", "Professional", "Web Dev", "Hackathon", "Workshop", "Game Night", "Technical"], multiple: false }
+      - { name: event_topic, label: Event Topic, widget: list, allow_add: true, min: 1, max: 4 }
+      - { name: year, label: Event Year, widget: string }
+      - { name: semester, label: Event Semester, widget: select, options: ["Spring", "Summer", "Fall"], multiple: true }
+      - { name: body, label: Body, widget: markdown }
  
-  - name: 'library_posts'
-    label: 'Library Posts'
-    folder: 'content/library'
+  - name: library_posts
+    label: Library Posts
+    folder: content/library
     create: true
     fields:
-      - { name: 'title', label: 'Title', widget: 'string' }
-      - { name: 'date', label: 'Publish Date', widget: 'datetime' }
-      - { name: 'image', label: 'Thumbnail', widget: 'image', allow_multiple: false }
-      - { name: 'feature_image', label: 'Cover Photo', widget: 'image', allow_multiple: false }
-      - { name: 'author', label: 'Author', widget: 'string', default: 'Girls Who Code at UNCC' }
-      - { name: 'body', label: 'Body', widget: 'markdown' }
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Publish Date, widget: datetime }
+      - { name: image, label: Thumbnail, widget: image, allow_multiple: false }
+      - { name: feature_image, label: Cover Photo, widget: image, allow_multiple: false }
+      - { name: author, label: Author, widget: string, default: Girls Who Code at UNCC }
+      - { name: body, label: Body, widget: markdown }
