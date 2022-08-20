@@ -64,7 +64,9 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
   $w_purple: #6A08B8;
   &__color {
     &--opposite {
-      color: $w_opposite !important;
+      &, & p {
+        color: $w_opposite !important;
+      }
     }
     &--blue {
       color: $w_blue !important;
@@ -93,7 +95,9 @@ $lighter-gradient: linear-gradient(transparentize($gradient-p, 0.61), transparen
   $b_light_purple: #A5A6F6;
   &__color {
     &--opposite {
-      color: $b_opposite !important;
+      &, & p {
+        color: $b_opposite !important;
+      }
     }
     &--blue {
       color: $b_blue !important;
