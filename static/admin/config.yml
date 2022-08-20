@@ -7,8 +7,42 @@ media_folder: static/images
 public_folder: /images
 publish_mode: editorial_workflow
 collections:
-  - name: 'portfolio'
-    label: 'Portfolio'
+  - name: 'list_files'
+    label: 'Main Pages'
+    files: 
+      - name: home
+        label: Home
+        file: content/_index.md
+        fields:
+
+      - name: about
+        label: About
+        file: content/about/_index.md
+        fields:
+
+      - name: portfolio
+        label: Portfolio
+        file: content/portfolio/_index.md
+        fields:
+      
+      - name: library
+        label: Library
+        file: content/library/_index.md
+        fields:
+
+      - name: calendar
+        label: Calendar
+        file: content/calendar/_index.md
+        fields:
+
+      - name: contact
+        label: Contact
+        file: content/contact/_index.md
+        fields:
+
+
+  - name: 'portfolio_posts'
+    label: 'Portfolio Posts'
     folder: 'content/portfolio'
     create: true
     fields:
@@ -21,8 +55,9 @@ collections:
       - { label: 'Event Year', name: 'year', widget: 'string' }
       - { label: 'Event Semester', name: 'semester', widget: 'select', options: ["Spring", "Summer", "Fall"], multiple: true }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'library'
-    label: 'Library'
+ 
+  - name: 'library_posts'
+    label: 'Library Posts'
     folder: 'content/library'
     create: true
     fields:
