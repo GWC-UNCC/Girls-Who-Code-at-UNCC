@@ -39,7 +39,8 @@
                         <div class="container">
                             <div class="row">
                                 <!-- TODO: Limit to events with label of partnership -->
-                                {{ range first 3 (where (where site.RegularPages "Section" "portfolio") "Params.event_status" "event-recap") }}
+                                {{ $recap_posts := where (where site.RegularPages "Section" "portfolio") "Date" "<" now | first 3 }}
+                                {{ range $recap_posts }}
                                 <div class="col-lg-4 col-md-10">
                                     <div class="site-project-item">
                                         <a href="{{ .Permalink }}">
