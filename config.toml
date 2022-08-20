@@ -36,6 +36,7 @@ weight = 6
 [params]
 dateFormat = "26 FEB 1994"
 logo = "images/GWC-Logo.svg"
+logo_png = "../images/GWC-Logo.png"
 # Meta data
 author = "Girls Who Code at UNCC | Web Team '22"
 description = "GWC at UNCC | Steminists"
