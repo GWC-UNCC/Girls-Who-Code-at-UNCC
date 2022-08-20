@@ -4,7 +4,7 @@ date: 2019-12-23T16:48:28+06:00
 info:
   enable: true
   page_title: Check out our <span>Events!</span>
-  link: https://calendar.google.com/calendar/embed?src=0202v1nmlbrg8ro8foukk2qnc4%2540group.calendar.google.com&height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showPrint=0&showTabs=0&color=%238E24AA&color=%23009688
+  link: https://calendar.google.com/calendar/embed?src=0202v1nmlbrg8ro8foukk2qnc4%2540group.calendar.google.com&ctz=America%252FNew_York
   upcoming_events:
     title: Upcoming
     text: >
