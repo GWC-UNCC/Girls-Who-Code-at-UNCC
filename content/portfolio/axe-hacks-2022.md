@@ -3,12 +3,10 @@ title: "Axe Hacks '22"
 date: 2022-03-25T15:55:44+06:00
 publishdate: 2022-05-01T21:30:47-04:00
 image: "images/projects/Axe-Hacks-1.png"
-event_type:
-event_topic:
-year: 
-semester: 
-category: ["HACKATHON"]
-# project_images: ["images/projects/Axe-Hacks-2.png", "images/projects/Axe-Hacks-3.png"]
+event_type: "Hackathon"
+event_topic: ["Hackathons"]
+year: "2022"
+semester: "Spring"
 ---
 
 What a week! 🎉

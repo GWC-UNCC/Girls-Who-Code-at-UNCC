@@ -3,12 +3,10 @@ title: "Internship Panel"
 date: 2022-04-29T15:58:10+06:00
 publishdate: 2022-05-01T21:30:47-04:00
 image: "images/projects/InternshipPanel.png"
-event_type:
-event_topic:
-year: 
-semester: 
-category: ["PROFESSIONAL"]
-project_images: 
+event_type: "Professional"
+event_topic: ["Internships", "Panels"]
+year: "2022"
+semester: "Spring"
 ---
 
 Meet our panelists! 💜

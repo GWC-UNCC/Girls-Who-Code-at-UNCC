@@ -3,12 +3,10 @@ title: "Launch Party"
 date: 2022-05-02T15:56:43+06:00
 publishdate: 2022-05-01T21:30:47-04:00
 image: "images/projects/LaunchParty.png"
-event_type:
-event_topic:
-year: 
-semester: 
-category: ["WEB TEAM"]
-project_images: 
+event_type: "Social"
+event_topic: ["Web Team", "Celebrations"]
+year: "2022"
+semester: "Spring"
 ---
 
 We're launching Monday, May 2nd! 🎉🎉

@@ -48,7 +48,7 @@
                                                 <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
                                             </div>
                                             <div class="site-project-item-content">
-                                                <span>{{ delimit .Params.category ", " }}</span>
+                                                <span>{{ .Params.event_type | upper }}</span>
                                                 <h5>{{ .Title }}</h5>
                                                 <a href="{{ .Permalink }}" class="read-more">view project</a>
                                         </a>
