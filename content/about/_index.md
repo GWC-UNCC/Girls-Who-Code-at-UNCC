@@ -115,7 +115,7 @@ team:
       website! You can learn more about this project and what each of these
       teammates and roles did [here](../portfolio/gwc-website-project-2022/).
   eboard_members:
-    - image: images/team/e-board/Elise-Frazier.png
+    - image: /images/e-board-headshots.png
       name: Elise Frazier
       designation: President
       socials:
@@ -123,25 +123,25 @@ team:
           link: https://www.linkedin.com/in/elise-frazier-89b356180/
         - icon_name: github
           link: https://github.com/ElisefRaz17
-    - image: images/team/e-board/Zaina-Shawar.png
+    - image: /images/e-board-headshots-1-.png
       name: Jenna Constantino
       designation: VP of Communications
       socials:
         - icon_name: linkedin
           link: https://www.linkedin.com/in/jennaconstantino/
-    - image: images/team/e-board/Chanel-Briggs.png
+    - image: /images/e-board-headshots-2-.png
       name: Luisa Schenk
       designation: Treasurer
       socials:
         - icon_name: linkedin
           link: https://www.linkedin.com/in/lschenk7/
-    - image: images/team/e-board/Ayushi-Patel.png
+    - image: /images/e-board-headshots-3-.png
       name: Lulu Aboufoul
       designation: Event Chair 1
       socials:
         - icon_name: linkedin
           link: https://www.linkedin.com/in/lolo-aboufoul/
-    - image: images/team/e-board/Kaitlyn-Gosline.png
+    - image: /images/e-board-headshots-4-.png
       name: Ashleigh Sico
       designation: Event Chair 2
       socials:
