@@ -3,6 +3,10 @@
 name: Deploy Website
 
 on:
+  schedule:
+    # run the deployment daily to ensure new events get published if
+    #   publish date is in the future
+    - cron: '0 0 * * *'
   push:
     branches:
      - main
