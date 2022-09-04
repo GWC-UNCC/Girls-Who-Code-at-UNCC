@@ -7,6 +7,8 @@ event_type: "Professional"
 event_topic: ["Internships", "Panels"]
 year: "2022"
 semester: ["Spring"]
+host: "Girls Who Code at UNCC"
+co_hosts: 
 visibleInCMS: true
 ---
 
