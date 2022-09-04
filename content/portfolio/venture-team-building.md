@@ -7,8 +7,8 @@ event_type: "Social"
 event_topic: ["Team Building", "Outdoor"]
 year: "2022"
 semester: ["Spring"]
-host: "GWC_UNCC"
-co_hosts: ["Venture"]
+host: "Girls Who Code at UNCC"
+co_hosts: ["Venture Outdoor Leadership"]
 visibleInCMS: true
 ---
 

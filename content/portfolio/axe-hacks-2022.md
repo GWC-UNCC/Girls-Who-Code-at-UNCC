@@ -7,6 +7,8 @@ event_type: "Hackathon"
 event_topic: ["Hackathons"]
 year: "2022"
 semester: ["Spring"]
+host: "Girls Who Code at UNCC"
+co_hosts: ["ACMW at UNCC"]
 visibleInCMS: true
 ---
 

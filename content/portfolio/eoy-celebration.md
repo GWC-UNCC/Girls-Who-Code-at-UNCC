@@ -7,6 +7,8 @@ event_type: "Social"
 event_topic: ["Celebrations"]
 year: "2022"
 semester: ["Spring" ]
+host: "Girls Who Code at UNCC"
+co_hosts: ["ACMW at UNCC"]
 visibleInCMS: true
 ---
 
