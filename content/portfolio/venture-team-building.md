@@ -7,6 +7,8 @@ event_type: "Social"
 event_topic: ["Team Building", "Outdoor"]
 year: "2022"
 semester: ["Spring"]
+host: "GWC_UNCC"
+co_hosts: ["Venture"]
 visibleInCMS: true
 ---
 
