@@ -19,7 +19,7 @@ We had so much fun at our Launch Party! 🎉\
 \
 Thank you to everyone who joined us in celebrating our new website launch and congratulating our Web Team members. We had so much fun getting to give each of these members their Web Team certificates and getting to countdown the launch!
 
-![Launch Party Photo Compilation with Web Team members getting their certificates.](images/launchpartyrecap.jpeg "Launch Party Recap")
+![Launch Party Photo Compilation with Web Team members getting their certificates.](/Girls-Who-Code-at-UNCC/images/launchpartyrecap.jpeg "Launch Party Recap")
 
 \
 We want to give a special shoutout to the Web Team for working on this website this semester: Ashley Harmon, Zaina Shawar, Michelle Camacho, Dene Logan, Mariam Conde, Liyu Tenaw! We are so proud of everyone stretching themselves this semester and learning to use different languages and tools to build this site together.\
