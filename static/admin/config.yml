@@ -425,7 +425,7 @@ collections:
     create: true
     fields:
       - { name: title, label: Title, widget: string }
-      - { name: draft, label: Draft?, widget: boolean, default: true }
+      - { name: draft, label: Draft?, widget: boolean, default: true, required: false }
       - { name: date, label: Event Date, widget: datetime }
       - { name: publishdate, label: Publish Date, widget: datetime }
       - { name: host, label: "Event Host (Default: GWC)", widget: string, default: "Girls Who Code at UNCC" }
@@ -447,7 +447,7 @@ collections:
     create: true
     fields:
       - { name: title, label: Title, widget: string }
-      - { name: draft, label: Draft?, widget: boolean, default: true }
+      - { name: draft, label: Draft?, widget: boolean, default: true, required: false }
       - { name: date, label: Publish Date, widget: datetime }
       - { name: image, label: Thumbnail, widget: image, allow_multiple: false }
       - { name: feature_image, label: Cover Photo, widget: image, allow_multiple: false }
