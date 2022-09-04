@@ -1,20 +1,25 @@
 ---
-title: "Axe Hacks '22"
+title: Axe Hacks '22
+draft: true
 date: 2022-03-25T15:55:44+06:00
 publishdate: 2022-05-01T21:30:47-04:00
-image: "images/projects/Axe-Hacks-1.png"
-event_type: "Hackathon"
-event_topic: ["Hackathons"]
+host: Girls Who Code at UNCC
+co_hosts:
+  - ACMW at UNCC
+image: images/projects/Axe-Hacks-1.png
+event_type: Hackathon
+event_topic:
+  - Hackathons
 year: "2022"
-semester: ["Spring"]
-host: "Girls Who Code at UNCC"
-co_hosts: ["ACMW at UNCC"]
+semester:
+  - Spring
 visibleInCMS: true
 ---
-
 What a week! 🎉
 
 Thank you all for making our VERY FIRST Axe Hacks so special! We had so much fun getting to know our Hackers and Mentors throughout the week, playing games, learning new tools and languages, and more.
+
+![Compilation of photos from Axe Hacks.](/Girls-Who-Code-at-UNCC/images/axehacksrecap.jpeg "Axe Hacks Recap")
 
 Congratulations to all of those who participated in the hackathon, and to all those who submitted and had winning projects! We are so proud of all of the hackers, many first-timers, who teamed up and created something new together. Check out the project submissions on our [Devpost Project Gallery](https://lnkd.in/db5SMS2G)!
 
@@ -24,8 +29,6 @@ We want to give a special shout out to our Director Ashley Harmon, our Organizer
 
 You can view the full list of Sponsors, Mentors, and Judges in the images below! Also our full list of Axe Hacks Team Members can be found on our [website](https://bit.ly/axe-hacks).
 
----
-##### More details on this event recap coming soon!
----
+
 
 ![Axe Hacks](../../images/projects/Axe-Hacks-1.png)
