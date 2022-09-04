@@ -4,7 +4,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   # branch: feat/content-management-system # used for development
 media_folder: static/images
-public_folder: images/
+public_folder: /Girls-Who-Code-at-UNCC/images/
 publish_mode: editorial_workflow
 collections:
   - name: list_files
