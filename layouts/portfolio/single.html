@@ -9,6 +9,7 @@
             {{ .Title }}
           </h1>
           <br /><br />
+          <p class="date-bold">Hosts: {{ .Params.host }}{{ with .Params.co_hosts }}, {{ delimit . ", " }}{{ end }}</p>
           <p class="date-bold">{{ .Date.Format "January 2, 2006" }}</p>
           <div class="site-project-single-description content">
             {{ .Content }}
