@@ -7,6 +7,7 @@ event_type: "Web Dev"
 event_topic: ["Web Team"]
 year: "2022"
 semester: ["Spring"]
+host: "Girls Who Code at UNCC"
 co_hosts: 
 visibleInCMS: true
 ---
