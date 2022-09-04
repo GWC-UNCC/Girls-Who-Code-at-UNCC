@@ -1,6 +1,6 @@
 ---
 title: Axe Hacks '22
-draft: true
+draft: false
 date: 2022-03-25T15:55:44+06:00
 publishdate: 2022-05-01T21:30:47-04:00
 host: Girls Who Code at UNCC
