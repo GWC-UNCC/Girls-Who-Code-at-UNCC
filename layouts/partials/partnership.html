@@ -38,7 +38,6 @@
                     {{ if .enable }}
                         <div class="container">
                             <div class="row">
-                                <!-- TODO: Limit to events with label of partnership -->
                                 {{ $recap_posts := where (where (where site.RegularPages "Section" "portfolio") "Date" "<" now ) "Params.co_hosts" "!=" nil | first 3 }}
                                 {{ range $recap_posts }}
                                 <div class="col-lg-4 col-md-10">
@@ -50,7 +49,7 @@
                                             <div class="site-project-item-content">
                                                 <span>{{ .Params.event_type | upper }}</span>
                                                 <h5>{{ .Title }}</h5>
-                                                <a href="{{ .Permalink }}" class="read-more">view project</a>
+                                                <a href="{{ .Permalink }}" class="read-more">{{ .Date.Format "January 2, 2006" }}</a>
                                         </a>
                                     </div>
                                 </div>
