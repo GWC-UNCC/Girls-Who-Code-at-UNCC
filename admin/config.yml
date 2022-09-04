@@ -93,7 +93,7 @@ collections:
             label: Title
             widget: string
           - name: team
-            label: GWC Team
+            label: GWC E-Board
             collapsed: true
             minimize_collapsed: true
             widget: object
@@ -427,8 +427,8 @@ collections:
       - { name: title, label: Title, widget: string }
       - { name: date, label: Event Date, widget: datetime }
       - { name: publishdate, label: Publish Date, widget: datetime }
-      - { name: host, label: "Non-GWC Event Hosts (Default: GWC)", widget: string, default: "Girls Who Code at UNCC" }
-      - { name: co_hosts, label: "Non-GWC Event Hosts", widget: list, allow_add: true, required: false }
+      - { name: host, label: "Event Host (Default: GWC_UNCC)", widget: string, default: "GWC_UNCC" }
+      - { name: co_hosts, label: "Event Co-Hosts (Optional)", widget: list, allow_add: true, required: false }
       - { name: image, label: Event Flyer, widget: image, allow_multiple: false }
       - { name: event_type, label: Event Type, widget: select, options: ["Social", "Professional", "Web Dev", "Hackathon", "Workshop", "Game Night", "Technical"], multiple: false }
       - { name: event_topic, label: Event Topic, widget: list, allow_add: true, min: 1, max: 4 }
