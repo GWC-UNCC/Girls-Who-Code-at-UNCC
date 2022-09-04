@@ -111,6 +111,8 @@ Please note that the following are still being worked on: mobile responsiveness,
 
 Here is a message from Ashley Harmon on the process, timeline, and teamwork:
 
+> \---
+>
 > I cannot say enough about how happy I am that we have launched our new website! I am so grateful for the Web Team coming together this semester and getting this accomplished. 💜\
 > \
 > This has been a project in the works for a while (as most personal projects are when you are working and going to school).
@@ -143,5 +145,7 @@ Here is a message from Ashley Harmon on the process, timeline, and teamwork:
 > Thank you to [Girls Who Code at UNC Charlotte](https://www.linkedin.com/company/girls-who-code-at-unc-charlotte/) for trusting me to lead this project. And thank you again to my fellow team members [Zaina Shawar](https://www.linkedin.com/in/ACoAAC36mwMBhfVmxDLwVIsChNrdQ9dGce7anmY), [Michelle Camacho](https://www.linkedin.com/in/ACoAADR7iscBb8fAuhFUSUkLVfCTyooORHB89uk), [Dene Logan](https://www.linkedin.com/in/ACoAADch5_oBmmiGOviH1fqhnKH4whBN4KUf0wM), [Mariam Conde](https://www.linkedin.com/in/ACoAADCPHjQBiMqO6nuCX6eJJI0V5rfy1kNUGRw), and [Liyu Tenaw](https://www.linkedin.com/in/ACoAADHv2DMBwOvz7q3x-t7JWPw9rSTktc2TE08) for your commitment to our weekly meetings even with all of our crazy schedules, asking great questions, being willing to challenge yourselves, and having fun with this.\
 > \
 > I also want to say thank you to our team's Advisor and Outside Collaborator, [Alex Rodriguez](https://www.linkedin.com/in/ACoAABHmz2wB373NcawRKqsnoVsAiiMayv_7ZfU), for all of his help with some of the more difficult aspects of development, working with Hugo, and setting up our deployment.
+>
+> \---
 
 Congrats and thank you again to the Web Team for all your hard work! We look forward to future Web Teams and seeing this site grow with this awesome organization.
