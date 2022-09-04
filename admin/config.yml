@@ -4,7 +4,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   # branch: feat/content-management-system # used for development
 media_folder: static/images
-public_folder: images/
+public_folder: /Girls-Who-Code-at-UNCC/images/
 publish_mode: editorial_workflow
 collections:
   - name: list_files
@@ -447,6 +447,7 @@ collections:
     create: true
     fields:
       - { name: title, label: Title, widget: string }
+      - { name: draft, label: Draft?, widget: boolean, default: true }
       - { name: date, label: Publish Date, widget: datetime }
       - { name: image, label: Thumbnail, widget: image, allow_multiple: false }
       - { name: feature_image, label: Cover Photo, widget: image, allow_multiple: false }
