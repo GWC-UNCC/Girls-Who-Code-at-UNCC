@@ -9,10 +9,10 @@ co_hosts:
 image: /Girls-Who-Code-at-UNCC/images/code-lounge-0915.png
 event_type: Social
 event_topic:
-  - CodeLounge
+  - Code Lounge
 year: "2022"
 semester:
   - Fall
 visibleInCMS: true
 ---
-Come stop by our Code Lounge on September 15th at 3pm! Perfect time to relax, hangout with friends, finish some coding homework and chat.
+Come stop by our Code Lounge on September 15th at 3pm at Woodward 209! Perfect time to relax, hangout with friends, finish some coding homework and chat.
