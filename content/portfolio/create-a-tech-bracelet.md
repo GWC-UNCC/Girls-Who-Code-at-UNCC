@@ -1,7 +1,7 @@
 ---
 title: Create A Tech Bracelet
 draft: true
-date: 2022-09-06T17:02:00.000Z
+date: 2022-09-06T22:00:00.000Z
 publishdate: 2022-09-09T17:02:58.374Z
 host: Girls Who Code at UNCC
 image: /Girls-Who-Code-at-UNCC/images/you-1-.png
