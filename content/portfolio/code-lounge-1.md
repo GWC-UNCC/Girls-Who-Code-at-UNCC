@@ -7,7 +7,7 @@ host: Girls Who Code at UNCC
 co_hosts:
   - ACMW
 image: /Girls-Who-Code-at-UNCC/images/code-lounge-0915-1-.png
-event_type: Social
+event_type: Technical
 event_topic:
   - Code Lounge
 year: "2022"
