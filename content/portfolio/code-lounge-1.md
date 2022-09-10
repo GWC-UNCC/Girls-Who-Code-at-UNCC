@@ -9,7 +9,7 @@ co_hosts:
 image: /Girls-Who-Code-at-UNCC/images/code-lounge-0915-1-.png
 event_type: Social
 event_topic:
-  - Code Lounge
+  - CodeLounge
 year: "2022"
 semester:
   - Fall
