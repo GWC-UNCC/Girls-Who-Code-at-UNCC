@@ -13,9 +13,7 @@
             {{ .Content }}
           </div>
           <div class="site-project-single-image">
-            {{ range .Params.project_images }}
-            <img src="{{ . | absURL }}" alt="project image">
-            {{ end }}
+            <img src="{{ .Params.image | absURL }}" alt="project image">
           </div>
           {{/*  {{ if .NextInSection }}
           <div class="site-project-single-action">

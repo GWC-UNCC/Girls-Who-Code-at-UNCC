@@ -29,5 +29,3 @@ We also want to give a special shoutout to the Web Team Advisor and Outside Coll
 💻 Check it out: bit.ly/GWC-UNCC\
 \
 This project will definitely be a work in progress as we continue to improve and enhance it with those who come behind us, and we look forward to seeing it grow! Learn more about this project [here](https://gwc-uncc.github.io/Girls-Who-Code-at-UNCC/portfolio/gwc-website-project-2022/).
-
-![Launch Party](../../images/projects/LaunchParty.png)
