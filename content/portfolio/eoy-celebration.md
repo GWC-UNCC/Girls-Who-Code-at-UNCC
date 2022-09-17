@@ -26,5 +26,3 @@ We also want to say CONGRATULATIONS to our amazing e-board members, [](https://
 🎥 Check out our Full [EOY Recap Video](https://www.youtube.com/watch?v=EBWwf3zlrYA).\
 \
 We hope everyone enjoys their summer break, and we'll see you in August!
-
-![EOY Celebration](../../images/projects/EOYCelebration.png)

@@ -23,5 +23,3 @@ We want to give a huge thank you to our wonderful panelists [Akshithaa Suresh](
 
 \
 We did record the event, and you will be able to find it under "All Recordings and Guides" here as soon as it's posted! <https://lnkd.in/eDr4Q2Kw>
-
-![Internship Panel](../../images/projects/InternshipPanel.png)

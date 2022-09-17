@@ -30,5 +30,3 @@ Thank you again to all our volunteers and sponsors who made this event possible,
 We want to give a special shout out to our Director Ashley Harmon, our Organizers Zaina Shawar and Elise Frazier, our Treasurer Chanel Briggs, our Event Hosts Rebecca Hailu, Allyson Vasquez, and all the amazing women on the Executive Boards of [Girls Who Code at UNC Charlotte](https://www.instagram.com/girlswhocode_uncc/) and [ACMW at UNC Charlotte](https://www.instagram.com/acmw_uncc/) who helped advertise and coordinate this event.
 
 You can view the full list of Sponsors, Mentors, and Judges in the images below! Also our full list of Axe Hacks Team Members can be found on our [website](https://bit.ly/axe-hacks).
-
-![Axe Hacks](../../images/projects/Axe-Hacks-1.png)
