@@ -13,6 +13,9 @@ W﻿e are very committed to not only providing our members with a mixture of fun
 
 #### **@Luisa-Schenk-1**
 
- **IMPORTANT NOTE ABOUT DONATIONS: please make sure the payment is being sent as a "Friend" before you select "Pay".This helps us not get charged <3.**
+ **IMPORTANT NOTE ABOUT DONATIONS*(PLEASE READ NOTES BEFORE SENDING YOUR DONATIONS)***
+
+* **please make sure the payment is being sent as a "Friend" before you select "Pay".This helps us not get charged <3.**
+* **A﻿lso please label your donation as "GWC"**
 
 **W﻿e hope you consider donating to our organization and we thank everyone who continuously supports our organization.**
