@@ -9,6 +9,8 @@ visibleInCMS: true
 ---
 # **M﻿ORE INFORMATION**
 
+## C﻿urrently Accepting donations up to October 13th
+
 W﻿e are very committed to not only providing our members with a mixture of fun, professional and technical events but also giving back to our members. This is the first semester we are providing our members with t-shirts and of course, as a large organization, projects like these can be costly. That is why we are reaching out to you, GWC alumni, an esteemed partner of GWC, a current member of GWC, or even a fellow member of the Charlotte community for your help. Please donate to our organization to help make this project come to life. Your donations will be going towards covering the costs that are for shipping and handling of the bulk order we plan to make for our t-shirts. You can make your donation to our Treasurer, Luisa via her Venmo:
 
 #### **@Luisa-Schenk-1**
