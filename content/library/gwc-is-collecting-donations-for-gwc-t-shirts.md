@@ -2,8 +2,8 @@
 title: GWC is Collecting Donations For GWC T-Shirts
 draft: false
 date: 2022-10-06T01:56:05.121Z
-image: /Girls-Who-Code-at-UNCC/images/gwc-collecting-donations-.png
-feature_image: /Girls-Who-Code-at-UNCC/images/being-collected-up-to-october-13th-.png
+image: /Girls-Who-Code-at-UNCC/images/gwc-collecting-donations-1-.png
+feature_image: /Girls-Who-Code-at-UNCC/images/being-collected-up-to-october-13th-1-.png
 author: Girls Who Code at UNCC
 visibleInCMS: true
 ---
