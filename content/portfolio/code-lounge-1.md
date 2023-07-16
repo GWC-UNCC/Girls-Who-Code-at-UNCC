@@ -4,8 +4,7 @@ draft: false
 date: 2022-09-29T19:00:49.976Z
 publishdate: 2022-09-09T17:18:49.983Z
 host: Girls Who Code at UNCC
-co_hosts:
-  - ACMW
+co_hosts: []
 image: /Girls-Who-Code-at-UNCC/images/code-lounge-0915-1-.png
 event_type: Social
 event_topic:
