@@ -52,7 +52,6 @@ banner:
   enable: true
   img: ../images/backgrounds/about-banner.png
 date: 2018-07-12T18:19:33+06:00
-title: About Us
 membership:
   enable: true
   title: Become a Member
@@ -100,12 +99,13 @@ socialmedia:
     twitter: https://mobile.twitter.com/gwc_uncc
     linkedin: https://www.linkedin.com/company/girls-who-code-at-unc-charlotte
     github: https://github.com/GWC-UNCC
+title: About Us
 description: ""
 team:
   enable: true
   eboard:
     title: Our Executive Board
-    text: Meet our 2022-23 GWC E-board! Our E-board members work hard all year to
+    text: Meet our 2024-25 GWC E-board! Our E-board members work hard all year to
       bring awesome opportunities and events to our members. Keep a look out for
       our annual elections towards the end of each spring semester to see how
       you can join us!
