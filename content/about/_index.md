@@ -115,38 +115,44 @@ team:
       website! You can learn more about this project and what each of these
       teammates and roles did [here](../portfolio/gwc-website-project-2022/).
   eboard_members:
+    - image: /Girls-Who-Code-at-UNCC/images/sico.png
+      name: Ashleigh Sico
+      designation: President
+      socials:
+        - icon_name: linkedin
+          link: https://www.linkedin.com/in/ashleigh-sico-668248191/
+    - image: /Girls-Who-Code-at-UNCC/images/balaji.jpg
+      name: Swetha Balaji
+      designation: VP of Communications
+      socials:
+        - icon_name: linkedin
+          link: https://www.linkedin.com/in/swetha-balaji-/
+    - image: /Girls-Who-Code-at-UNCC/images/konain.jpg
+      name: Hafsa Konain
+      designation: Treasurer
+      socials:
+        - icon_name: linkedin
+          link: https://www.linkedin.com/in/hafsakonain333/
+    - image: /Girls-Who-Code-at-UNCC/images/prabakaran.jpg
+      name: Nithya Prabakaran
+      designation: Event Chair 1
+      socials:
+        - icon_name: linkedin
+          link: https://www.linkedin.com/in/nithyashreep/
+    - name: Fareebah Yaseen
+      designation: Event Chair 2
+      socials:
+        - icon_name: linkedin
+          link: https://www.linkedin.com/in/fareebah/
+      image: /Girls-Who-Code-at-UNCC/images/yaseen.jpg
     - image: images/e-board-headshots.png
       name: Elise Frazier
-      designation: President
+      designation: Alumna Advisor
       socials:
         - icon_name: linkedin
           link: https://www.linkedin.com/in/elise-frazier-89b356180/
         - icon_name: github
           link: https://github.com/ElisefRaz17
-    - image: images/e-board-headshots-1-.png
-      name: Jenna Constantino
-      designation: VP of Communications
-      socials:
-        - icon_name: linkedin
-          link: https://www.linkedin.com/in/jennaconstantino/
-    - image: images/e-board-headshots-2-.png
-      name: Luisa Schenk
-      designation: Treasurer
-      socials:
-        - icon_name: linkedin
-          link: https://www.linkedin.com/in/lschenk7/
-    - image: images/e-board-headshots-3-.png
-      name: Lulu Aboufoul
-      designation: Event Chair 1
-      socials:
-        - icon_name: linkedin
-          link: https://www.linkedin.com/in/lolo-aboufoul/
-    - image: images/e-board-headshots-4-.png
-      name: Ashleigh Sico
-      designation: Event Chair 2
-      socials:
-        - icon_name: linkedin
-          link: https://www.linkedin.com/in/ashleigh-sico-668248191/
   web_team_members:
     - image: images/team/web-team/Ashley-Harmon.png
       name: Ashley Harmon
