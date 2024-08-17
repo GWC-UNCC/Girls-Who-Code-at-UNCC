@@ -2,7 +2,7 @@
 title: Bracelet Making with Girls Who Code
 draft: true
 date: 2024-08-27T21:00:18.525Z
-publishdate: 2024-08-09T23:45:18.539Z
+publishdate: 2024-08-17T21:13:26.276Z
 host: Girls Who Code at UNCC
 image: /Girls-Who-Code-at-UNCC/images/copy-of-code-lounge.jpg
 event_type: Social
